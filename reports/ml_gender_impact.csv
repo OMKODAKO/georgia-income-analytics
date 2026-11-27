@@ -1,0 +1,9 @@
+measure,value
+"actual gap in test set (mean, %)",26.990506790545172
+"gap in predictions, model A XGBoost (%)",25.01047465664693
+"gap in predictions, model B XGBoost (%)",17.176483580637207
+"gender flip: women predicted as men, mean change (%)",17.56609535217285
+"gender flip: men predicted as women, mean change (%)",-17.399198532104492
+gender flip: model-implied gap at equal characteristics (%),16.21503257751465
+proxy check: ROC AUC predicting sex from the other features,0.8903288418005024
+"Stage 04 reference: full regression M7, female coefficient (%)",-16.685

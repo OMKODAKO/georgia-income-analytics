@@ -1,0 +1,17 @@
+file,title,explanation
+01_male_vs_female_mean_income.png,Male vs female mean income,Weighted mean real earnings by sex for every year; the percentage is the gap relative to men.
+02_male_vs_female_median_income.png,Male vs female median income,Weighted median real earnings by sex for every year; the percentage is the gap relative to men.
+03_income_distribution_histogram.png,Income distribution histogram,"Banded distribution: women are over-represented in the low bands, men in the high bands."
+04_gender_income_boxplot.png,Gender income boxplot,Weighted quartiles per sex and period.
+05_income_by_age_group.png,Income by age group,Mean real earnings by sex in each age group.
+06_income_by_education.png,Income by education,Mean real earnings by sex for each education level.
+07_regional_income_comparison.png,Regional income comparison,Mean real earnings by sex and region.
+08_occupation_income_comparison.png,Occupation income comparison,Mean real earnings by sex per occupation group.
+09_gender_pay_gap_by_region.png,Gender pay gap by region,Unadjusted mean gap per region and period.
+10_income_trends_by_year.png,Income trends by year,"Real and nominal means by sex; unadjusted mean, median and hourly-median gaps with official references."
+11_gender_income_scatter.png,Gender income scatter plot,85 occupation x region cells; share below the equal-pay line = 99%.
+12_correlation_heatmap.png,Correlation heatmap,Rank correlations between earnings and characteristics.
+13_working_hours_and_hourly_gap.png,Working hours and hourly earnings,Separates the monthly gap from the hourly gap.
+14_hies_household_income_by_head_sex.png,Household income by head's sex (HIES),Separate household-level view.
+10_income_trends_by_year_interactive.html,Interactive trends,
+11_gender_income_scatter_interactive.html,Interactive scatter,

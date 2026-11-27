@@ -1,0 +1,130 @@
+timestamp_utc,key,action,http_status,bytes,remote_bytes,detected_format,sha256,url,message
+2026-11-27T11:56:35+00:00,lfs_2017,migrated_stage00_layout,,3198612,,zip,096d99c93481af2f86e4ad86d8270a5b77514836caf0197cd3a64fd278ea240c,https://geostat.ge/media/23299/2017_LFS_DB_ENG.zip,data/raw/lfs/lfs_2017.zip -> data/raw/labour_force_survey/lfs_2017.zip (downloaded 2026-11-27T11:33:26+00:00)
+2026-11-27T11:56:35+00:00,lfs_2018,migrated_stage00_layout,,3463584,,zip,e194afdf0ece370daf2ce7f265fbb5e9ac35bae74351eb39ca7b6f9c54ae9bb1,https://geostat.ge/media/30751/SPSS---Eng-2018.zip,data/raw/lfs/lfs_2018.zip -> data/raw/labour_force_survey/lfs_2018.zip (downloaded 2026-11-27T11:33:36+00:00)
+2026-11-27T11:56:35+00:00,lfs_2019,migrated_stage00_layout,,3374017,,zip,0335d8f6aeeeed9a6c437fc30c7ffbf66d39e074adab9736938395981d7fac9d,https://geostat.ge/media/31881/SPSS---Eng-2019.zip,data/raw/lfs/lfs_2019.zip -> data/raw/labour_force_survey/lfs_2019.zip (downloaded 2026-11-27T11:33:44+00:00)
+2026-11-27T11:56:35+00:00,lfs_2020,migrated_stage00_layout,,2939449,,zip,cf743fa885d9ac4d6f1803e21eba0908269740db06282de548b88454118385b8,https://geostat.ge/media/48123/Labour-Force-Survey-Database-2020-Year.zip,data/raw/lfs/lfs_2020.zip -> data/raw/labour_force_survey/lfs_2020.zip (downloaded 2026-11-27T11:33:53+00:00)
+2026-11-27T11:56:35+00:00,lfs_2021,migrated_stage00_layout,,2899614,,zip,8c58c1adbbb76f337dc584a54b5a6625922a3b9d8c96f97c6662bd2ed312d5bd,https://geostat.ge/media/48124/Labour-Force-Survey-Database-2021-Year.zip,data/raw/lfs/lfs_2021.zip -> data/raw/labour_force_survey/lfs_2021.zip (downloaded 2026-11-27T11:34:02+00:00)
+2026-11-27T11:56:35+00:00,lfs_2022,migrated_stage00_layout,,3530730,,zip,fd6fdc2518ec67db8ec90ce479d2ddba1ccec4234d077d8b0d77b15ad6151526,https://geostat.ge/media/54646/Labour-Force-Survey-Database-2022-Year.zip,data/raw/lfs/lfs_2022.zip -> data/raw/labour_force_survey/lfs_2022.zip (downloaded 2026-11-27T11:34:10+00:00)
+2026-11-27T11:56:35+00:00,lfs_2023,migrated_stage00_layout,,3549748,,zip,7df71b33d93fc28449d967635b18a6cf1505af5bab202bb5dec3d7b9b5b5f382,https://geostat.ge/media/63553/Labour-Force-Survey-2023-eng.zip,data/raw/lfs/lfs_2023.zip -> data/raw/labour_force_survey/lfs_2023.zip (downloaded 2026-11-27T11:34:19+00:00)
+2026-11-27T11:56:35+00:00,lfs_2024,migrated_stage00_layout,,3482591,,zip,a8b59d089a5645abb150612c6293857a705ff3bf5b0023dd037bb56a087cdfc7,https://geostat.ge/media/71337/Labour-Force-Survey-2024.zip,data/raw/lfs/lfs_2024.zip -> data/raw/labour_force_survey/lfs_2024.zip (downloaded 2026-11-27T11:34:28+00:00)
+2026-11-27T11:56:35+00:00,lfs_2025,migrated_stage00_layout,,3647353,,zip,e1d7dae7ecb203a41ae389f236090eeb7dc8f477e1c25ab709a915ad69d10425,https://geostat.ge/media/79807/Labour-Force-Survey-2025.zip,data/raw/lfs/lfs_2025.zip -> data/raw/labour_force_survey/lfs_2025.zip (downloaded 2026-11-27T11:34:36+00:00)
+2026-11-27T11:56:35+00:00,hies_2017,migrated_stage00_layout,,11891371,,zip,dc7ea470c7fa11ad608003af290979fc0cd144daec82f5d9e37c000a321c58ad,https://geostat.ge/media/62840/2017.zip,data/raw/hies/hies_2017.zip -> data/raw/household_survey/hies_2017.zip (downloaded 2026-11-27T11:35:03+00:00)
+2026-11-27T11:56:35+00:00,hies_2018,migrated_stage00_layout,,12315527,,zip,56c49713ec9f614d7c522b51b22847a7206116b3a541d0209efeeb638c899a38,https://geostat.ge/media/62841/2018.zip,data/raw/hies/hies_2018.zip -> data/raw/household_survey/hies_2018.zip (downloaded 2026-11-27T11:35:14+00:00)
+2026-11-27T11:56:35+00:00,hies_2019,migrated_stage00_layout,,15001562,,zip,db3017c1959183f1aa68850d52fa0bce7a234c590766ec600b2eb961eb88ce06,https://geostat.ge/media/62842/2019.zip,data/raw/hies/hies_2019.zip -> data/raw/household_survey/hies_2019.zip (downloaded 2026-11-27T11:35:26+00:00)
+2026-11-27T11:56:35+00:00,hies_2020,migrated_stage00_layout,,13914522,,zip,19255ccd9d06787983f1561d475049ff429fb098da545ef0287021618b1d7eda,https://geostat.ge/media/62843/2020.zip,data/raw/hies/hies_2020.zip -> data/raw/household_survey/hies_2020.zip (downloaded 2026-11-27T11:35:38+00:00)
+2026-11-27T11:56:35+00:00,hies_2021,migrated_stage00_layout,,14437445,,zip,323b2f168e588093a4892df16f0176c65b6aacdb15b143c892d1c76b06265491,https://geostat.ge/media/62844/2021.zip,data/raw/hies/hies_2021.zip -> data/raw/household_survey/hies_2021.zip (downloaded 2026-11-27T11:35:52+00:00)
+2026-11-27T11:56:35+00:00,hies_2022,migrated_stage00_layout,,14695053,,zip,b3ac2b6ace8b6452292070fdedcda2ce4190375182364460a7885bd90dc76ef7,https://geostat.ge/media/62845/2022.zip,data/raw/hies/hies_2022.zip -> data/raw/household_survey/hies_2022.zip (downloaded 2026-11-27T11:36:03+00:00)
+2026-11-27T11:56:35+00:00,hies_2023,migrated_stage00_layout,,15163953,,zip,7f5d62753b036d90e6e632b797f97658e4bfb0601a781e073c15961ed278c3d7,https://geostat.ge/media/62846/2023.zip,data/raw/hies/hies_2023.zip -> data/raw/household_survey/hies_2023.zip (downloaded 2026-11-27T11:36:15+00:00)
+2026-11-27T11:56:35+00:00,hies_2024,migrated_stage00_layout,,15133698,,zip,29f02b054c23eb4a0607f76b78f44212368e4fa2e83859d7a4f4adeb697f08a7,https://geostat.ge/media/71164/2024.zip,data/raw/hies/hies_2024.zip -> data/raw/household_survey/hies_2024.zip (downloaded 2026-11-27T11:36:27+00:00)
+2026-11-27T11:56:35+00:00,hies_2025,migrated_stage00_layout,,15766594,,zip,b4a7d3d8306bcdd06e785a8bec676ec0a371fd02ffcc904bd02edf34ab7d368c,https://geostat.ge/media/79814/2025.zip,data/raw/hies/hies_2025.zip -> data/raw/household_survey/hies_2025.zip (downloaded 2026-11-27T11:36:40+00:00)
+2026-11-27T11:56:35+00:00,lfs_vars_2017_2019,migrated_stage00_layout,,43549,,docx,3499fda2b7b63c0158d8c62af44f2cc397c4135c10108d6a4ca4520ea90faaf2,https://geostat.ge/media/27443/Description-of-Labour-Force-Survey-Database-Variables.docx,data/raw/docs/lfs_vars_2017_2019.docx -> data/raw/metadata/lfs_vars_2017_2019.docx (downloaded 2026-11-27T11:34:44+00:00)
+2026-11-27T11:56:35+00:00,lfs_vars_2020plus,migrated_stage00_layout,,28046,,docx,78d8ead0255aa1ff2806ebf02df97f7494505001d9323d44440653c0a866f205,https://geostat.ge/media/79812/Description-of-Labour-Force-Survey-Database-Variables.docx,data/raw/docs/lfs_vars_2020plus.docx -> data/raw/metadata/lfs_vars_2020plus.docx (downloaded 2026-11-27T11:34:52+00:00)
+2026-11-27T11:56:35+00:00,hies_vars,migrated_stage00_layout,,1109157,,pdf,e59ca545c4cb840365369bc33c67aec56f5fd6bfa455b3be498004a8ea4ad47f,https://geostat.ge/media/62847/Description-of-IHS-database-variables---Eng.pdf,data/raw/docs/hies_vars.pdf -> data/raw/metadata/hies_vars.pdf (downloaded 2026-11-27T11:36:49+00:00)
+2026-11-27T11:56:35+00:00,wages_gpg,migrated_stage00_layout,,11833,,xlsx,7302a06327fc22010562730d52c7120819fda694cd51c60e2e78f74dda922683,https://geostat.ge/media/83390/GPG_Eng.xlsx,data/raw/aggregates/wages_gpg.xlsx -> data/raw/official_aggregates/wages_gpg.xlsx (downloaded 2026-11-27T11:37:41+00:00)
+2026-11-27T11:56:35+00:00,wages_by_sex_annual,migrated_stage00_layout,,31815,,xlsx,6f712852fa074901d60c13d4cd83f820862d9e92d87b76fdb262df5f00bcc678,https://geostat.ge/media/83306/03_Earnings-by-sex_annual.xlsx,data/raw/aggregates/wages_by_sex_annual.xlsx -> data/raw/official_aggregates/wages_by_sex_annual.xlsx (downloaded 2026-11-27T11:37:49+00:00)
+2026-11-27T11:56:35+00:00,wages_median,migrated_stage00_layout,,12438,,xlsx,6db979d8307c76bde6541a451d4038997fb9aa44ad4d6fa5e26ef1e9d61de7d9,https://geostat.ge/media/83297/Median-Monthly-Earnings.xlsx,data/raw/aggregates/wages_median.xlsx -> data/raw/official_aggregates/wages_median.xlsx (downloaded 2026-11-27T11:37:57+00:00)
+2026-11-27T11:56:35+00:00,wages_isco,migrated_stage00_layout,,21026,,xlsx,29f7786060a7f814e7733bc625ed5bd9289e3aa6250efe1ba5c15c2811663f36,https://geostat.ge/media/83726/11-Earnings-%28ISCO%29.xlsx,data/raw/aggregates/wages_isco.xlsx -> data/raw/official_aggregates/wages_isco.xlsx (downloaded 2026-11-27T11:38:05+00:00)
+2026-11-27T11:56:35+00:00,wages_regions,migrated_stage00_layout,,12837,,xlsx,2a07e02b9f02a22d92f3e6aa1263a75636783e9ceefc0ab7447cb5217392a896,https://geostat.ge/media/83309/13_Earnings-by-regions_annual.xlsx,data/raw/aggregates/wages_regions.xlsx -> data/raw/official_aggregates/wages_regions.xlsx (downloaded 2026-11-27T11:38:13+00:00)
+2026-11-27T11:56:35+00:00,cpi_2010,migrated_stage00_layout,,42383,,xlsx,76100131857ff37899f562fbc98ac0786c3f16985899f388f7bf731ef1ac361a,https://geostat.ge/media/83813/consumer-price-index-2010%3D100.xlsx,data/raw/aggregates/cpi_2010.xlsx -> data/raw/official_aggregates/cpi_2010.xlsx (downloaded 2026-11-27T11:38:21+00:00)
+2026-11-27T11:56:39+00:00,lfs_vars_2017_2019,skipped_present,,43549,,docx,3499fda2b7b63c0158d8c62af44f2cc397c4135c10108d6a4ca4520ea90faaf2,https://geostat.ge/media/27443/Description-of-Labour-Force-Survey-Database-Variables.docx,
+2026-11-27T11:56:39+00:00,lfs_vars_2020plus,skipped_present,,28046,,docx,78d8ead0255aa1ff2806ebf02df97f7494505001d9323d44440653c0a866f205,https://geostat.ge/media/79812/Description-of-Labour-Force-Survey-Database-Variables.docx,
+2026-11-27T11:56:39+00:00,hies_vars,skipped_present,,1109157,,pdf,e59ca545c4cb840365369bc33c67aec56f5fd6bfa455b3be498004a8ea4ad47f,https://geostat.ge/media/62847/Description-of-IHS-database-variables---Eng.pdf,
+2026-11-27T11:56:40+00:00,lfs_methodology,attempt_1_failed,200,,,,,https://geostat.ge/media/80099/geostat_labour_force_survey_en.html,incomplete: 52786 of 12876 bytes
+2026-11-27T11:56:45+00:00,lfs_methodology,attempt_2_failed,200,,,,,https://geostat.ge/media/80099/geostat_labour_force_survey_en.html,incomplete: 52786 of 12876 bytes
+2026-11-27T11:56:55+00:00,lfs_methodology,attempt_3_failed,200,,,,,https://geostat.ge/media/80099/geostat_labour_force_survey_en.html,incomplete: 52786 of 12876 bytes
+2026-11-27T11:57:15+00:00,lfs_methodology,attempt_4_failed,200,,,,,https://geostat.ge/media/80099/geostat_labour_force_survey_en.html,incomplete: 52786 of 12876 bytes
+2026-11-27T11:57:56+00:00,lfs_methodology,attempt_5_failed,200,,,,,https://geostat.ge/media/80099/geostat_labour_force_survey_en.html,incomplete: 52786 of 12876 bytes
+2026-11-27T11:59:16+00:00,lfs_methodology,attempt_6_failed,200,,,,,https://geostat.ge/media/80099/geostat_labour_force_survey_en.html,incomplete: 52786 of 12876 bytes
+2026-11-27T11:59:16+00:00,lfs_methodology,failed,,,,,,https://geostat.ge/media/80099/geostat_labour_force_survey_en.html,incomplete: 52786 of 12876 bytes
+2026-11-27T11:59:24+00:00,wages_methodology,attempt_1_failed,200,,,,,https://geostat.ge/media/80100/geostat_wages_methodology_en.html,incomplete: 47292 of 12176 bytes
+2026-11-27T11:59:29+00:00,wages_methodology,attempt_2_failed,200,,,,,https://geostat.ge/media/80100/geostat_wages_methodology_en.html,incomplete: 47292 of 12176 bytes
+2026-11-27T11:59:39+00:00,wages_methodology,attempt_3_failed,200,,,,,https://geostat.ge/media/80100/geostat_wages_methodology_en.html,incomplete: 47292 of 12176 bytes
+2026-11-27T11:59:59+00:00,wages_methodology,attempt_4_failed,200,,,,,https://geostat.ge/media/80100/geostat_wages_methodology_en.html,incomplete: 47292 of 12176 bytes
+2026-11-27T12:00:40+00:00,wages_methodology,attempt_5_failed,200,,,,,https://geostat.ge/media/80100/geostat_wages_methodology_en.html,incomplete: 47292 of 12176 bytes
+2026-11-27T12:02:00+00:00,wages_methodology,attempt_6_failed,200,,,,,https://geostat.ge/media/80100/geostat_wages_methodology_en.html,incomplete: 47292 of 12176 bytes
+2026-11-27T12:02:00+00:00,wages_methodology,failed,,,,,,https://geostat.ge/media/80100/geostat_wages_methodology_en.html,incomplete: 47292 of 12176 bytes
+2026-11-27T12:02:08+00:00,lfs_main_questionnaire_new,downloaded,200,311489,311489,pdf,4b73433cb46f765ca4db0890ca6af390a265f44536e8695bf689fab558009047,https://geostat.ge/media/68082/LFS_MainQ_ENG.pdf,
+2026-11-27T12:02:16+00:00,lfs_main_questionnaire_old,downloaded,200,257103,257103,pdf,bb9ceb37a1ba2462102b4ed54ea8a943f348695f721743c8c943fe28f91f7db5,https://geostat.ge/media/37157/2019-02-19---LFS-Main-Questionnaire-%28old-methodology%29.pdf,
+2026-11-27T12:02:24+00:00,lfs_demographic_questionnaire,downloaded,200,122189,122189,pdf,02f6204ed47e3356d89f391bf20fcce08d428518ea4b069502359e7dee7e3700,https://geostat.ge/media/68081/LFS-DemographicQ_ENG.pdf,
+2026-11-27T12:02:32+00:00,hies_q_shinda05_1,downloaded,200,178011,178011,pdf,813db06e79061279ecdb8b60ca5a69e2595d19cfaba82fe3d15838b4f83483d8,https://geostat.ge/media/57998/Shinda05-1_2019_Eng.pdf,
+2026-11-27T12:02:40+00:00,hies_q_shinda05,downloaded,200,232498,232498,pdf,925dd7a0b9ebb2c994da188abb93772ea9f4608c98f8bf63e3271fc2ce3701cb,https://geostat.ge/media/57997/Shinda05_2019_Eng.pdf,
+2026-11-27T12:02:59+00:00,lfs_vars_2017_2019,skipped_present,,43549,,docx,3499fda2b7b63c0158d8c62af44f2cc397c4135c10108d6a4ca4520ea90faaf2,https://geostat.ge/media/27443/Description-of-Labour-Force-Survey-Database-Variables.docx,
+2026-11-27T12:02:59+00:00,lfs_vars_2020plus,skipped_present,,28046,,docx,78d8ead0255aa1ff2806ebf02df97f7494505001d9323d44440653c0a866f205,https://geostat.ge/media/79812/Description-of-Labour-Force-Survey-Database-Variables.docx,
+2026-11-27T12:02:59+00:00,hies_vars,skipped_present,,1109157,,pdf,e59ca545c4cb840365369bc33c67aec56f5fd6bfa455b3be498004a8ea4ad47f,https://geostat.ge/media/62847/Description-of-IHS-database-variables---Eng.pdf,
+2026-11-27T12:02:59+00:00,lfs_methodology,downloaded,200,52786,12876,html,65703e3c0eba9ce700f6eb56c8fb9f1f166d7e949c2c3c7614af2ba06d841c93,https://geostat.ge/media/80099/geostat_labour_force_survey_en.html,
+2026-11-27T12:03:07+00:00,wages_methodology,downloaded,200,47292,12176,html,6dc395a0e79fe460e55a9337bce0db28c045ec615082d3666028572b794960c2,https://geostat.ge/media/80100/geostat_wages_methodology_en.html,
+2026-11-27T12:03:15+00:00,lfs_main_questionnaire_new,skipped_present,,311489,,pdf,4b73433cb46f765ca4db0890ca6af390a265f44536e8695bf689fab558009047,https://geostat.ge/media/68082/LFS_MainQ_ENG.pdf,
+2026-11-27T12:03:15+00:00,lfs_main_questionnaire_old,skipped_present,,257103,,pdf,bb9ceb37a1ba2462102b4ed54ea8a943f348695f721743c8c943fe28f91f7db5,https://geostat.ge/media/37157/2019-02-19---LFS-Main-Questionnaire-%28old-methodology%29.pdf,
+2026-11-27T12:03:15+00:00,lfs_demographic_questionnaire,skipped_present,,122189,,pdf,02f6204ed47e3356d89f391bf20fcce08d428518ea4b069502359e7dee7e3700,https://geostat.ge/media/68081/LFS-DemographicQ_ENG.pdf,
+2026-11-27T12:03:15+00:00,hies_q_shinda05_1,skipped_present,,178011,,pdf,813db06e79061279ecdb8b60ca5a69e2595d19cfaba82fe3d15838b4f83483d8,https://geostat.ge/media/57998/Shinda05-1_2019_Eng.pdf,
+2026-11-27T12:03:15+00:00,hies_q_shinda05,skipped_present,,232498,,pdf,925dd7a0b9ebb2c994da188abb93772ea9f4608c98f8bf63e3271fc2ce3701cb,https://geostat.ge/media/57997/Shinda05_2019_Eng.pdf,
+2026-11-27T12:03:22+00:00,lfs_2017,link_check_ok,206,3198612,3198612,,,https://geostat.ge/media/23299/2017_LFS_DB_ENG.zip,
+2026-11-27T12:03:27+00:00,lfs_2018,link_check_ok,206,3463584,3463584,,,https://geostat.ge/media/30751/SPSS---Eng-2018.zip,
+2026-11-27T12:03:31+00:00,lfs_2019,link_check_ok,206,3374017,3374017,,,https://geostat.ge/media/31881/SPSS---Eng-2019.zip,
+2026-11-27T12:03:35+00:00,lfs_2020,link_check_ok,206,2939449,2939449,,,https://geostat.ge/media/48123/Labour-Force-Survey-Database-2020-Year.zip,
+2026-11-27T12:03:39+00:00,lfs_2021,link_check_ok,206,2899614,2899614,,,https://geostat.ge/media/48124/Labour-Force-Survey-Database-2021-Year.zip,
+2026-11-27T12:03:43+00:00,lfs_2022,link_check_ok,206,3530730,3530730,,,https://geostat.ge/media/54646/Labour-Force-Survey-Database-2022-Year.zip,
+2026-11-27T12:03:47+00:00,lfs_2023,link_check_ok,206,3549748,3549748,,,https://geostat.ge/media/63553/Labour-Force-Survey-2023-eng.zip,
+2026-11-27T12:03:51+00:00,lfs_2024,link_check_ok,206,3482591,3482591,,,https://geostat.ge/media/71337/Labour-Force-Survey-2024.zip,
+2026-11-27T12:03:56+00:00,lfs_2025,link_check_ok,206,3647353,3647353,,,https://geostat.ge/media/79807/Labour-Force-Survey-2025.zip,
+2026-11-27T12:04:00+00:00,hies_2017,link_check_ok,206,11891371,11891371,,,https://geostat.ge/media/62840/2017.zip,
+2026-11-27T12:04:04+00:00,hies_2018,link_check_ok,206,12315527,12315527,,,https://geostat.ge/media/62841/2018.zip,
+2026-11-27T12:04:08+00:00,hies_2019,link_check_ok,206,15001562,15001562,,,https://geostat.ge/media/62842/2019.zip,
+2026-11-27T12:04:12+00:00,hies_2020,link_check_ok,206,13914522,13914522,,,https://geostat.ge/media/62843/2020.zip,
+2026-11-27T12:04:16+00:00,hies_2021,link_check_ok,206,14437445,14437445,,,https://geostat.ge/media/62844/2021.zip,
+2026-11-27T12:04:21+00:00,hies_2022,link_check_ok,206,14695053,14695053,,,https://geostat.ge/media/62845/2022.zip,
+2026-11-27T12:04:25+00:00,hies_2023,link_check_ok,206,15163953,15163953,,,https://geostat.ge/media/62846/2023.zip,
+2026-11-27T12:04:29+00:00,hies_2024,link_check_ok,206,15133698,15133698,,,https://geostat.ge/media/71164/2024.zip,
+2026-11-27T12:04:33+00:00,hies_2025,link_check_ok,206,15766594,15766594,,,https://geostat.ge/media/79814/2025.zip,
+2026-11-27T12:04:37+00:00,lfs_vars_2017_2019,link_check_ok,206,43549,43549,,,https://geostat.ge/media/27443/Description-of-Labour-Force-Survey-Database-Variables.docx,
+2026-11-27T12:04:41+00:00,lfs_vars_2020plus,link_check_ok,206,28046,28046,,,https://geostat.ge/media/79812/Description-of-Labour-Force-Survey-Database-Variables.docx,
+2026-11-27T12:04:45+00:00,hies_vars,link_check_ok,206,1109157,1109157,,,https://geostat.ge/media/62847/Description-of-IHS-database-variables---Eng.pdf,
+2026-11-27T12:04:49+00:00,lfs_methodology,link_check_FAIL,206,52786,12876,,,https://geostat.ge/media/80099/geostat_labour_force_survey_en.html,
+2026-11-27T12:04:53+00:00,wages_methodology,link_check_FAIL,206,47292,12176,,,https://geostat.ge/media/80100/geostat_wages_methodology_en.html,
+2026-11-27T12:04:58+00:00,lfs_main_questionnaire_new,link_check_ok,206,311489,311489,,,https://geostat.ge/media/68082/LFS_MainQ_ENG.pdf,
+2026-11-27T12:05:02+00:00,lfs_main_questionnaire_old,link_check_ok,206,257103,257103,,,https://geostat.ge/media/37157/2019-02-19---LFS-Main-Questionnaire-%28old-methodology%29.pdf,
+2026-11-27T12:05:06+00:00,lfs_demographic_questionnaire,link_check_ok,206,122189,122189,,,https://geostat.ge/media/68081/LFS-DemographicQ_ENG.pdf,
+2026-11-27T12:05:10+00:00,hies_q_shinda05_1,link_check_ok,206,178011,178011,,,https://geostat.ge/media/57998/Shinda05-1_2019_Eng.pdf,
+2026-11-27T12:05:14+00:00,hies_q_shinda05,link_check_ok,206,232498,232498,,,https://geostat.ge/media/57997/Shinda05_2019_Eng.pdf,
+2026-11-27T12:05:18+00:00,wages_gpg,link_check_ok,206,11833,11833,,,https://geostat.ge/media/83390/GPG_Eng.xlsx,
+2026-11-27T12:05:22+00:00,wages_by_sex_annual,link_check_ok,206,31815,31815,,,https://geostat.ge/media/83306/03_Earnings-by-sex_annual.xlsx,
+2026-11-27T12:05:27+00:00,wages_median,link_check_ok,206,12438,12438,,,https://geostat.ge/media/83297/Median-Monthly-Earnings.xlsx,
+2026-11-27T12:05:31+00:00,wages_isco,link_check_ok,206,21026,21026,,,https://geostat.ge/media/83726/11-Earnings-%28ISCO%29.xlsx,
+2026-11-27T12:05:35+00:00,wages_regions,link_check_ok,206,12837,12837,,,https://geostat.ge/media/83309/13_Earnings-by-regions_annual.xlsx,
+2026-11-27T12:05:39+00:00,cpi_2010,link_check_ok,206,42383,42383,,,https://geostat.ge/media/83813/consumer-price-index-2010%3D100.xlsx,
+2026-11-27T17:21:56+00:00,lfs_methodology,link_check_ok,206,52786,12876,,,https://geostat.ge/media/80099/geostat_labour_force_survey_en.html,
+2026-11-27T17:21:59+00:00,wages_methodology,link_check_ok,206,47292,12176,,,https://geostat.ge/media/80100/geostat_wages_methodology_en.html,
+2026-11-27T17:29:16+00:00,lfs_2017,skipped_present,,3198612,,zip,096d99c93481af2f86e4ad86d8270a5b77514836caf0197cd3a64fd278ea240c,https://geostat.ge/media/23299/2017_LFS_DB_ENG.zip,
+2026-11-27T17:29:16+00:00,lfs_2018,skipped_present,,3463584,,zip,e194afdf0ece370daf2ce7f265fbb5e9ac35bae74351eb39ca7b6f9c54ae9bb1,https://geostat.ge/media/30751/SPSS---Eng-2018.zip,
+2026-11-27T17:29:16+00:00,lfs_2019,skipped_present,,3374017,,zip,0335d8f6aeeeed9a6c437fc30c7ffbf66d39e074adab9736938395981d7fac9d,https://geostat.ge/media/31881/SPSS---Eng-2019.zip,
+2026-11-27T17:29:16+00:00,lfs_2020,skipped_present,,2939449,,zip,cf743fa885d9ac4d6f1803e21eba0908269740db06282de548b88454118385b8,https://geostat.ge/media/48123/Labour-Force-Survey-Database-2020-Year.zip,
+2026-11-27T17:29:16+00:00,lfs_2021,skipped_present,,2899614,,zip,8c58c1adbbb76f337dc584a54b5a6625922a3b9d8c96f97c6662bd2ed312d5bd,https://geostat.ge/media/48124/Labour-Force-Survey-Database-2021-Year.zip,
+2026-11-27T17:29:16+00:00,lfs_2022,skipped_present,,3530730,,zip,fd6fdc2518ec67db8ec90ce479d2ddba1ccec4234d077d8b0d77b15ad6151526,https://geostat.ge/media/54646/Labour-Force-Survey-Database-2022-Year.zip,
+2026-11-27T17:29:16+00:00,lfs_2023,skipped_present,,3549748,,zip,7df71b33d93fc28449d967635b18a6cf1505af5bab202bb5dec3d7b9b5b5f382,https://geostat.ge/media/63553/Labour-Force-Survey-2023-eng.zip,
+2026-11-27T17:29:16+00:00,lfs_2024,skipped_present,,3482591,,zip,a8b59d089a5645abb150612c6293857a705ff3bf5b0023dd037bb56a087cdfc7,https://geostat.ge/media/71337/Labour-Force-Survey-2024.zip,
+2026-11-27T17:29:16+00:00,lfs_2025,skipped_present,,3647353,,zip,e1d7dae7ecb203a41ae389f236090eeb7dc8f477e1c25ab709a915ad69d10425,https://geostat.ge/media/79807/Labour-Force-Survey-2025.zip,
+2026-11-27T17:29:16+00:00,hies_2017,skipped_present,,11891371,,zip,dc7ea470c7fa11ad608003af290979fc0cd144daec82f5d9e37c000a321c58ad,https://geostat.ge/media/62840/2017.zip,
+2026-11-27T17:29:16+00:00,hies_2018,skipped_present,,12315527,,zip,56c49713ec9f614d7c522b51b22847a7206116b3a541d0209efeeb638c899a38,https://geostat.ge/media/62841/2018.zip,
+2026-11-27T17:29:16+00:00,hies_2019,skipped_present,,15001562,,zip,db3017c1959183f1aa68850d52fa0bce7a234c590766ec600b2eb961eb88ce06,https://geostat.ge/media/62842/2019.zip,
+2026-11-27T17:29:16+00:00,hies_2020,skipped_present,,13914522,,zip,19255ccd9d06787983f1561d475049ff429fb098da545ef0287021618b1d7eda,https://geostat.ge/media/62843/2020.zip,
+2026-11-27T17:29:16+00:00,hies_2021,skipped_present,,14437445,,zip,323b2f168e588093a4892df16f0176c65b6aacdb15b143c892d1c76b06265491,https://geostat.ge/media/62844/2021.zip,
+2026-11-27T17:29:16+00:00,hies_2022,skipped_present,,14695053,,zip,b3ac2b6ace8b6452292070fdedcda2ce4190375182364460a7885bd90dc76ef7,https://geostat.ge/media/62845/2022.zip,
+2026-11-27T17:29:16+00:00,hies_2023,skipped_present,,15163953,,zip,7f5d62753b036d90e6e632b797f97658e4bfb0601a781e073c15961ed278c3d7,https://geostat.ge/media/62846/2023.zip,
+2026-11-27T17:29:16+00:00,hies_2024,skipped_present,,15133698,,zip,29f02b054c23eb4a0607f76b78f44212368e4fa2e83859d7a4f4adeb697f08a7,https://geostat.ge/media/71164/2024.zip,
+2026-11-27T17:29:16+00:00,hies_2025,skipped_present,,15766594,,zip,b4a7d3d8306bcdd06e785a8bec676ec0a371fd02ffcc904bd02edf34ab7d368c,https://geostat.ge/media/79814/2025.zip,
+2026-11-27T17:29:16+00:00,lfs_vars_2017_2019,skipped_present,,43549,,docx,3499fda2b7b63c0158d8c62af44f2cc397c4135c10108d6a4ca4520ea90faaf2,https://geostat.ge/media/27443/Description-of-Labour-Force-Survey-Database-Variables.docx,
+2026-11-27T17:29:16+00:00,lfs_vars_2020plus,skipped_present,,28046,,docx,78d8ead0255aa1ff2806ebf02df97f7494505001d9323d44440653c0a866f205,https://geostat.ge/media/79812/Description-of-Labour-Force-Survey-Database-Variables.docx,
+2026-11-27T17:29:16+00:00,hies_vars,skipped_present,,1109157,,pdf,e59ca545c4cb840365369bc33c67aec56f5fd6bfa455b3be498004a8ea4ad47f,https://geostat.ge/media/62847/Description-of-IHS-database-variables---Eng.pdf,
+2026-11-27T17:29:16+00:00,lfs_methodology,skipped_present,,52786,,html,65703e3c0eba9ce700f6eb56c8fb9f1f166d7e949c2c3c7614af2ba06d841c93,https://geostat.ge/media/80099/geostat_labour_force_survey_en.html,
+2026-11-27T17:29:16+00:00,wages_methodology,skipped_present,,47292,,html,6dc395a0e79fe460e55a9337bce0db28c045ec615082d3666028572b794960c2,https://geostat.ge/media/80100/geostat_wages_methodology_en.html,
+2026-11-27T17:29:16+00:00,lfs_main_questionnaire_new,skipped_present,,311489,,pdf,4b73433cb46f765ca4db0890ca6af390a265f44536e8695bf689fab558009047,https://geostat.ge/media/68082/LFS_MainQ_ENG.pdf,
+2026-11-27T17:29:16+00:00,lfs_main_questionnaire_old,skipped_present,,257103,,pdf,bb9ceb37a1ba2462102b4ed54ea8a943f348695f721743c8c943fe28f91f7db5,https://geostat.ge/media/37157/2019-02-19---LFS-Main-Questionnaire-%28old-methodology%29.pdf,
+2026-11-27T17:29:16+00:00,lfs_demographic_questionnaire,skipped_present,,122189,,pdf,02f6204ed47e3356d89f391bf20fcce08d428518ea4b069502359e7dee7e3700,https://geostat.ge/media/68081/LFS-DemographicQ_ENG.pdf,
+2026-11-27T17:29:16+00:00,hies_q_shinda05_1,skipped_present,,178011,,pdf,813db06e79061279ecdb8b60ca5a69e2595d19cfaba82fe3d15838b4f83483d8,https://geostat.ge/media/57998/Shinda05-1_2019_Eng.pdf,
+2026-11-27T17:29:16+00:00,hies_q_shinda05,skipped_present,,232498,,pdf,925dd7a0b9ebb2c994da188abb93772ea9f4608c98f8bf63e3271fc2ce3701cb,https://geostat.ge/media/57997/Shinda05_2019_Eng.pdf,
+2026-11-27T17:29:16+00:00,wages_gpg,skipped_present,,11833,,xlsx,7302a06327fc22010562730d52c7120819fda694cd51c60e2e78f74dda922683,https://geostat.ge/media/83390/GPG_Eng.xlsx,
+2026-11-27T17:29:16+00:00,wages_by_sex_annual,skipped_present,,31815,,xlsx,6f712852fa074901d60c13d4cd83f820862d9e92d87b76fdb262df5f00bcc678,https://geostat.ge/media/83306/03_Earnings-by-sex_annual.xlsx,
+2026-11-27T17:29:16+00:00,wages_median,skipped_present,,12438,,xlsx,6db979d8307c76bde6541a451d4038997fb9aa44ad4d6fa5e26ef1e9d61de7d9,https://geostat.ge/media/83297/Median-Monthly-Earnings.xlsx,
+2026-11-27T17:29:16+00:00,wages_isco,skipped_present,,21026,,xlsx,29f7786060a7f814e7733bc625ed5bd9289e3aa6250efe1ba5c15c2811663f36,https://geostat.ge/media/83726/11-Earnings-%28ISCO%29.xlsx,
+2026-11-27T17:29:16+00:00,wages_regions,skipped_present,,12837,,xlsx,2a07e02b9f02a22d92f3e6aa1263a75636783e9ceefc0ab7447cb5217392a896,https://geostat.ge/media/83309/13_Earnings-by-regions_annual.xlsx,
+2026-11-27T17:29:16+00:00,cpi_2010,skipped_present,,42383,,xlsx,76100131857ff37899f562fbc98ac0786c3f16985899f388f7bf731ef1ac361a,https://geostat.ge/media/83813/consumer-price-index-2010%3D100.xlsx,

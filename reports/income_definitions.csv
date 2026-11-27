@@ -1,0 +1,12 @@
+income_type,dataset,unit,period,currency,gross_net,form,nominal_real,who,source_variable,definition
+lfs_net_earnings_main_job,lfs,individual,last worked month,GEL,net,band (interval); amount = band midpoint / Pareto estimate,nominal + real_2025,employees in main job,"B17_B18_Net_earnings (2017-19), B24_B25_Net_earnings (2020-25)","basic wages and salaries, bonuses, premiums, incentives, payment in kind (LFS questionnaire B17)"
+hies_inc_hired_employment,hies,household,monthly average over the reference quarter,GEL,as reported (cash received),amount,nominal + real_2025,all households,ShemDaq,"income from hired employment, all members"
+hies_inc_self_employment,hies,household,monthly average over the reference quarter,GEL,as reported (cash received),amount,nominal + real_2025,all households,ShemTviTdasaqm,income from self-employment
+hies_inc_agriculture_sales,hies,household,monthly average over the reference quarter,GEL,as reported (cash received),amount,nominal + real_2025,all households,Shem_Sof,income from selling agricultural production
+hies_inc_property,hies,household,monthly average over the reference quarter,GEL,as reported (cash received),amount,nominal + real_2025,all households,Qonebidan,"property income (leasing, interest)"
+hies_inc_pensions_benefits,hies,household,monthly average over the reference quarter,GEL,as reported (cash received),amount,nominal + real_2025,all households,PensStipDaxm,"pensions, scholarships, assistance"
+hies_inc_remittances_abroad,hies,household,monthly average over the reference quarter,GEL,as reported (cash received),amount,nominal + real_2025,all households,Ucxoetidan,remittances from abroad
+hies_inc_gifts,hies,household,monthly average over the reference quarter,GEL,as reported (cash received),amount,nominal + real_2025,all households,Axloblebisagan,money received as gift
+hies_inc_cash_and_transfers,hies,household,monthly average over the reference quarter,GEL,as reported (cash received),amount,nominal + real_2025,all households,ShemosavaliDaTransf,cash income and transfers = items 1-7
+hies_inc_non_cash,hies,household,monthly average over the reference quarter,GEL,as reported (cash received),amount,nominal + real_2025,all households,ArafuladiMoxmareba,non-cash income (own production consumed etc.)
+hies_inc_total,hies,household,monthly average over the reference quarter,GEL,as reported (cash received),amount,nominal + real_2025,all households,Shemosavalisul,total income = cash income and transfers + non-cash

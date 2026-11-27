@@ -1,0 +1,202 @@
+dataset,year,table,canonical_table,file,file_bytes,format,encoding,n_rows,n_cols,n_missing_cells,pct_missing_cells,n_full_row_duplicates,key,n_key_duplicates,years_in_data,year_ok,n_label_encoding_issues,n_georgian_chars
+lfs,2017,LFS_DeadMen,deadmen,data/raw/labour_force_survey/extracted/2017/2017_LFS_DB/LFS_DeadMen.sav,5689,sav,UTF-8,100,10,253,25.3,0,UID+MemberNo,0,,,0,0
+lfs,2017,LFS_Demographic,demographic,data/raw/labour_force_survey/extracted/2017/2017_LFS_DB/LFS_Demographic.sav,1953222,sav,UTF-8,73428,18,635121,48.05,0,UID+MemberNo,0,,,0,0
+lfs,2017,LFS_ECSTAT,ecstat,data/raw/labour_force_survey/extracted/2017/2017_LFS_DB/LFS_ECSTAT.sav,8526176,sav,UTF-8,54824,126,3745248,54.22,0,UID+MemberNo,0,,,0,0
+lfs,2017,LFS_FamilySize,familysize,data/raw/labour_force_survey/extracted/2017/2017_LFS_DB/LFS_FamilySize.sav,945432,sav,UTF-8,20486,7,0,0.0,0,UID,0,,,0,0
+lfs,2017,LFS_ID,id,data/raw/labour_force_survey/extracted/2017/2017_LFS_DB/LFS_ID.sav,452660,sav,UTF-8,20486,6,0,0.0,0,UID,0,2017,True,0,0
+lfs,2017,LFS_Personal_Weights,personal_weights,data/raw/labour_force_survey/extracted/2017/2017_LFS_DB/LFS_Personal_Weights.sav,1042858,sav,UTF-8,54824,3,0,0.0,0,UID+MemberNo,0,,,0,0
+lfs,2018,LFS_DeadMen,deadmen,data/raw/labour_force_survey/extracted/2018/SPSS - Eng-2018/LFS_DeadMen.sav,11593,sav,UTF-8,422,10,1055,25.0,0,UID+MemberNo,0,,,0,0
+lfs,2018,LFS_Demograpics,demographic,data/raw/labour_force_survey/extracted/2018/SPSS - Eng-2018/LFS_Demograpics.sav,1990018,sav,UTF-8,74691,18,645614,48.02,0,UID+MemberNo,0,,,0,0
+lfs,2018,LFS_ECSTAT,ecstat,data/raw/labour_force_survey/extracted/2018/SPSS - Eng-2018/LFS_ECSTAT.sav,10957323,sav,windows-1252,58641,126,4042064,54.71,0,UID+MemberNo,0,,,0,0
+lfs,2018,LFS_Family_size,familysize,data/raw/labour_force_survey/extracted/2018/SPSS - Eng-2018/LFS_Family_size.sav,307335,sav,UTF-8,20349,7,2,0.0,1,UID,1,,,0,0
+lfs,2018,LFS_ID,id,data/raw/labour_force_survey/extracted/2018/SPSS - Eng-2018/LFS_ID.sav,525629,sav,UTF-8,23808,6,0,0.0,0,UID,0,2018,True,0,0
+lfs,2018,LFS_Personal_weights,personal_weights,data/raw/labour_force_survey/extracted/2018/SPSS - Eng-2018/LFS_Personal_weights.sav,1115225,sav,UTF-8,58641,3,0,0.0,0,UID+MemberNo,0,,,0,0
+lfs,2019,LFS_DeadMen,deadmen,data/raw/labour_force_survey/extracted/2019/SPSS - Eng-2019/LFS_DeadMen.sav,11334,sav,windows-1252,410,10,1175,28.66,0,UID+MemberNo,0,,,0,0
+lfs,2019,LFS_Demograpics,demographic,data/raw/labour_force_survey/extracted/2019/SPSS - Eng-2019/LFS_Demograpics.sav,2049927,sav,windows-1252,77005,18,666840,48.11,0,UID+MemberNo,0,,,0,0
+lfs,2019,LFS_ECSTAT,ecstat,data/raw/labour_force_survey/extracted/2019/SPSS - Eng-2019/LFS_ECSTAT.sav,9549562,sav,UTF-8,61386,126,4192551,54.2,0,UID+MemberNo,0,,,0,0
+lfs,2019,LFS_Familysize,familysize,data/raw/labour_force_survey/extracted/2019/SPSS - Eng-2019/LFS_Familysize.sav,324596,sav,UTF-8,21501,7,0,0.0,0,UID,0,,,0,0
+lfs,2019,LFS_ID,id,data/raw/labour_force_survey/extracted/2019/SPSS - Eng-2019/LFS_ID.sav,646930,sav,windows-1252,21501,6,0,0.0,0,UID,0,2019,True,0,0
+lfs,2019,LFS_Personal_weights,personal_weights,data/raw/labour_force_survey/extracted/2019/SPSS - Eng-2019/LFS_Personal_weights.sav,1167097,sav,windows-1252,61386,3,0,0.0,0,UID+MemberNo,0,,,0,0
+lfs,2020,LFS_Demographic_ENG_2020,demographic,data/raw/labour_force_survey/extracted/2020/SPSS---Eng-2020/LFS_Demographic_ENG_2020.sav,3822992,sav,UTF-8,72678,28,830562,40.81,0,UID+MemberNo,0,2020,True,0,0
+lfs,2020,LFS_ECSTAT_ENG_2020,ecstat,data/raw/labour_force_survey/extracted/2020/SPSS---Eng-2020/LFS_ECSTAT_ENG_2020.sav,11130938,sav,UTF-8,58979,140,4563464,55.27,0,UID+MemberNo,0,2020,True,0,0
+lfs,2021,LFS_Demographic_ENG_2021,demographic,data/raw/labour_force_survey/extracted/2021/SPSS---Eng-2021/LFS_Demographic_ENG_2021.sav,3986888,sav,UTF-8,75824,28,829465,39.07,0,UID+MemberNo,0,2021,True,0,0
+lfs,2021,LFS_ECSTAT_ENG_2021,ecstat,data/raw/labour_force_survey/extracted/2021/SPSS---Eng-2021/LFS_ECSTAT_ENG_2021.sav,10828649,sav,UTF-8,60837,134,4420315,54.22,0,UID+MemberNo,0,2021,True,0,0
+lfs,2022,LFS_Demographic_ENG_2022,demographic,data/raw/labour_force_survey/extracted/2022/Labour-Force-Survey-Database-2022-Year/Labour-Force-Survey-Database-2022-Year/SPSS_2022_ENG/LFS_Demographic_ENG_2022.sav,3252571,sav,UTF-8,75526,19,368259,25.66,0,UID+MemberNo,0,2022,True,0,0
+lfs,2022,LFS_ECSTAT_ENG_2022,ecstat,data/raw/labour_force_survey/extracted/2022/Labour-Force-Survey-Database-2022-Year/Labour-Force-Survey-Database-2022-Year/SPSS_2022_ENG/LFS_ECSTAT_ENG_2022.sav,10787761,sav,UTF-8,60262,134,4349991,53.87,0,UID+MemberNo,0,2022,True,0,0
+lfs,2023,LFS_Demographic_ENG_2023,demographic,data/raw/labour_force_survey/extracted/2023/Labour-Force-Survey-2023/Labour-Force-Survey-2023/SPSS_2023_ENG/LFS_Demographic_ENG_2023.sav,3136427,sav,UTF-8,72825,19,355051,25.66,0,UID+MemberNo,0,2023,True,0,0
+lfs,2023,LFS_ECSTAT_ENG_2023,ecstat,data/raw/labour_force_survey/extracted/2023/Labour-Force-Survey-2023/Labour-Force-Survey-2023/SPSS_2023_ENG/LFS_ECSTAT_ENG_2023.sav,10233635,sav,UTF-8,58398,130,4194204,55.25,0,UID+MemberNo,0,2023,True,0,0
+lfs,2024,LFS_Demographic_ENG_2024,demographic,data/raw/labour_force_survey/extracted/2024/Labour-Force-Survey-2024/SPSS_2024_ENG/LFS_Demographic_ENG_2024.sav,3050035,sav,UTF-8,70816,19,345205,25.66,0,UID+MemberNo,0,2024,True,0,0
+lfs,2024,LFS_ECSTAT_ENG_2024,ecstat,data/raw/labour_force_survey/extracted/2024/Labour-Force-Survey-2024/SPSS_2024_ENG/LFS_ECSTAT_ENG_2024.sav,10091283,sav,UTF-8,57546,130,4115602,55.01,0,UID+MemberNo,0,2024,True,0,0
+lfs,2025,LFS_Demographic_ENG_2025,demographic,data/raw/labour_force_survey/extracted/2025/Labour Force Survey 2025/SPSS_2025_ENG/LFS_Demographic_ENG_2025.sav,3054643,sav,UTF-8,70923,19,345259,25.62,0,UID+MemberNo,0,2025,True,0,0
+lfs,2025,LFS_ECSTAT_ENG_2025,ecstat,data/raw/labour_force_survey/extracted/2025/Labour Force Survey 2025/SPSS_2025_ENG/LFS_ECSTAT_ENG_2025.sav,10190059,sav,UTF-8,58170,130,4163237,55.05,0,UID+MemberNo,0,2025,True,0,0
+hies,2017,123,123,data/raw/household_survey/extracted/2017/2017/2017 DB/123.sav,3180,sav,windows-1252,86,4,0,0.0,0,QuartNo,0,,,0,0
+hies,2017,conspurch_03,conspurch_03,data/raw/household_survey/extracted/2017/2017/2017 DB/conspurch_03.sav,4731552,sav,UTF-8,110840,5,0,0.0,0,UID+ProductCode,0,,,0,0
+hies,2017,deadmen,deadmen,data/raw/household_survey/extracted/2017/2017/2017 DB/deadmen.sav,6808,sav,UTF-8,52,14,134,18.41,0,UID+MemberNo,0,,,0,0
+hies,2017,familysize,familysize,data/raw/household_survey/extracted/2017/2017/2017 DB/familysize.sav,492010,sav,UTF-8,11590,11,0,0.0,0,UID,0,,,0,0
+hies,2017,sysschedule,sysschedule,data/raw/household_survey/extracted/2017/2017/2017 DB/sysschedule.sav,453520,sav,UTF-8,11590,7,0,0.0,0,UID,0,2017,True,0,0
+hies,2017,tblavgprices,tblavgprices,data/raw/household_survey/extracted/2017/2017/2017 DB/tblavgprices.sav,12796,sav,UTF-8,662,3,0,0.0,0,QuartNo+ProductCode,0,2017,True,0,0
+hies,2017,tblconsumption,tblconsumption,data/raw/household_survey/extracted/2017/2017/2017 DB/tblconsumption.sav,6243550,sav,UTF-8,155840,7,0,0.0,0,UID+ProductCode,0,,,0,0
+hies,2017,tblexpenditures,tblexpenditures,data/raw/household_survey/extracted/2017/2017/2017 DB/tblexpenditures.sav,1513343,sav,UTF-8,11590,21,0,0.0,0,UID,0,,,0,0
+hies,2017,tblincomes,tblincomes,data/raw/household_survey/extracted/2017/2017/2017 DB/tblincomes.sav,917850,sav,UTF-8,11590,16,0,0.0,0,UID,0,,,0,0
+hies,2017,tblshinda01,tblshinda01,data/raw/household_survey/extracted/2017/2017/2017 DB/tblshinda01.sav,800251,sav,UTF-8,11590,39,104318,23.08,0,UID,0,,,0,0
+hies,2017,tblshinda01_animals,tblshinda01_animals,data/raw/household_survey/extracted/2017/2017/2017 DB/tblshinda01_animals.sav,118698,sav,UTF-8,10698,3,0,0.0,0,UID+Animal,0,,,0,0
+hies,2017,tblshinda01_comfort,tblshinda01_comfort,data/raw/household_survey/extracted/2017/2017/2017 DB/tblshinda01_comfort.sav,421069,sav,UTF-8,42016,2,0,0.0,0,UID+Comfort,0,,,0,0
+hies,2017,tblshinda01_cultures,tblshinda01_cultures,data/raw/household_survey/extracted/2017/2017/2017 DB/tblshinda01_cultures.sav,427432,sav,UTF-8,21470,4,21367,24.88,0,UID+Culture,0,,,0,0
+hies,2017,tblshinda01_lands,tblshinda01_lands,data/raw/household_survey/extracted/2017/2017/2017 DB/tblshinda01_lands.sav,291436,sav,UTF-8,13185,5,0,0.0,0,UID+LandNo,0,,,0,0
+hies,2017,tblshinda01_subjects,tblshinda01_subjects,data/raw/household_survey/extracted/2017/2017/2017 DB/tblshinda01_subjects.sav,1143461,sav,UTF-8,87073,5,171612,39.42,0,UID+Subject,0,,,0,0
+hies,2017,tblshinda02,tblshinda02,data/raw/household_survey/extracted/2017/2017/2017 DB/tblshinda02.sav,1372566,sav,UTF-8,40104,26,188880,18.11,0,UID+MemberNo,0,,,0,0
+hies,2017,tblshinda03_1,tblshinda03_1,data/raw/household_survey/extracted/2017/2017/2017 DB/tblshinda03_1.sav,7384151,sav,UTF-8,247535,11,0,0.0,0,,,,,0,0
+hies,2017,tblshinda04,tblshinda04,data/raw/household_survey/extracted/2017/2017/2017 DB/tblshinda04.sav,16657303,sav,UTF-8,622491,9,0,0.0,0,UID+MonthYear+TableNo+ItemNo+Opt,0,"2016,2017",False,0,0
+hies,2017,tblshinda04_1,tblshinda04_1,data/raw/household_survey/extracted/2017/2017/2017 DB/tblshinda04_1.sav,8303256,sav,UTF-8,166687,13,0,0.0,0,UID+MonthYear+TableNo+ItemNo,0,"2016,2017",False,0,0
+hies,2018,123,123,data/raw/household_survey/extracted/2018/2018/2018 DB/123.sav,3285,sav,UTF-8,90,4,0,0.0,0,QuartNo,0,,,0,0
+hies,2018,conspurch_03,conspurch_03,data/raw/household_survey/extracted/2018/2018/2018 DB/conspurch_03.sav,4837512,sav,UTF-8,113144,5,0,0.0,0,UID+ProductCode,0,,,0,0
+hies,2018,deadmen,deadmen,data/raw/household_survey/extracted/2018/2018/2018 DB/deadmen.sav,11792,sav,UTF-8,218,14,571,18.71,0,UID+MemberNo,0,,,0,0
+hies,2018,familysize,familysize,data/raw/household_survey/extracted/2018/2018/2018 DB/familysize.sav,469146,sav,UTF-8,11056,11,0,0.0,0,UID,0,,,0,0
+hies,2018,sysschedule,sysschedule,data/raw/household_survey/extracted/2018/2018/2018 DB/sysschedule.sav,432688,sav,UTF-8,11056,7,0,0.0,0,UID,0,2018,True,0,0
+hies,2018,tblavgprices,tblavgprices,data/raw/household_survey/extracted/2018/2018/2018 DB/tblavgprices.sav,12452,sav,UTF-8,638,3,0,0.0,0,QuartNo+ProductCode,0,2018,True,0,0
+hies,2018,tblconsumption,tblconsumption,data/raw/household_survey/extracted/2018/2018/2018 DB/tblconsumption.sav,6261838,sav,UTF-8,156150,7,0,0.0,0,UID+ProductCode,0,,,0,0
+hies,2018,tblexpenditures,tblexpenditures,data/raw/household_survey/extracted/2018/2018/2018 DB/tblexpenditures.sav,1442743,sav,UTF-8,11056,21,0,0.0,0,UID,0,,,0,0
+hies,2018,tblincomes,tblincomes,data/raw/household_survey/extracted/2018/2018/2018 DB/tblincomes.sav,868170,sav,UTF-8,11056,16,0,0.0,0,UID,0,,,0,0
+hies,2018,tblshinda01,tblshinda01,data/raw/household_survey/extracted/2018/2018/2018 DB/tblshinda01.sav,759459,sav,UTF-8,11056,39,100098,23.21,0,UID,0,,,0,0
+hies,2018,tblshinda01_animals,tblshinda01_animals,data/raw/household_survey/extracted/2018/2018/2018 DB/tblshinda01_animals.sav,112162,sav,UTF-8,10103,3,0,0.0,0,UID+Animal,0,,,0,0
+hies,2018,tblshinda01_comfort,tblshinda01_comfort,data/raw/household_survey/extracted/2018/2018/2018 DB/tblshinda01_comfort.sav,402509,sav,UTF-8,40160,2,0,0.0,0,UID+Comfort,0,,,0,0
+hies,2018,tblshinda01_cultures,tblshinda01_cultures,data/raw/household_survey/extracted/2018/2018/2018 DB/tblshinda01_cultures.sav,393824,sav,UTF-8,19801,4,19753,24.94,0,UID+Culture,0,,,0,0
+hies,2018,tblshinda01_lands,tblshinda01_lands,data/raw/household_survey/extracted/2018/2018/2018 DB/tblshinda01_lands.sav,279612,sav,UTF-8,12579,5,0,0.0,0,UID+LandNo,0,,,0,0
+hies,2018,tblshinda01_subjects,tblshinda01_subjects,data/raw/household_survey/extracted/2018/2018/2018 DB/tblshinda01_subjects.sav,1076685,sav,UTF-8,82123,5,162378,39.55,0,UID+Subject,0,,,0,0
+hies,2018,tblshinda02,tblshinda02,data/raw/household_survey/extracted/2018/2018/2018 DB/tblshinda02.sav,1329590,sav,UTF-8,38840,26,189214,18.74,0,UID+MemberNo,0,,,0,0
+hies,2018,tblshinda03_1,tblshinda03_1,data/raw/household_survey/extracted/2018/2018/2018 DB/tblshinda03_1.sav,7390447,sav,UTF-8,248040,11,0,0.0,0,,,,,0,0
+hies,2018,tblshinda04,tblshinda04,data/raw/household_survey/extracted/2018/2018/2018 DB/tblshinda04.sav,15907263,sav,UTF-8,595992,9,0,0.0,0,UID+MonthYear+TableNo+ItemNo+Opt,0,"2017,2018",False,0,0
+hies,2018,tblshinda04_1,tblshinda04_1,data/raw/household_survey/extracted/2018/2018/2018 DB/tblshinda04_1.sav,7875680,sav,UTF-8,157086,13,0,0.0,0,UID+MonthYear+TableNo+ItemNo,0,"2017,2018",False,0,0
+hies,2019,123,123,data/raw/household_survey/extracted/2019/2019/2019 DB/123.sav,3397,sav,UTF-8,94,4,0,0.0,0,QuartNo,0,,,0,0
+hies,2019,conspurch_03,conspurch_03,data/raw/household_survey/extracted/2019/2019/2019 DB/conspurch_03.sav,5858560,sav,UTF-8,136982,5,0,0.0,0,UID+ProductCode,0,,,0,0
+hies,2019,deadmen,deadmen,data/raw/household_survey/extracted/2019/2019/2019 DB/deadmen.sav,12688,sav,UTF-8,248,14,634,18.26,0,UID+MemberNo,0,,,0,0
+hies,2019,familysize,familysize,data/raw/household_survey/extracted/2019/2019/2019 DB/familysize.sav,586402,sav,UTF-8,13872,11,0,0.0,0,UID,0,,,0,0
+hies,2019,sysschedule,sysschedule,data/raw/household_survey/extracted/2019/2019/2019 DB/sysschedule.sav,542520,sav,UTF-8,13872,7,0,0.0,0,UID,0,2019,True,0,0
+hies,2019,tblavgprices,tblavgprices,data/raw/household_survey/extracted/2019/2019/2019 DB/tblavgprices.sav,12796,sav,UTF-8,655,3,0,0.0,0,QuartNo+ProductCode,0,2019,True,0,0
+hies,2019,tblconsumption,tblconsumption,data/raw/household_survey/extracted/2019/2019/2019 DB/tblconsumption.sav,7745334,sav,UTF-8,193203,7,0,0.0,0,UID+ProductCode,0,,,0,0
+hies,2019,tblexpenditures,tblexpenditures,data/raw/household_survey/extracted/2019/2019/2019 DB/tblexpenditures.sav,1806623,sav,UTF-8,13872,21,0,0.0,0,UID,0,,,0,0
+hies,2019,tblincomes,tblincomes,data/raw/household_survey/extracted/2019/2019/2019 DB/tblincomes.sav,1100082,sav,UTF-8,13872,16,0,0.0,0,UID,0,,,0,0
+hies,2019,tblshinda01,tblshinda01,data/raw/household_survey/extracted/2019/2019/2019 DB/tblshinda01.sav,956963,sav,UTF-8,13872,39,124348,22.98,0,UID,0,,,0,0
+hies,2019,tblshinda01_animals,tblshinda01_animals,data/raw/household_survey/extracted/2019/2019/2019 DB/tblshinda01_animals.sav,147458,sav,UTF-8,13313,3,0,0.0,0,UID+Animal,0,,,0,0
+hies,2019,tblshinda01_comfort,tblshinda01_comfort,data/raw/household_survey/extracted/2019/2019/2019 DB/tblshinda01_comfort.sav,501421,sav,UTF-8,50051,2,0,0.0,0,UID+Comfort,0,,,0,0
+hies,2019,tblshinda01_cultures,tblshinda01_cultures,data/raw/household_survey/extracted/2019/2019/2019 DB/tblshinda01_cultures.sav,547824,sav,UTF-8,27512,4,27447,24.94,0,UID+Culture,0,,,0,0
+hies,2019,tblshinda01_lands,tblshinda01_lands,data/raw/household_survey/extracted/2019/2019/2019 DB/tblshinda01_lands.sav,381340,sav,UTF-8,17264,5,0,0.0,0,UID+LandNo,0,,,0,0
+hies,2019,tblshinda01_subjects,tblshinda01_subjects,data/raw/household_survey/extracted/2019/2019/2019 DB/tblshinda01_subjects.sav,1336197,sav,UTF-8,102188,5,202848,39.7,0,UID+Subject,0,,,0,0
+hies,2019,tblshinda02,tblshinda02,data/raw/household_survey/extracted/2019/2019/2019 DB/tblshinda02.sav,1630326,sav,UTF-8,47685,26,229072,18.48,0,UID+MemberNo,0,,,0,0
+hies,2019,tblshinda03_1,tblshinda03_1,data/raw/household_survey/extracted/2019/2019/2019 DB/tblshinda03_1.sav,8780335,sav,UTF-8,294026,11,0,0.0,0,,,,,0,0
+hies,2019,tblshinda04,tblshinda04,data/raw/household_survey/extracted/2019/2019/2019 DB/tblshinda04.sav,20071671,sav,UTF-8,750340,9,0,0.0,0,UID+MonthYear+TableNo+ItemNo+Opt,0,"2018,2019",False,0,0
+hies,2019,tblshinda04_1,tblshinda04_1,data/raw/household_survey/extracted/2019/2019/2019 DB/tblshinda04_1.sav,10386808,sav,UTF-8,206517,13,0,0.0,0,UID+MonthYear+TableNo+ItemNo,0,"2018,2019",False,0,0
+hies,2020,123,123,data/raw/household_survey/extracted/2020/2020/2020 DB/123.sav,3509,sav,UTF-8,98,4,0,0.0,0,QuartNo,0,,,0,0
+hies,2020,conspurch_03,conspurch_03,data/raw/household_survey/extracted/2020/2020/2020 DB/conspurch_03.sav,5177008,sav,UTF-8,121385,5,0,0.0,0,UID+ProductCode,0,,,0,0
+hies,2020,deadmen,deadmen,data/raw/household_survey/extracted/2020/2020/2020 DB/deadmen.sav,13648,sav,UTF-8,280,14,696,17.76,0,UID+MemberNo,0,,,0,0
+hies,2020,familysize,familysize,data/raw/household_survey/extracted/2020/2020/2020 DB/familysize.sav,563546,sav,UTF-8,13313,11,0,0.0,0,UID,0,,,0,0
+hies,2020,sysschedule,sysschedule,data/raw/household_survey/extracted/2020/2020/2020 DB/sysschedule.sav,520712,sav,UTF-8,13313,7,0,0.0,0,UID,0,2020,True,0,0
+hies,2020,tblavgprices,tblavgprices,data/raw/household_survey/extracted/2020/2020/2020 DB/tblavgprices.sav,12988,sav,UTF-8,674,3,0,0.0,0,QuartNo+ProductCode,0,2020,True,0,0
+hies,2020,tblconsumption,tblconsumption,data/raw/household_survey/extracted/2020/2020/2020 DB/tblconsumption.sav,7149350,sav,UTF-8,177927,7,0,0.0,0,UID+ProductCode,0,,,0,0
+hies,2020,tblexpenditures,tblexpenditures,data/raw/household_survey/extracted/2020/2020/2020 DB/tblexpenditures.sav,1683279,sav,UTF-8,13313,21,0,0.0,0,UID,0,,,0,0
+hies,2020,tblincomes,tblincomes,data/raw/household_survey/extracted/2020/2020/2020 DB/tblincomes.sav,1060490,sav,UTF-8,13313,16,0,0.0,0,UID,0,,,0,0
+hies,2020,tblshinda01,tblshinda01,data/raw/household_survey/extracted/2020/2020/2020 DB/tblshinda01.sav,914219,sav,UTF-8,13313,39,119975,23.11,0,UID,0,,,0,0
+hies,2020,tblshinda01_animals,tblshinda01_animals,data/raw/household_survey/extracted/2020/2020/2020 DB/tblshinda01_animals.sav,140162,sav,UTF-8,12649,3,0,0.0,0,UID+Animal,0,,,0,0
+hies,2020,tblshinda01_comfort,tblshinda01_comfort,data/raw/household_survey/extracted/2020/2020/2020 DB/tblshinda01_comfort.sav,493181,sav,UTF-8,49227,2,0,0.0,0,UID+Comfort,0,,,0,0
+hies,2020,tblshinda01_cultures,tblshinda01_cultures,data/raw/household_survey/extracted/2020/2020/2020 DB/tblshinda01_cultures.sav,532064,sav,UTF-8,26736,4,26695,24.96,0,UID+Culture,0,,,0,0
+hies,2020,tblshinda01_lands,tblshinda01_lands,data/raw/household_survey/extracted/2020/2020/2020 DB/tblshinda01_lands.sav,361724,sav,UTF-8,16495,5,0,0.0,0,UID+LandNo,0,,,0,0
+hies,2020,tblshinda01_subjects,tblshinda01_subjects,data/raw/household_survey/extracted/2020/2020/2020 DB/tblshinda01_subjects.sav,1289109,sav,UTF-8,98614,5,195854,39.72,0,UID+Subject,0,,,0,0
+hies,2020,tblshinda02,tblshinda02,data/raw/household_survey/extracted/2020/2020/2020 DB/tblshinda02.sav,1543830,sav,UTF-8,45141,26,212651,18.12,0,UID+MemberNo,0,,,0,0
+hies,2020,tblshinda03_1,tblshinda03_1,data/raw/household_survey/extracted/2020/2020/2020 DB/tblshinda03_1.sav,7724199,sav,UTF-8,257746,11,0,0.0,0,,,,,0,0
+hies,2020,tblshinda04,tblshinda04,data/raw/household_survey/extracted/2020/2020/2020 DB/tblshinda04.sav,17792503,sav,UTF-8,658764,9,0,0.0,0,UID+MonthYear+TableNo+ItemNo+Opt,0,"2019,2020",False,0,0
+hies,2020,tblshinda04_1,tblshinda04_1,data/raw/household_survey/extracted/2020/2020/2020 DB/tblshinda04_1.sav,10505984,sav,UTF-8,208849,13,0,0.0,0,UID+MonthYear+TableNo+ItemNo,0,"2019,2020",False,0,0
+hies,2021,123,123,data/raw/household_survey/extracted/2021/2021/2021 DB/123.sav,3621,sav,UTF-8,102,4,0,0.0,0,QuartNo,0,,,0,0
+hies,2021,conspurch_03,conspurch_03,data/raw/household_survey/extracted/2021/2021/2021 DB/conspurch_03.sav,5495688,sav,UTF-8,128617,5,0,0.0,0,UID+ProductCode,0,,,0,0
+hies,2021,deadmen,deadmen,data/raw/household_survey/extracted/2021/2021/2021 DB/deadmen.sav,14160,sav,UTF-8,297,14,757,18.21,0,UID+MemberNo,0,,,0,0
+hies,2021,familysize,familysize,data/raw/household_survey/extracted/2021/2021/2021 DB/familysize.sav,575458,sav,UTF-8,13621,11,0,0.0,0,UID,0,,,0,0
+hies,2021,sysschedule,sysschedule,data/raw/household_survey/extracted/2021/2021/2021 DB/sysschedule.sav,532728,sav,UTF-8,13621,7,0,0.0,0,UID,0,2021,True,0,0
+hies,2021,tblavgprices,tblavgprices,data/raw/household_survey/extracted/2021/2021/2021 DB/tblavgprices.sav,13244,sav,UTF-8,693,3,0,0.0,0,QuartNo+ProductCode,0,2021,True,0,0
+hies,2021,tblconsumption,tblconsumption,data/raw/household_survey/extracted/2021/2021/2021 DB/tblconsumption.sav,7521350,sav,UTF-8,187108,7,0,0.0,0,UID+ProductCode,0,,,0,0
+hies,2021,tblexpenditures,tblexpenditures,data/raw/household_survey/extracted/2021/2021/2021 DB/tblexpenditures.sav,1720871,sav,UTF-8,13621,21,0,0.0,0,UID,0,,,0,0
+hies,2021,tblincomes,tblincomes,data/raw/household_survey/extracted/2021/2021/2021 DB/tblincomes.sav,1079410,sav,UTF-8,13621,16,0,0.0,0,UID,0,,,0,0
+hies,2021,tblshinda01,tblshinda01,data/raw/household_survey/extracted/2021/2021/2021 DB/tblshinda01.sav,926587,sav,UTF-8,13621,39,124434,23.42,0,UID,0,,,0,0
+hies,2021,tblshinda01_animals,tblshinda01_animals,data/raw/household_survey/extracted/2021/2021/2021 DB/tblshinda01_animals.sav,138322,sav,UTF-8,12479,3,0,0.0,0,UID+Animal,0,,,0,0
+hies,2021,tblshinda01_comfort,tblshinda01_comfort,data/raw/household_survey/extracted/2021/2021/2021 DB/tblshinda01_comfort.sav,519101,sav,UTF-8,51819,2,0,0.0,0,UID+Comfort,0,,,0,0
+hies,2021,tblshinda01_cultures,tblshinda01_cultures,data/raw/household_survey/extracted/2021/2021/2021 DB/tblshinda01_cultures.sav,537600,sav,UTF-8,27037,4,27014,24.98,0,UID+Culture,0,,,0,0
+hies,2021,tblshinda01_lands,tblshinda01_lands,data/raw/household_survey/extracted/2021/2021/2021 DB/tblshinda01_lands.sav,358988,sav,UTF-8,16378,5,2,0.0,0,UID+LandNo,0,,,0,0
+hies,2021,tblshinda01_subjects,tblshinda01_subjects,data/raw/household_survey/extracted/2021/2021/2021 DB/tblshinda01_subjects.sav,1324317,sav,UTF-8,101408,5,201732,39.79,0,UID+Subject,0,,,0,0
+hies,2021,tblshinda02,tblshinda02,data/raw/household_survey/extracted/2021/2021/2021 DB/tblshinda02.sav,1547326,sav,UTF-8,45244,26,212573,18.07,0,UID+MemberNo,0,,,0,0
+hies,2021,tblshinda03_1,tblshinda03_1,data/raw/household_survey/extracted/2021/2021/2021 DB/tblshinda03_1.sav,8240655,sav,UTF-8,274181,11,0,0.0,0,,,,,0,0
+hies,2021,tblshinda04,tblshinda04,data/raw/household_survey/extracted/2021/2021/2021 DB/tblshinda04.sav,18022359,sav,UTF-8,668707,9,0,0.0,0,UID+MonthYear+TableNo+ItemNo+Opt,0,"2020,2021",False,0,0
+hies,2021,tblshinda04_1,tblshinda04_1,data/raw/household_survey/extracted/2021/2021/2021 DB/tblshinda04_1.sav,10520048,sav,UTF-8,208535,13,0,0.0,0,UID+MonthYear+TableNo+ItemNo,0,"2020,2021",False,0,0
+hies,2022,123,123,data/raw/household_survey/extracted/2022/2022/2022 DB/123.sav,3733,sav,UTF-8,106,4,0,0.0,0,QuartNo,0,,,0,0
+hies,2022,conspurch_03,conspurch_03,data/raw/household_survey/extracted/2022/2022/2022 DB/conspurch_03.sav,5555960,sav,UTF-8,130370,5,0,0.0,0,UID+ProductCode,0,,,0,0
+hies,2022,deadmen,deadmen,data/raw/household_survey/extracted/2022/2022/2022 DB/deadmen.sav,14523,sav,UTF-8,332,13,501,11.61,0,UID+MemberNo,0,,,0,0
+hies,2022,familysize,familysize,data/raw/household_survey/extracted/2022/2022/2022 DB/familysize.sav,575274,sav,UTF-8,13621,11,0,0.0,0,UID,0,,,0,0
+hies,2022,sysschedule,sysschedule,data/raw/household_survey/extracted/2022/2022/2022 DB/sysschedule.sav,532728,sav,UTF-8,13621,7,0,0.0,0,UID,0,2022,True,0,0
+hies,2022,tblavgprices,tblavgprices,data/raw/household_survey/extracted/2022/2022/2022 DB/tblavgprices.sav,13452,sav,UTF-8,705,3,0,0.0,0,QuartNo+ProductCode,0,2022,True,0,0
+hies,2022,tblconsumption,tblconsumption,data/raw/household_survey/extracted/2022/2022/2022 DB/tblconsumption.sav,7450942,sav,UTF-8,185736,7,0,0.0,0,UID+ProductCode,0,,,0,0
+hies,2022,tblexpenditures,tblexpenditures,data/raw/household_survey/extracted/2022/2022/2022 DB/tblexpenditures.sav,1755719,sav,UTF-8,13621,21,0,0.0,0,UID,0,,,0,0
+hies,2022,tblincomes,tblincomes,data/raw/household_survey/extracted/2022/2022/2022 DB/tblincomes.sav,1074322,sav,UTF-8,13621,16,0,0.0,0,UID,0,,,0,0
+hies,2022,tblshinda01,tblshinda01,data/raw/household_survey/extracted/2022/2022/2022 DB/tblshinda01.sav,934571,sav,UTF-8,13621,39,123625,23.27,0,UID,0,,,0,0
+hies,2022,tblshinda01_animals,tblshinda01_animals,data/raw/household_survey/extracted/2022/2022/2022 DB/tblshinda01_animals.sav,142050,sav,UTF-8,12816,3,0,0.0,0,UID+Animal,0,,,0,0
+hies,2022,tblshinda01_comfort,tblshinda01_comfort,data/raw/household_survey/extracted/2022/2022/2022 DB/tblshinda01_comfort.sav,538485,sav,UTF-8,53757,2,0,0.0,0,UID+Comfort,0,,,0,0
+hies,2022,tblshinda01_cultures,tblshinda01_cultures,data/raw/household_survey/extracted/2022/2022/2022 DB/tblshinda01_cultures.sav,548472,sav,UTF-8,27624,4,27594,24.97,0,UID+Culture,0,,,0,0
+hies,2022,tblshinda01_lands,tblshinda01_lands,data/raw/household_survey/extracted/2022/2022/2022 DB/tblshinda01_lands.sav,364852,sav,UTF-8,16649,5,0,0.0,0,UID+LandNo,0,,,0,0
+hies,2022,tblshinda01_subjects,tblshinda01_subjects,data/raw/household_survey/extracted/2022/2022/2022 DB/tblshinda01_subjects.sav,1352853,sav,UTF-8,103606,5,206154,39.8,0,UID+Subject,0,,,0,0
+hies,2022,tblshinda02,tblshinda02,data/raw/household_survey/extracted/2022/2022/2022 DB/tblshinda02.sav,1550254,sav,UTF-8,45330,26,215246,18.26,0,UID+MemberNo,0,,,0,0
+hies,2022,tblshinda03_1,tblshinda03_1,data/raw/household_survey/extracted/2022/2022/2022 DB/tblshinda03_1.sav,8368359,sav,UTF-8,277908,11,0,0.0,0,,,,,0,0
+hies,2022,tblshinda04,tblshinda04,data/raw/household_survey/extracted/2022/2022/2022 DB/tblshinda04.sav,19033655,sav,UTF-8,711673,9,0,0.0,0,UID+MonthYear+TableNo+ItemNo+Opt,0,"2021,2022",False,0,0
+hies,2022,tblshinda04_1,tblshinda04_1,data/raw/household_survey/extracted/2022/2022/2022 DB/tblshinda04_1.sav,10214960,sav,UTF-8,202918,13,0,0.0,0,UID+MonthYear+TableNo+ItemNo,0,"2021,2022",False,0,0
+hies,2023,123,123,data/raw/household_survey/extracted/2023/2023/2023 DB/123.sav,3845,sav,UTF-8,110,4,0,0.0,0,QuartNo,0,,,0,0
+hies,2023,conspurch_03,conspurch_03,data/raw/household_survey/extracted/2023/2023/2023 DB/conspurch_03.sav,5433408,sav,UTF-8,127625,5,0,0.0,0,UID+ProductCode,0,,,0,0
+hies,2023,deadmen,deadmen,data/raw/household_survey/extracted/2023/2023/2023 DB/deadmen.sav,11883,sav,UTF-8,241,13,341,10.88,0,UID+MemberNo,0,,,0,0
+hies,2023,familysize,familysize,data/raw/household_survey/extracted/2023/2023/2023 DB/familysize.sav,557186,sav,UTF-8,13208,11,0,0.0,0,UID,0,,,0,0
+hies,2023,sysschedule,sysschedule,data/raw/household_survey/extracted/2023/2023/2023 DB/sysschedule.sav,516624,sav,UTF-8,13208,7,0,0.0,0,UID,0,2023,True,0,0
+hies,2023,tblavgprices,tblavgprices,data/raw/household_survey/extracted/2023/2023/2023 DB/tblavgprices.sav,13788,sav,UTF-8,715,3,0,0.0,0,QuartNo+ProductCode,0,2023,True,0,0
+hies,2023,tblconsumption,tblconsumption,data/raw/household_survey/extracted/2023/2023/2023 DB/tblconsumption.sav,7126574,sav,UTF-8,178413,7,0,0.0,0,UID+ProductCode,0,,,0,0
+hies,2023,tblexpenditures,tblexpenditures,data/raw/household_survey/extracted/2023/2023/2023 DB/tblexpenditures.sav,1721815,sav,UTF-8,13208,21,0,0.0,0,UID,0,,,0,0
+hies,2023,tblincomes,tblincomes,data/raw/household_survey/extracted/2023/2023/2023 DB/tblincomes.sav,1041938,sav,UTF-8,13208,16,0,0.0,0,UID,0,,,0,0
+hies,2023,tblshinda01,tblshinda01,data/raw/household_survey/extracted/2023/2023/2023 DB/tblshinda01.sav,989019,sav,UTF-8,13208,39,109106,21.18,0,UID,0,,,0,0
+hies,2023,tblshinda01_animals,tblshinda01_animals,data/raw/household_survey/extracted/2023/2023/2023 DB/tblshinda01_animals.sav,139090,sav,UTF-8,12549,3,0,0.0,0,UID+Animal,0,,,0,0
+hies,2023,tblshinda01_comfort,tblshinda01_comfort,data/raw/household_survey/extracted/2023/2023/2023 DB/tblshinda01_comfort.sav,533573,sav,UTF-8,53266,2,0,0.0,0,UID+Comfort,0,,,0,0
+hies,2023,tblshinda01_cultures,tblshinda01_cultures,data/raw/household_survey/extracted/2023/2023/2023 DB/tblshinda01_cultures.sav,554584,sav,UTF-8,27801,4,21645,19.46,0,UID+Culture,0,,,0,0
+hies,2023,tblshinda01_lands,tblshinda01_lands,data/raw/household_survey/extracted/2023/2023/2023 DB/tblshinda01_lands.sav,365892,sav,UTF-8,16857,5,0,0.0,0,UID+LandNo,0,,,0,0
+hies,2023,tblshinda01_subjects,tblshinda01_subjects,data/raw/household_survey/extracted/2023/2023/2023 DB/tblshinda01_subjects.sav,1313613,sav,UTF-8,100344,5,154411,30.78,0,UID+Subject,0,,,0,0
+hies,2023,tblshinda02,tblshinda02,data/raw/household_survey/extracted/2023/2023/2023 DB/tblshinda02.sav,1465590,sav,UTF-8,42840,26,165554,14.86,0,UID+MemberNo,0,,,0,0
+hies,2023,tblshinda03_1,tblshinda03_1,data/raw/household_survey/extracted/2023/2023/2023 DB/tblshinda03_1.sav,8108407,sav,UTF-8,269753,11,0,0.0,0,,,,,0,0
+hies,2023,tblshinda04,tblshinda04,data/raw/household_survey/extracted/2023/2023/2023 DB/tblshinda04.sav,19844839,sav,UTF-8,743606,9,0,0.0,0,UID+MonthYear+TableNo+ItemNo+Opt,0,"2022,2023",False,0,0
+hies,2023,tblshinda04_1,tblshinda04_1,data/raw/household_survey/extracted/2023/2023/2023 DB/tblshinda04_1.sav,9127584,sav,UTF-8,181408,13,0,0.0,0,UID+MonthYear+TableNo+ItemNo,0,"2022,2023",False,0,0
+hies,2024,123,123,data/raw/household_survey/extracted/2024/2024/2024 DB/123.sav,3957,sav,UTF-8,114,4,0,0.0,0,QuartNo,0,,,0,0
+hies,2024,conspurch_03,conspurch_03,data/raw/household_survey/extracted/2024/2024/2024 DB/conspurch_03.sav,5533672,sav,UTF-8,129905,5,1,0.0,0,UID+ProductCode,0,,,0,0
+hies,2024,deadmen,deadmen,data/raw/household_survey/extracted/2024/2024/2024 DB/deadmen.sav,11419,sav,UTF-8,225,13,329,11.25,0,UID+MemberNo,0,,,0,0
+hies,2024,familysize,familysize,data/raw/household_survey/extracted/2024/2024/2024 DB/familysize.sav,552618,sav,UTF-8,13105,11,0,0.0,0,UID,0,,,0,0
+hies,2024,sysschedule,sysschedule,data/raw/household_survey/extracted/2024/2024/2024 DB/sysschedule.sav,512608,sav,UTF-8,13105,7,0,0.0,0,UID,0,2024,True,0,0
+hies,2024,tblavgprices,tblavgprices,data/raw/household_survey/extracted/2024/2024/2024 DB/tblavgprices.sav,13444,sav,UTF-8,705,3,0,0.0,0,QuartNo+ProductCode,0,2024,True,0,0
+hies,2024,tblconsumption,tblconsumption,data/raw/household_survey/extracted/2024/2024/2024 DB/tblconsumption.sav,7082102,sav,UTF-8,177456,7,0,0.0,0,UID+ProductCode,0,,,0,0
+hies,2024,tblexpenditures,tblexpenditures,data/raw/household_survey/extracted/2024/2024/2024 DB/tblexpenditures.sav,1721783,sav,UTF-8,13105,21,0,0.0,0,UID,0,,,0,0
+hies,2024,tblincomes,tblincomes,data/raw/household_survey/extracted/2024/2024/2024 DB/tblincomes.sav,1031554,sav,UTF-8,13105,16,0,0.0,0,UID,0,,,0,0
+hies,2024,tblshinda01,tblshinda01,data/raw/household_survey/extracted/2024/2024/2024 DB/tblshinda01.sav,1059483,sav,UTF-8,13105,39,97761,19.13,0,UID,0,,,0,0
+hies,2024,tblshinda01_animals,tblshinda01_animals,data/raw/household_survey/extracted/2024/2024/2024 DB/tblshinda01_animals.sav,127562,sav,UTF-8,11501,3,0,0.0,0,UID+Animal,0,,,0,0
+hies,2024,tblshinda01_comfort,tblshinda01_comfort,data/raw/household_survey/extracted/2024/2024/2024 DB/tblshinda01_comfort.sav,543053,sav,UTF-8,54214,2,0,0.0,0,UID+Comfort,0,,,0,0
+hies,2024,tblshinda01_cultures,tblshinda01_cultures,data/raw/household_survey/extracted/2024/2024/2024 DB/tblshinda01_cultures.sav,542352,sav,UTF-8,26947,4,13836,12.84,0,UID+Culture,0,,,0,0
+hies,2024,tblshinda01_lands,tblshinda01_lands,data/raw/household_survey/extracted/2024/2024/2024 DB/tblshinda01_lands.sav,342756,sav,UTF-8,15796,5,0,0.0,0,UID+LandNo,0,,,0,0
+hies,2024,tblshinda01_subjects,tblshinda01_subjects,data/raw/household_survey/extracted/2024/2024/2024 DB/tblshinda01_subjects.sav,1303469,sav,UTF-8,99409,5,105377,21.2,0,UID+Subject,0,,,0,0
+hies,2024,tblshinda02,tblshinda02,data/raw/household_survey/extracted/2024/2024/2024 DB/tblshinda02.sav,1402590,sav,UTF-8,40987,26,153183,14.37,0,UID+MemberNo,0,,,0,0
+hies,2024,tblshinda03_1,tblshinda03_1,data/raw/household_survey/extracted/2024/2024/2024 DB/tblshinda03_1.sav,8123327,sav,UTF-8,270140,11,0,0.0,0,,,,,0,0
+hies,2024,tblshinda04,tblshinda04,data/raw/household_survey/extracted/2024/2024/2024 DB/tblshinda04.sav,19793647,sav,UTF-8,743089,9,0,0.0,0,UID+MonthYear+TableNo+ItemNo+Opt,0,"2023,2024",False,0,0
+hies,2024,tblshinda04_1,tblshinda04_1,data/raw/household_survey/extracted/2024/2024/2024 DB/tblshinda04_1.sav,8586432,sav,UTF-8,170212,13,0,0.0,0,UID+MonthYear+TableNo+ItemNo,0,"2023,2024",False,0,0
+hies,2025,123,123,data/raw/household_survey/extracted/2025/2025/2025 DB/123.sav,4069,sav,UTF-8,118,4,0,0.0,0,QuartNo,0,,,0,0
+hies,2025,conspurch_03,conspurch_03,data/raw/household_survey/extracted/2025/2025/2025 DB/conspurch_03.sav,5810936,sav,UTF-8,136640,5,0,0.0,0,UID+ProductCode,0,,,0,0
+hies,2025,deadmen,deadmen,data/raw/household_survey/extracted/2025/2025/2025 DB/deadmen.sav,12379,sav,UTF-8,258,13,381,11.36,0,UID+MemberNo,0,,,0,0
+hies,2025,familysize,familysize,data/raw/household_survey/extracted/2025/2025/2025 DB/familysize.sav,561426,sav,UTF-8,13341,11,0,0.0,0,UID,0,,,0,0
+hies,2025,sysschedule,sysschedule,data/raw/household_survey/extracted/2025/2025/2025 DB/sysschedule.sav,521816,sav,UTF-8,13341,7,0,0.0,0,UID,0,2025,True,0,0
+hies,2025,tblavgprices,tblavgprices,data/raw/household_survey/extracted/2025/2025/2025 DB/tblavgprices.sav,15444,sav,UTF-8,816,3,0,0.0,0,QuartNo+ProductCode,0,2025,True,0,0
+hies,2025,tblconsumption,tblconsumption,data/raw/household_survey/extracted/2025/2025/2025 DB/tblconsumption.sav,7282358,sav,UTF-8,182924,7,0,0.0,0,UID+ProductCode,0,,,0,0
+hies,2025,tblexpenditures,tblexpenditures,data/raw/household_survey/extracted/2025/2025/2025 DB/tblexpenditures.sav,1750543,sav,UTF-8,13341,21,0,0.0,0,UID,0,,,0,0
+hies,2025,tblincomes,tblincomes,data/raw/household_survey/extracted/2025/2025/2025 DB/tblincomes.sav,1049858,sav,UTF-8,13341,16,0,0.0,0,UID,0,,,0,0
+hies,2025,tblshinda01,tblshinda01,data/raw/household_survey/extracted/2025/2025/2025 DB/tblshinda01.sav,1093251,sav,UTF-8,13341,39,97349,18.71,0,UID,0,,,0,0
+hies,2025,tblshinda01_animals,tblshinda01_animals,data/raw/household_survey/extracted/2025/2025/2025 DB/tblshinda01_animals.sav,120746,sav,UTF-8,10885,3,0,0.0,0,UID+Animal,0,,,0,0
+hies,2025,tblshinda01_comfort,tblshinda01_comfort,data/raw/household_survey/extracted/2025/2025/2025 DB/tblshinda01_comfort.sav,569973,sav,UTF-8,56906,2,0,0.0,0,UID+Comfort,0,,,0,0
+hies,2025,tblshinda01_cultures,tblshinda01_cultures,data/raw/household_survey/extracted/2025/2025/2025 DB/tblshinda01_cultures.sav,532136,sav,UTF-8,26397,4,12113,11.47,0,UID+Culture,0,,,0,0
+hies,2025,tblshinda01_lands,tblshinda01_lands,data/raw/household_survey/extracted/2025/2025/2025 DB/tblshinda01_lands.sav,335308,sav,UTF-8,15573,5,0,0.0,0,UID+LandNo,0,,,0,0
+hies,2025,tblshinda01_subjects,tblshinda01_subjects,data/raw/household_survey/extracted/2025/2025/2025 DB/tblshinda01_subjects.sav,1354885,sav,UTF-8,103391,5,104082,20.13,0,UID+Subject,0,,,0,0
+hies,2025,tblshinda02,tblshinda02,data/raw/household_survey/extracted/2025/2025/2025 DB/tblshinda02.sav,1434550,sav,UTF-8,41927,26,154566,14.18,0,UID+MemberNo,0,,,0,0
+hies,2025,tblshinda03_1,tblshinda03_1,data/raw/household_survey/extracted/2025/2025/2025 DB/tblshinda03_1.sav,8419663,sav,UTF-8,279869,11,0,0.0,0,,,,,0,0
+hies,2025,tblshinda04,tblshinda04,data/raw/household_survey/extracted/2025/2025/2025 DB/tblshinda04.sav,20343631,sav,UTF-8,763994,9,0,0.0,0,UID+MonthYear+TableNo+ItemNo+Opt,0,"2024,2025",False,0,0
+hies,2025,tblshinda04_1,tblshinda04_1,data/raw/household_survey/extracted/2025/2025/2025 DB/tblshinda04_1.sav,8122864,sav,UTF-8,162268,13,0,0.0,0,UID+MonthYear+TableNo+ItemNo,0,"2024,2025",False,0,0

@@ -1,0 +1,23 @@
+# Python / environment
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+
+# Large data — public Geostat files, re-created by the pipeline (see README)
+data/raw/labour_force_survey/
+data/raw/household_survey/
+data/raw/metadata/
+data/raw/official_aggregates/
+data/processed/
+data/final/
+database/*.db
+
+# keep provenance of the raw data
+!data/raw/manifest.json
+!data/raw/download_log.csv
+
+# local tooling
+.claude/

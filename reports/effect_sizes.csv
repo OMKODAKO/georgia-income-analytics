@@ -1,0 +1,35 @@
+period,comparison,scale,measure,value,ci_low,ci_high,magnitude
+2017_2019,men vs women,level GEL,Cohen's d (unweighted),0.4617485593427412,,,small
+2017_2019,men vs women,level GEL,Cohen's d (weighted),0.43548977244896275,,,small
+2017_2019,men vs women,level GEL,Hedges' g (unweighted),0.46173993148513465,0.4419153367363436,0.4815645262339257,small
+2017_2019,men vs women,log,Cohen's d (unweighted),0.5147455935895554,,,medium
+2017_2019,men vs women,log,Cohen's d (weighted),0.5066612833159064,,,medium
+2017_2019,men vs women,log,Hedges' g (unweighted),0.514735975472519,0.49484902416378757,0.5346229267812505,medium
+2017_2019,men vs women,rank,rank-biserial r,0.3111128364346831,,,medium
+2017_2019,between region groups,log,eta-squared,0.04547612811698973,,,small
+2017_2019,between region groups,log,epsilon-squared (KW),0.043777058929688605,,,small
+2017_2019,between age group groups,log,eta-squared,0.028110330486266915,,,small
+2017_2019,between age group groups,log,epsilon-squared (KW),0.02783423108272443,,,small
+2017_2019,between education groups,log,eta-squared,0.05680642294211968,,,small
+2017_2019,between education groups,log,epsilon-squared (KW),0.059642270250955,,,small
+2017_2019,sex x labour status (15+),categorical,Cramer's V,0.17405063005484392,,,small
+2017_2019,sex x status in employment (employed),categorical,Cramer's V,0.2543318341906645,,,small
+2017_2019,sex x occupation group (employees),categorical,Cramer's V,0.43194596657988144,,,medium
+2017_2019,sex x part-time (employees),categorical,Cramer's V,0.06271137946331898,,,negligible
+2020_2025,men vs women,level GEL,Cohen's d (unweighted),0.45711617432731677,,,small
+2020_2025,men vs women,level GEL,Cohen's d (weighted),0.4584816119740207,,,small
+2020_2025,men vs women,level GEL,Hedges' g (unweighted),0.45711195030944246,0.44317364058186565,0.4710502600370193,small
+2020_2025,men vs women,log,Cohen's d (unweighted),0.44478879800506144,,,small
+2020_2025,men vs women,log,Cohen's d (weighted),0.45769506391791587,,,small
+2020_2025,men vs women,log,Hedges' g (unweighted),0.4447846878992753,0.4308558196156762,0.45871355618287435,small
+2020_2025,men vs women,rank,rank-biserial r,0.2761101901208842,,,small
+2020_2025,between region groups,log,eta-squared,0.04617320639960499,,,small
+2020_2025,between region groups,log,epsilon-squared (KW),0.04231576796546908,,,small
+2020_2025,between age group groups,log,eta-squared,0.026885577327568445,,,small
+2020_2025,between age group groups,log,epsilon-squared (KW),0.026201438963863184,,,small
+2020_2025,between education groups,log,eta-squared,0.07892552152486638,,,medium
+2020_2025,between education groups,log,epsilon-squared (KW),0.0862847995112436,,,medium
+2020_2025,sex x labour status (15+),categorical,Cramer's V,0.22754560406894336,,,small
+2020_2025,sex x status in employment (employed),categorical,Cramer's V,0.27353210457646654,,,small
+2020_2025,sex x occupation group (employees),categorical,Cramer's V,0.4010138732305273,,,medium
+2020_2025,sex x part-time (employees),categorical,Cramer's V,0.03990425240302738,,,negligible

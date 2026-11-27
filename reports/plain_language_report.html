@@ -1,0 +1,285 @@
+<title>ქალის და კაცის ხელფასი საქართველოში</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@400;500;600;700&family=Noto+Serif+Georgian:wght@500;700&display=swap">
+<style>
+/* Layout: one calm reading column (~68ch) with full-width figures; women = warm red, men = blue throughout, as in all project charts */
+:root{
+  --bg:#F6F7F9; --surface:#FFFFFF; --fg:#1C2130; --muted:#5A6172; --rule:#DCE0E7;
+  --women:#C24A4E; --men:#3F67A8; --accent:#1F7A63; --unexp:#B5525A; --exp:#3F67A8; --soft:#EAF2EF;
+  --display:"Noto Serif Georgian", Georgia, serif;
+  --body:"Noto Sans Georgian", "Segoe UI", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#13161C; --surface:#1B1F27; --fg:#E7E9EF; --muted:#A3AAB9; --rule:#2D323D;
+  --women:#E27B7E; --men:#7FA1DA; --accent:#5CC0A0; --unexp:#E08A90; --exp:#7FA1DA; --soft:#18292A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#13161C; --surface:#1B1F27; --fg:#E7E9EF; --muted:#A3AAB9; --rule:#2D323D;
+  --women:#E27B7E; --men:#7FA1DA; --accent:#5CC0A0; --unexp:#E08A90; --exp:#7FA1DA; --soft:#18292A; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.7;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+main{max-width:46rem;margin:0 auto;padding-block:48px 72px;display:flex;flex-direction:column;gap:12px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.3;margin:0}
+h1{font-size:clamp(1.9rem,4.5vw,2.6rem);font-weight:700}
+h2{font-size:1.55rem;margin-top:44px;padding-top:20px;border-top:1px solid var(--rule)}
+h3{font-size:1.15rem;margin-top:22px}
+p{margin:0}
+.lede{font-size:1.15rem;color:var(--muted)}
+.kicker{font-size:.8rem;letter-spacing:.06em;color:var(--accent);font-weight:600}
+.answer{display:grid;grid-template-columns:repeat(auto-fit,minmax(13rem,1fr));gap:12px;margin-top:12px}
+.answer div{background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:16px 18px;min-width:0}
+.answer b{display:block;font-family:var(--display);font-size:2rem;line-height:1.2;font-variant-numeric:tabular-nums}
+.answer span{color:var(--muted);font-size:.93rem;line-height:1.5;display:block;margin-top:4px}
+.women{color:var(--women)} .men{color:var(--men)} .acc{color:var(--accent)}
+.note{background:var(--soft);border-radius:10px;padding:14px 18px}
+.note p+p{margin-top:8px}
+ol.steps{margin:4px 0 0;padding-left:1.3rem;display:flex;flex-direction:column;gap:10px}
+ol.steps li::marker{font-weight:700;color:var(--accent)}
+ul{margin:0;padding-left:1.3rem;display:flex;flex-direction:column;gap:6px}
+figure{margin:14px 0 6px;background:var(--surface);border:1px solid var(--rule);border-radius:10px;padding:16px 14px 12px}
+figcaption{font-size:.85rem;color:var(--muted);line-height:1.5;margin-top:8px}
+.fig-title{font-weight:600;font-size:.98rem;margin-bottom:6px}
+svg{width:100%;height:auto;display:block}
+svg text{fill:var(--fg);font-family:var(--body);font-size:12px}
+svg .muted{fill:var(--muted)}
+svg .grid{stroke:var(--rule);stroke-width:1}
+svg .zero{stroke:var(--muted);stroke-width:1}
+svg .w{fill:var(--women)} svg .m{fill:var(--men)} svg .a{fill:var(--accent)}
+svg .ex{fill:var(--exp)} svg .un{fill:var(--unexp)}
+.legend{display:flex;gap:18px;flex-wrap:wrap;font-size:.88rem;color:var(--muted);margin-bottom:6px}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.bars{display:flex;flex-direction:column;gap:7px;margin-top:6px}
+.bar-row{display:grid;grid-template-columns:minmax(8rem,13rem) 1fr 3.4rem;gap:10px;align-items:center;font-size:.93rem}
+.bar-row .lab{min-width:0}
+.track{height:14px;background:var(--bg);border-radius:4px;overflow:hidden}
+.fill{height:100%;background:var(--accent);border-radius:4px}
+.bar-row .v{text-align:right;font-variant-numeric:tabular-nums;font-weight:600}
+.group-h{font-size:.8rem;letter-spacing:.05em;color:var(--muted);margin-top:10px;font-weight:600}
+table{border-collapse:collapse;width:100%;font-size:.93rem}
+.tw{overflow-x:auto}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{font-weight:600;color:var(--muted);font-size:.85rem}
+td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+dl{margin:0;display:grid;grid-template-columns:1fr;gap:12px}
+dt{font-weight:700}
+dd{margin:2px 0 0;color:var(--muted)}
+.foot{margin-top:40px;font-size:.85rem;color:var(--muted);border-top:1px solid var(--rule);padding-top:16px}
+@media (max-width:520px){ body{font-size:16px} .bar-row{grid-template-columns:7.5rem 1fr 3rem} }
+</style>
+
+<main>
+<p class="kicker">კვლევის ანგარიში მარტივი ენით · საქსტატის მონაცემები 2017–2025</p>
+<h1>იღებენ თუ არა საქართველოში ქალები კაცებზე ნაკლებ ხელფასს?</h1>
+<p class="lede">მოკლე პასუხი: დიახ. დაქირავებული ქალი საშუალოდ ყოველ 100 ლარზე, რასაც კაცი იღებს, დაახლოებით 74–75 ლარს იღებს. ქვემოთ აგიხსნით, საიდან ვიცით ეს, როგორ დავითვალეთ და რას ნიშნავს — ტექნიკური ენის გარეშე.</p>
+
+<div class="answer">
+  <div><b class="acc">25.5%</b><span>იმდენით ნაკლებია ქალების საშუალო ხელფასი კაცებისაზე (2020–2025)</span></div>
+  <div><b>~258 ₾</b><span>სხვაობა თვეში: ქალი <span class="women">756 ₾</span>, კაცი <span class="men">1,014 ₾</span> (2025 წლის ფასებში)</span></div>
+  <div><b class="acc">~17%</b><span>სხვაობა რჩება მაშინაც, როცა ქალს და კაცს ერთნაირი განათლება, პროფესია, დარგი, რეგიონი და სამუშაო საათები აქვთ</span></div>
+</div>
+
+<h2>რა გვინდოდა გაგვეგო</h2>
+<p>მთავარი კითხვა მარტივი იყო: საშუალოდ ნაკლებს იღებენ თუ არა ქალები, ვიდრე კაცები? და თუ ასეა — რამდენით და რატომ?</p>
+<p>მაგრამ „რატომ" ყველაზე რთული ნაწილია. თუ ქალები უფრო ხშირად მუშაობენ, მაგალითად, სკოლაში, სადაც ხელფასი დაბალია, ხოლო კაცები — მშენებლობაზე, სადაც უფრო მაღალია, სხვაობის ნაწილი უბრალოდ სხვადასხვა სამუშაოს შედეგია. ამიტომ მხოლოდ საშუალო ხელფასის შედარებით არ შემოვიფარგლეთ: შევადარეთ ერთნაირი ასაკის, განათლების, პროფესიის და სამუშაო საათების მქონე ქალები და კაცები.</p>
+
+<h2>საიდან ავიღეთ მონაცემები</h2>
+<p>ყველა მონაცემი რეალურია და ოფიციალური წყაროდანაა — <b>საქართველოს სტატისტიკის ეროვნული სამსახურის (საქსტატის)</b> ვებგვერდიდან. არაფერი გამოგონილი ან „შევსებული" არ არის.</p>
+<h3>სამუშაო ძალის კვლევა</h3>
+<p>საქსტატი ყოველ კვარტალს ათასობით ოჯახს ეკითხება, ვინ მუშაობს, რას აკეთებს, რამდენ საათს მუშაობს და რამდენს იღებს. 2017–2025 წლებში ეს არის <b>529 ათასზე მეტი</b> ჩანაწერი. მათგან ჩვენთვის მნიშვნელოვანი იყო <b>121 ათასი</b> ჩანაწერი — ადამიანები, რომლებიც სხვასთან მუშაობენ ხელფასზე და ხელფასის კითხვას უპასუხეს.</p>
+<div class="note">
+  <p><b>ორი მნიშვნელოვანი დეტალი.</b></p>
+  <p><b>1. ხელფასი იწერება „კალათებით".</b> საჯარო ფაილში არ წერია, რომ ადამიანი იღებს ზუსტად 540 ლარს — წერია მხოლოდ, რომ მისი ხელფასი არის 401-დან 600 ლარამდე. ასეთი „კალათა" 9 ან 12-ია. ამიტომ თითოეულ ადამიანს მივანიჭეთ მისი კალათის შუა მნიშვნელობა (მაგ. 500 ლარი), ხოლო ყველაზე მაღალი, ღია კალათისთვის („2000 ლარზე მეტი") — სპეციალური მათემატიკური შეფასება.</p>
+  <p><b>2. თითოეული გამოკითხული „წარმოადგენს" ბევრ ადამიანს.</b> საქსტატი ყველას ვერ ეკითხება, ამიტომ თითოეულ რესპონდენტს აქვს „წონა": მაგალითად, ერთი ადამიანი შეიძლება ასობით მსგავს ადამიანს წარმოადგენდეს. ჩვენ ყველა გამოთვლაში ეს წონები გავითვალისწინეთ, რომ შედეგი მთელ ქვეყანას ასახავდეს და არა მხოლოდ გამოკითხულებს.</p>
+</div>
+<h3>ოჯახების შემოსავლების კვლევა</h3>
+<p>ეს კვლევა ოჯახის მთლიან შემოსავალს ზომავს და არა თითოეული ადამიანის ხელფასს. ამიტომ მას მხოლოდ დამხმარე როლი ჰქონდა და ინდივიდუალურ ხელფასში არასდროს გაგვირევია.</p>
+<h3>ფასების ზრდა</h3>
+<p>2017 წლის 500 ლარი და 2025 წლის 500 ლარი ერთი და იგივე არ არის — ფასები გაიზარდა. საქსტატის ოფიციალური ინფლაციის მაჩვენებლით ყველა თანხა გადავიყვანეთ <b>2025 წლის ფასებში</b>: მაგალითად, 2017 წლის 500 ლარი დაახლოებით 2025 წლის 747 ლარის ტოლფასია.</p>
+
+<h2>როგორ ვიმუშავეთ</h2>
+<p>სამუშაო შვიდ ნაბიჯად წარიმართა. ყოველი ნაბიჯის ბოლოს ავტომატური შემოწმებები გავუშვით (სულ 335), რომ დავრწმუნებულიყავით: არაფერი დაიკარგა, არაფერი აირია და ყველა რიცხვი სწორად ითვლება.</p>
+<ol class="steps">
+  <li><b>მონაცემების მოძიება.</b> ვნახეთ, რომელი ფაილები არსებობს და შეიცავს თუ არა ისინი ადამიანის ხელფასს. აღმოჩნდა, რომ ინდივიდუალური ხელფასი მხოლოდ სამუშაო ძალის კვლევაშია.</li>
+  <li><b>ჩამოტვირთვა.</b> 34 ოფიციალური ფაილი ჩამოვტვირთეთ, ყველა შევინახეთ უცვლელად და შევადგინეთ თითოეული ცვლადის აღწერა.</li>
+  <li><b>გაწმენდა.</b> შევამოწმეთ შეცდომები, გამოტოვებული პასუხები და უცნაური მნიშვნელობები. არცერთი ჩანაწერი არ წაგვიშლია — პრობლემური შემთხვევები მხოლოდ მოვნიშნეთ. ყველაფერი ერთ მონაცემთა ბაზაში გავაერთიანეთ.</li>
+  <li><b>აღწერითი ანალიზი.</b> დავთვალეთ საშუალოები და მედიანები ასაკის, განათლების, რეგიონის, პროფესიის და წლების მიხედვით.</li>
+  <li><b>სტატისტიკური შემოწმება.</b> შევამოწმეთ, სხვაობა შემთხვევითი ხომ არ არის, და დავთვალეთ, რამდენი რჩება „თანაბარ პირობებში".</li>
+  <li><b>მანქანური სწავლება.</b> კომპიუტერს ვასწავლეთ ხელფასის გამოცნობა ადამიანის მახასიათებლებით და ვნახეთ, რა როლს თამაშობს მასში სქესი.</li>
+  <li><b>ინტერაქტიული პანელი.</b> შევქმენით პროგრამა, სადაც ნებისმიერს შეუძლია აირჩიოს წელი, რეგიონი ან განათლება და თვითონ ნახოს შედეგი.</li>
+</ol>
+<p>კიდევ ერთი მნიშვნელოვანი წესი: 2020 წელს საქსტატმა კვლევის მეთოდოლოგია შეცვალა. ამიტომ 2017–2019 და 2020–2025 წლებს ცალ-ცალკე ვაანალიზებდით და პირდაპირ არ ვაერთიანებდით.</p>
+
+<h2>რა ვნახეთ</h2>
+<h3>1. სხვაობა ყოველ წელს არსებობს</h3>
+<p>ყოველ წელს, 2017-დან 2025-მდე, კაცების საშუალო ხელფასი ქალებისაზე მაღალია. სხვაობა ნელა მცირდება: 2017 წელს იყო 30%, 2025 წელს — 24%. ქალების რეალური ხელფასი ამ პერიოდში 27%-ით გაიზარდა, კაცებისა — 17%-ით.</p>
+<figure>
+  <div class="fig-title">საშუალო თვიური ხელფასი, ₾ (2025 წლის ფასებში)</div>
+  <div class="legend"><span><i style="background:var(--women)"></i>ქალი</span><span><i style="background:var(--men)"></i>კაცი</span><span>ზემოთ — სხვაობა %-ში</span></div>
+  <svg viewBox="0 0 640 285" role="img" aria-label="საშუალო ხელფასი ქალებისა და კაცებისთვის 2017–2025 წლებში">
+    <line class="grid" x1="50" x2="632" y1="250" y2="250"/><line class="grid" x1="50" x2="632" y1="192.5" y2="192.5"/>
+    <line class="grid" x1="50" x2="632" y1="135" y2="135"/><line class="grid" x1="50" x2="632" y1="77.5" y2="77.5"/>
+    <line class="grid" x1="50" x2="632" y1="20" y2="20"/>
+    <text class="muted" x="44" y="254" text-anchor="end">0</text><text class="muted" x="44" y="196.5" text-anchor="end">300</text>
+    <text class="muted" x="44" y="139" text-anchor="end">600</text><text class="muted" x="44" y="81.5" text-anchor="end">900</text>
+    <text class="muted" x="44" y="24" text-anchor="end">1200</text>
+    <line x1="243" x2="243" y1="14" y2="258" stroke="var(--muted)" stroke-dasharray="4 4"/>
+    <text class="muted" x="247" y="14" font-size="10">მეთოდოლოგიის ცვლილება</text>
+    <!-- 2017 --><rect class="w" x="57" y="121.0" width="24" height="129.0"/><rect class="m" x="83" y="65.4" width="24" height="184.6"/><text x="82" y="59" text-anchor="middle" font-size="11">30%</text><text class="muted" x="82" y="270" text-anchor="middle">2017</text>
+    <!-- 2018 --><rect class="w" x="121.4" y="117.9" width="24" height="132.1"/><rect class="m" x="147.4" y="71.0" width="24" height="179.0"/><text x="146.4" y="65" text-anchor="middle" font-size="11">26%</text><text class="muted" x="146.4" y="270" text-anchor="middle">2018</text>
+    <!-- 2019 --><rect class="w" x="185.8" y="115.8" width="24" height="134.2"/><rect class="m" x="211.8" y="65.4" width="24" height="184.6"/><text x="210.8" y="59" text-anchor="middle" font-size="11">27%</text><text class="muted" x="210.8" y="270" text-anchor="middle">2019</text>
+    <!-- 2020 --><rect class="w" x="250.2" y="115.3" width="24" height="134.7"/><rect class="m" x="276.2" y="69.1" width="24" height="180.9"/><text x="275.2" y="63" text-anchor="middle" font-size="11">26%</text><text class="muted" x="275.2" y="270" text-anchor="middle">2020</text>
+    <!-- 2021 --><rect class="w" x="314.6" y="115.3" width="24" height="134.7"/><rect class="m" x="340.6" y="69.1" width="24" height="180.9"/><text x="339.6" y="63" text-anchor="middle" font-size="11">26%</text><text class="muted" x="339.6" y="270" text-anchor="middle">2021</text>
+    <!-- 2022 --><rect class="w" x="379" y="118.5" width="24" height="131.5"/><rect class="m" x="405" y="68.1" width="24" height="181.9"/><text x="404" y="62" text-anchor="middle" font-size="11">28%</text><text class="muted" x="404" y="270" text-anchor="middle">2022</text>
+    <!-- 2023 --><rect class="w" x="443.4" y="105.7" width="24" height="144.3"/><rect class="m" x="469.4" y="54.3" width="24" height="195.7"/><text x="468.4" y="48" text-anchor="middle" font-size="11">26%</text><text class="muted" x="468.4" y="270" text-anchor="middle">2023</text>
+    <!-- 2024 --><rect class="w" x="507.8" y="91.7" width="24" height="158.3"/><rect class="m" x="533.8" y="37.8" width="24" height="212.2"/><text x="532.8" y="31" text-anchor="middle" font-size="11">25%</text><text class="muted" x="532.8" y="270" text-anchor="middle">2024</text>
+    <!-- 2025 --><rect class="w" x="572.2" y="85.9" width="24" height="164.1"/><rect class="m" x="598.2" y="33.6" width="24" height="216.4"/><text x="597.2" y="27" text-anchor="middle" font-size="11">24%</text><text class="muted" x="597.2" y="270" text-anchor="middle">2025</text>
+  </svg>
+  <figcaption>2025 წელს: ქალი 856 ₾, კაცი 1,129 ₾. წყვეტილი ხაზი — 2020 წლის მეთოდოლოგიური ცვლილება; ხაზის ორივე მხარე ცალ-ცალკე უნდა წავიკითხოთ.</figcaption>
+</figure>
+
+<h3>2. „ტიპური" ქალი და „ტიპური" კაცი</h3>
+<p>საშუალო ხელფასი შეიძლება რამდენიმე ძალიან მაღალანაზღაურებადმა ადამიანმა „ასწიოს". ამიტომ ვუყურეთ <b>მედიანასაც</b> — ხელფასს, რომლის ქვემოთაც ადამიანების ნახევარია. მედიანური სხვაობა კიდევ უფრო დიდია: <b>28.8%</b> (ქალი 637 ₾, კაცი 895 ₾). ესე იგი, სხვაობას მხოლოდ რამდენიმე მდიდარი კაცი არ ქმნის — ის „ჩვეულებრივ" ადამიანებშიც ჩანს.</p>
+<p>ხელფასების ყველაზე დაბალ მეხუთედში ქალები შეადგენენ 66%-ს, ყველაზე მაღალ მეხუთედში კი მხოლოდ 35%-ს — მიუხედავად იმისა, რომ დაქირავებულთა დაახლოებით ნახევარი ქალია.</p>
+
+<h3>3. სხვაობა თითქმის ყველგანაა</h3>
+<p>სხვაობა არსებობს ყველა ასაკობრივ ჯგუფში, განათლების ყველა დონეზე, ყველა რეგიონში და თითქმის ყველა პროფესიაში. როცა 85 ჯგუფი შევადარეთ, სადაც ქალი და კაცი ერთსა და იმავე პროფესიაში და ერთსა და იმავე რეგიონში მუშაობს, <b>84-ში ქალი ნაკლებს იღებდა.</b></p>
+<figure>
+  <div class="fig-title">რამდენით ნაკლებს იღებს ქალი კაცზე, % (2020–2025)</div>
+  <div class="bars">
+    <div class="group-h">ასაკი</div>
+    <div class="bar-row"><span class="lab">18–24 წელი</span><div class="track"><div class="fill" style="width:46.75%"></div></div><span class="v">18.7%</span></div>
+    <div class="bar-row"><span class="lab">35–44 წელი</span><div class="track"><div class="fill" style="width:72%"></div></div><span class="v">28.8%</span></div>
+    <div class="bar-row"><span class="lab">65 და მეტი</span><div class="track"><div class="fill" style="width:56%"></div></div><span class="v">22.4%</span></div>
+    <div class="group-h">განათლება</div>
+    <div class="bar-row"><span class="lab">მაგისტრი</span><div class="track"><div class="fill" style="width:54.5%"></div></div><span class="v">21.8%</span></div>
+    <div class="bar-row"><span class="lab">ბაკალავრი</span><div class="track"><div class="fill" style="width:72.25%"></div></div><span class="v">28.9%</span></div>
+    <div class="bar-row"><span class="lab">პროფესიული</span><div class="track"><div class="fill" style="width:93.5%"></div></div><span class="v">37.4%</span></div>
+    <div class="group-h">რეგიონი</div>
+    <div class="bar-row"><span class="lab">აჭარა</span><div class="track"><div class="fill" style="width:76.25%"></div></div><span class="v">30.5%</span></div>
+    <div class="bar-row"><span class="lab">თბილისი</span><div class="track"><div class="fill" style="width:62.25%"></div></div><span class="v">24.9%</span></div>
+    <div class="bar-row"><span class="lab">რაჭა-ლეჩხუმი</span><div class="track"><div class="fill" style="width:28.25%"></div></div><span class="v">11.3%</span></div>
+    <div class="group-h">პროფესია</div>
+    <div class="bar-row"><span class="lab">ტექნიკოსები</span><div class="track"><div class="fill" style="width:95%"></div></div><span class="v">38.0%</span></div>
+    <div class="bar-row"><span class="lab">მენეჯერები</span><div class="track"><div class="fill" style="width:49.75%"></div></div><span class="v">19.9%</span></div>
+    <div class="bar-row"><span class="lab">მომსახურება, ვაჭრობა</span><div class="track"><div class="fill" style="width:39%"></div></div><span class="v">15.6%</span></div>
+  </div>
+  <figcaption>ზოლის სიგრძე: 0-დან 40%-მდე. ნაჩვენებია შერჩეული ჯგუფები; სრული სია — პროექტის ცხრილებში. რაჭაში სხვაობა მცირეა ძირითადად იმიტომ, რომ იქ კაცების ხელფასიც დაბალია.</figcaption>
+</figure>
+<p>საინტერესოა, რომ <b>მაღალი განათლება სხვაობას არ აქრობს</b>: მაგისტრებში სხვაობა ყველაზე მცირეა (22%), მაგრამ ბაკალავრებში 29%-ია, დოქტორის ხარისხის მქონეებში — 37%. ზოგ დარგში კი სხვაობა თითქმის არ არის — მაგალითად, განათლებაში, მშენებლობასა და ენერგეტიკაში.</p>
+
+<h3>4. სამუშაო საათები სხვაობის ნაწილს ხსნის</h3>
+<p>დაქირავებული ქალები კვირაში საშუალოდ 38–40 საათს მუშაობენ, კაცები — 45–48 საათს. ნაკლები საათი ნაკლებ თვიურ ხელფასს ნიშნავს. თუ ერთ საათზე გადაანგარიშებულ ხელფასს შევადარებთ, სხვაობა მცირდება <b>18.9%-მდე</b>. ანუ თვიური სხვაობის დაახლოებით მესამედი ნაკლებ საათებს უკავშირდება, დანარჩენი — არა.</p>
+
+<h3>5. რა რჩება „თანაბარ პირობებში"</h3>
+<p>წარმოიდგინეთ ორი ადამიანი ერთნაირი რეზიუმეთი: იგივე ასაკი, იგივე განათლება, იგივე პროფესია, იგივე დარგი, იგივე რეგიონი, იგივე სამუშაო საათები. ერთი ქალია, მეორე — კაცი. რამდენით განსხვავდება მათი ხელფასი? ამას სტატისტიკური მეთოდით (რეგრესიით) ვთვლით: ფაქტორებს ეტაპობრივად ვამატებთ და ვუყურებთ, როგორ იცვლება სხვაობა.</p>
+<figure>
+  <div class="fig-title">სხვაობა, როცა ფაქტორებს ეტაპობრივად ვითვალისწინებთ, % (2020–2025)</div>
+  <svg viewBox="0 0 640 320" role="img" aria-label="სხვაობა ფაქტორების ეტაპობრივი გათვალისწინებით">
+    <line class="grid" x1="270" x2="270" y1="8" y2="296"/><line class="grid" x1="367.1" x2="367.1" y1="8" y2="296"/>
+    <line class="grid" x1="464.3" x2="464.3" y1="8" y2="296"/><line class="grid" x1="561.4" x2="561.4" y1="8" y2="296"/>
+    <text class="muted" x="270" y="312" text-anchor="middle">0</text><text class="muted" x="367.1" y="312" text-anchor="middle">10%</text>
+    <text class="muted" x="464.3" y="312" text-anchor="middle">20%</text><text class="muted" x="561.4" y="312" text-anchor="middle">30%</text>
+    <text x="260" y="29" text-anchor="end">მხოლოდ სქესი</text><rect class="a" x="270" y="14" width="247.7" height="22"/><text x="523.7" y="29">25.5%</text>
+    <text x="260" y="65" text-anchor="end">+ ასაკი და გამოცდილება</text><rect class="a" x="270" y="50" width="243.8" height="22"/><text x="519.8" y="65">25.1%</text>
+    <text x="260" y="101" text-anchor="end">+ განათლება</text><rect class="a" x="270" y="86" width="281.7" height="22"/><text x="557.7" y="101">29.0%</text>
+    <text x="260" y="137" text-anchor="end">+ პროფესია</text><rect class="a" x="270" y="122" width="241.9" height="22"/><text x="517.9" y="137">24.9%</text>
+    <text x="260" y="173" text-anchor="end">+ რეგიონი</text><rect class="a" x="270" y="158" width="248.7" height="22"/><text x="524.7" y="173">25.6%</text>
+    <text x="260" y="209" text-anchor="end">+ სამუშაო საათები</text><rect class="a" x="270" y="194" width="217.6" height="22"/><text x="493.6" y="209">22.4%</text>
+    <text x="260" y="245" text-anchor="end" font-weight="700">+ დარგი და სამუშაოს ტიპი</text><rect class="a" x="270" y="230" width="162.2" height="22"/><text x="438.2" y="245" font-weight="700">16.7%</text>
+    <text x="260" y="281" text-anchor="end">საათობრივად, ყველა ფაქტორით</text><rect class="a" x="270" y="266" width="121.4" height="22" opacity=".6"/><text x="397.4" y="281">12.5%</text>
+  </svg>
+  <figcaption>ყოველ ხაზზე წინა ხაზის ფაქტორებიც დარჩენილია. ყველა ფაქტორის გათვალისწინებით სხვაობა ~17%-ია (2017–2019 წლებში ~20%).</figcaption>
+</figure>
+<p>ორი რამ იპყრობს ყურადღებას:</p>
+<ul>
+  <li><b>განათლების დამატებისას სხვაობა იზრდება</b> (25.5% → 29%). ეს იმიტომ, რომ დასაქმებულ ქალებს საშუალოდ კაცებზე <b>უფრო მაღალი</b> განათლება აქვთ. ერთნაირი განათლების ქალი და კაცი რომ შევადაროთ, ქალი კიდევ უფრო ნაკლებს იღებს.</li>
+  <li><b>ყველაზე დიდი კლება დარგის დამატებისას ხდება.</b> ქალები უფრო ხშირად მუშაობენ დაბალანაზღაურებად დარგებში — განათლებასა და ჯანდაცვაში.</li>
+</ul>
+<p>საბოლოოდ, ყველა იმ ფაქტორის გათვალისწინებით, რაც მონაცემებში გვაქვს, <b>~17%</b> რჩება. ეს რიცხვი თითქმის ემთხვევა საქსტატის საკუთარ, ოფიციალურ შეფასებას (19–23%), რაც კარგი ნიშანია.</p>
+
+<h3>6. რა ნაწილი აიხსნება და რა — არა</h3>
+<p>არსებობს მეთოდი (ოახაკა–ბლაინდერის დეკომპოზიცია), რომელიც სხვაობას ორ ნაწილად ყოფს:</p>
+<ul>
+  <li><b>ახსნილი ნაწილი</b> — ქალები და კაცები <i>სხვადასხვა</i> სამუშაოს, დარგს, საათებს „ირჩევენ";</li>
+  <li><b>აუხსნელი ნაწილი</b> — ერთნაირი მახასიათებლების მიუხედავად, ანაზღაურება მაინც განსხვავდება.</li>
+</ul>
+<figure>
+  <div class="fig-title">სხვაობის შემადგენელი ნაწილები, % მთლიანი სხვაობიდან (2020–2025)</div>
+  <svg viewBox="0 0 640 352" role="img" aria-label="სხვაობის დაშლა ახსნილ და აუხსნელ ნაწილებად">
+    <line class="zero" x1="320" x2="320" y1="6" y2="346"/>
+    <text x="270" y="29" text-anchor="end" font-weight="700">აუხსნელი ნაწილი</text><rect class="un" x="320" y="14" width="260.4" height="22"/><text x="586.4" y="29" font-weight="700">62%</text>
+    <text x="270" y="63" text-anchor="end" font-weight="700">ახსნილი ნაწილი, სულ</text><rect class="ex" x="320" y="48" width="159.6" height="22"/><text x="485.6" y="63" font-weight="700">38%</text>
+    <text class="muted" x="270" y="97" text-anchor="end">დარგი</text><rect class="ex" x="320" y="82" width="163.8" height="22" opacity=".65"/><text x="489.8" y="97">+39%</text>
+    <text class="muted" x="270" y="131" text-anchor="end">სამუშაო საათები</text><rect class="ex" x="320" y="116" width="71.4" height="22" opacity=".65"/><text x="397.4" y="131">+17%</text>
+    <text class="muted" x="270" y="165" text-anchor="end">სამუშაოს ტიპი</text><rect class="ex" x="320" y="150" width="8.4" height="22" opacity=".65"/><text x="334.4" y="165">+2%</text>
+    <text class="muted" x="270" y="199" text-anchor="end">გამოცდილება</text><rect class="ex" x="320" y="184" width="4.2" height="22" opacity=".65"/><text x="330.2" y="199">+1%</text>
+    <text class="muted" x="270" y="233" text-anchor="end">რეგიონი</text><rect class="w" x="311.6" y="218" width="8.4" height="22" opacity=".65"/><text x="326" y="233">−2%</text>
+    <text class="muted" x="270" y="267" text-anchor="end">გამოკითხვის წელი</text><rect class="w" x="311.6" y="252" width="8.4" height="22" opacity=".65"/><text x="326" y="267">−2%</text>
+    <text class="muted" x="270" y="301" text-anchor="end">პროფესია</text><rect class="w" x="290.6" y="286" width="29.4" height="22" opacity=".65"/><text x="326" y="301">−7%</text>
+    <text class="muted" x="270" y="335" text-anchor="end">განათლება</text><rect class="w" x="282.2" y="320" width="37.8" height="22" opacity=".65"/><text x="326" y="335">−9%</text>
+  </svg>
+  <figcaption>მარჯვნივ — ფაქტორები, რომლებიც სხვაობას ზრდის; მარცხნივ (წითლად) — რომლებიც ამცირებს, რადგან ამ მხრივ ქალებს უკეთესი მახასიათებლები აქვთ. ახსნილი ნაწილი 38% არის ამ ფაქტორების ჯამი.</figcaption>
+</figure>
+<p>მარტივად: სხვაობის <b>დაახლოებით 38%</b> აიხსნება იმით, რომ ქალები სხვა დარგებში მუშაობენ და ნაკლებ საათს მუშაობენ. <b>დანარჩენი ~62%</b> ამ მონაცემებით არ აიხსნება.</p>
+
+<h3>7. რა გვაჩვენა კომპიუტერულმა მოდელმა</h3>
+<p>კომპიუტერს „ვასწავლეთ" ხელფასის გამოცნობა: ვაჩვენეთ ათიათასობით ადამიანის მონაცემი (ასაკი, განათლება, პროფესია, საათები და ა.შ.) და მათი ხელფასი, შემდეგ კი შევამოწმეთ ისეთ ადამიანებზე, რომლებიც არ უნახავს. ხუთი სხვადასხვა მეთოდიდან საუკეთესო საშუალოდ ~272 ლარით ცდება — ხელფასი „კალათებით" რომ იწერება, უკეთესს ვერც ველოდით.</p>
+<ul>
+  <li>როცა მოდელს ვაძლევთ სქესს, ის <b>უკეთ</b> გამოიცნობს ხელფასს. ესე იგი, სქესი ხელფასის შესახებ ისეთ ინფორმაციას შეიცავს, რასაც სხვა მახასიათებლები ვერ ატარებს.</li>
+  <li>როცა სქესს „ვუმალავთ", მოდელი სისტემატურად <b>ცდება</b>: ქალების ხელფასს ზედმეტად მაღლა აფასებს, კაცებისას — დაბლა. სქესის დამალვა სამყაროს უფრო თანაბარს არ ხდის — მოდელი უბრალოდ „ივიწყებს" არსებულ სხვაობას.</li>
+  <li>თუ მოდელს ვკითხავთ: „იგივე ადამიანი რომ კაცი იყოს, რამდენს მიიღებდა?" — პასუხი იქნება დაახლოებით <b>16%-ით მეტი</b>. ეს თითქმის ზუსტად ემთხვევა წინა ნაწილის 17%-ს, თუმცა სრულიად სხვა მეთოდით მიღებულია.</li>
+</ul>
+
+<h2>რას <i>არ</i> ნიშნავს ეს შედეგები</h2>
+<div class="note">
+  <p><b>„აუხსნელი" არ ნიშნავს „დისკრიმინაციას".</b> აუხსნელ ნაწილში შედის ყველაფერი, რაც მონაცემებში არ წერია: რამდენი წელია ადამიანი მუშაობს (მონაცემებში რეალური სამუშაო სტაჟი არ არის), იყო თუ არა დეკრეტულ შვებულებაში, რომელ კომპანიაში და რა თანამდებობაზე მუშაობს, როგორ მოილაპარაკა ხელფასზე. დისკრიმინაციაც შეიძლება იყოს ამ ნაწილში, მაგრამ ამ მონაცემებით ვერ დავამტკიცებთ, რამდენი.</p>
+  <p><b>კავშირი არ ნიშნავს მიზეზს.</b> ის, რომ ქალები ხშირად დაბალანაზღაურებად დარგებში მუშაობენ, არ გვეუბნება, <i>რატომ</i>. შესაძლოა, ეს თავად იყოს უთანასწორობის ნაწილი.</p>
+  <p><b>შედეგი ეხება მხოლოდ დაქირავებულებს.</b> თვითდასაქმებულები, მეწარმეები და ისინი, ვინც არ მუშაობს, ამ ანალიზში არ შედიან.</p>
+</div>
+
+<h2>რამდენად შეგვიძლია ვენდოთ ამ რიცხვებს</h2>
+<p>ყოველი მთავარი შედეგი სხვადასხვა გზით გადავამოწმეთ, და ყველა გზამ ერთსა და იმავე პასუხამდე მიგვიყვანა:</p>
+<div class="tw"><table>
+  <thead><tr><th>რას შევამოწმეთ</th><th>შედეგი</th></tr></thead>
+  <tbody>
+    <tr><td>შემთხვევითია თუ არა სხვაობა?</td><td>არა — ალბათობა, რომ ეს შემთხვევითობაა, პრაქტიკულად ნულია</td></tr>
+    <tr><td>„თანაბარი პირობების" სხვაობა სამი სხვადასხვა მეთოდით</td><td class="num">16.7% · 16.6% · 16.2%</td></tr>
+    <tr><td>შედარება საქსტატის ოფიციალურ შეფასებასთან</td><td class="num">17–20% ჩვენთან, 19–23% საქსტატთან</td></tr>
+    <tr><td>2017–2019 წლები ცალკე</td><td>იგივე დასკვნები</td></tr>
+    <tr><td>„კალათების" პრობლემა (ზუსტი ხელფასი უცნობია)</td><td>სპეციალური მეთოდით შემოწმდა — შედეგი არ იცვლება</td></tr>
+    <tr><td>ავტომატური ტესტები მთელ პროექტზე</td><td class="num">335 ტესტი, ყველა წარმატებით</td></tr>
+  </tbody>
+</table></div>
+<p>რიცხვებს აქვს „სავარაუდო დიაპაზონიც": მაგალითად, საშუალო სხვაობა 2020–2025 წლებში 95%-იანი სიზუსტით 24.2%-სა და 26.7%-ს შორისაა.</p>
+
+<h2>შეზღუდვები</h2>
+<ul>
+  <li><b>ხელფასი მხოლოდ „კალათებით" ქვეყნდება</b>, ამიტომ ზუსტი თანხა უცნობია და შეფასებას ვიყენებთ.</li>
+  <li><b>ხელფასის კითხვაზე პასუხის გაცემაზე უარი იზრდება</b> — 2017 წელს 7%, 2025 წელს 23%. თუ უარის მთქმელები განსხვავდებიან, შედეგი შეიძლება ცოტათი მიკერძოებული იყოს.</li>
+  <li><b>არ ვიცით სამუშაო სტაჟი, კომპანია და თანამდებობა</b> — სწორედ ეს „იმალება" აუხსნელ ნაწილში.</li>
+  <li><b>2020 წელს კვლევის მეთოდი შეიცვალა</b>, ამიტომ 30%-დან 24%-მდე კლება ფორმალურად ვერ დავამტკიცეთ, თუმცა ტენდენცია ჩანს.</li>
+  <li><b>ძალიან მცირე ჯგუფებზე</b> (მაგ. 15–17 წლის მომუშავეები) დასკვნები არ გაგვიკეთებია.</li>
+</ul>
+
+<h2>ტერმინების მარტივი ლექსიკონი</h2>
+<dl>
+  <div><dt>საშუალო</dt><dd>ყველა ხელფასის ჯამი, გაყოფილი ადამიანების რაოდენობაზე. რამდენიმე ძალიან მაღალი ხელფასი მას ზემოთ სწევს.</dd></div>
+  <div><dt>მედიანა</dt><dd>შუა წერტილი: ადამიანების ნახევარი ამაზე ნაკლებს იღებს, ნახევარი — მეტს. კარგად აჩვენებს „ტიპურ" ადამიანს.</dd></div>
+  <div><dt>სხვაობა (%)</dt><dd>რამდენი პროცენტით ნაკლებს იღებს ქალი კაცის ხელფასთან შედარებით. 25% ნიშნავს: კაცი 100 ლარს, ქალი 75 ლარს.</dd></div>
+  <div><dt>რეალური ლარი</dt><dd>ფასების ზრდის გათვალისწინებით გადაანგარიშებული თანხა, რომ სხვადასხვა წელი სამართლიანად შევადაროთ.</dd></div>
+  <div><dt>წონა</dt><dd>რამდენ ადამიანს „წარმოადგენს" ერთი გამოკითხული, რომ შედეგი მთელ ქვეყანას ასახავდეს.</dd></div>
+  <div><dt>სტატისტიკურად მნიშვნელოვანი</dt><dd>სხვაობა იმდენად დიდი და მყარია, რომ შემთხვევით ვერ მიიღებოდა.</dd></div>
+  <div><dt>სავარაუდო დიაპაზონი (ნდობის ინტერვალი)</dt><dd>რიცხვების შუალედი, რომელშიც ნამდვილი მნიშვნელობა მაღალი ალბათობით (95%) მოხვდება.</dd></div>
+  <div><dt>რეგრესია</dt><dd>მეთოდი, რომელიც ერთდროულად ითვალისწინებს ბევრ ფაქტორს და გვეუბნება, რამდენი სხვაობა რჩება „თანაბარ პირობებში".</dd></div>
+  <div><dt>ახსნილი და აუხსნელი ნაწილი</dt><dd>სხვაობის ნაწილი, რომელიც სხვადასხვა სამუშაოს, დარგს და საათებს უკავშირდება (ახსნილი), და ნაწილი, რომელიც ამით არ აიხსნება (აუხსნელი).</dd></div>
+  <div><dt>მანქანური სწავლება</dt><dd>კომპიუტერი მაგალითებზე სწავლობს წესებს და შემდეგ ახალ შემთხვევებზე იყენებს მათ — აქ: ხელფასის გამოცნობას.</dd></div>
+</dl>
+
+<h2>მთავარი დასკვნა</h2>
+<p>საქართველოში დაქირავებული ქალები კაცებზე საშუალოდ <b>დაახლოებით მეოთხედით ნაკლებს</b> იღებენ. ეს სხვაობა ყოველ წელს, ყველა რეგიონში და თითქმის ყველა პროფესიაში ჩანს და შემთხვევითი არ არის.</p>
+<p>მისი ნაწილი აიხსნება იმით, რომ ქალები უფრო ხშირად დაბალანაზღაურებად დარგებში მუშაობენ და ნაკლებ საათს მუშაობენ. განათლება სხვაობას ვერ ხსნის — ქალები უფრო განათლებულები არიან. ყველაფრის გათვალისწინებით მაინც რჩება <b>დაახლოებით 17%</b>, რომლის მიზეზიც ამ მონაცემებით ბოლომდე ვერ დგინდება. სხვაობა ნელა მცირდება, მაგრამ ჯერ კიდევ დიდია.</p>
+<p>უფრო ზუსტი პასუხისთვის საჭიროა მონაცემები, რომლებიც საჯაროდ არ ქვეყნდება: ზუსტი ხელფასი, სამუშაო სტაჟი და ინფორმაცია კომპანიისა და თანამდებობის შესახებ.</p>
+
+<p class="foot">წყარო: საქართველოს სტატისტიკის ეროვნული სამსახური (საქსტატი) — სამუშაო ძალის კვლევა და შინამეურნეობების შემოსავლებისა და ხარჯების კვლევა, 2017–2025, საჯარო მიკრომონაცემები. ყველა თანხა — ხელზე ასაღები თვიური ხელფასი, 2025 წლის ფასებში. ტექნიკური დეტალები, მეთოდები და ყველა რიცხვი — პროექტის საბოლოო კვლევით ანგარიშში (Georgia Income Analytics).</p>
+</main>

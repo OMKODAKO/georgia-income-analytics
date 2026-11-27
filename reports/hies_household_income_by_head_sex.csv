@@ -1,0 +1,19 @@
+year,head_sex,n_households,mean_per_capita_real,median_per_capita_real,mean_household_size,income_unit,currency,gap_mean_pct_per_capita
+2017,female,3838,479.12,358.5,2.88,household (per capita),GEL (2025 prices),-6.22
+2017,male,7718,451.08,345.18,3.84,household (per capita),GEL (2025 prices),-6.22
+2018,female,3640,460.39,363.92,2.99,household (per capita),GEL (2025 prices),2.37
+2018,male,7268,471.55,357.99,3.83,household (per capita),GEL (2025 prices),2.37
+2019,female,4576,477.18,370.21,2.97,household (per capita),GEL (2025 prices),0.62
+2019,male,9165,480.17,370.21,3.79,household (per capita),GEL (2025 prices),0.62
+2020,female,4383,460.08,371.26,2.88,household (per capita),GEL (2025 prices),-2.25
+2020,male,8757,449.94,361.74,3.74,household (per capita),GEL (2025 prices),-2.25
+2021,female,4621,466.44,390.43,2.79,household (per capita),GEL (2025 prices),-0.65
+2021,male,8809,463.42,372.52,3.68,household (per capita),GEL (2025 prices),-0.65
+2022,female,4633,478.89,383.18,2.83,household (per capita),GEL (2025 prices),3.27
+2022,male,8765,495.1,401.5,3.71,household (per capita),GEL (2025 prices),3.27
+2023,female,4442,575.77,451.59,2.76,household (per capita),GEL (2025 prices),1.05
+2023,male,8622,581.88,469.42,3.64,household (per capita),GEL (2025 prices),1.05
+2024,female,4551,676.92,534.93,2.62,household (per capita),GEL (2025 prices),-4.11
+2024,male,8418,650.22,524.54,3.57,household (per capita),GEL (2025 prices),-4.11
+2025,female,4569,738.25,602.23,2.68,household (per capita),GEL (2025 prices),-5.33
+2025,male,8598,700.88,571.46,3.54,household (per capita),GEL (2025 prices),-5.33

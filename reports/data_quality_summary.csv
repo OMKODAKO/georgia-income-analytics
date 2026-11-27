@@ -1,0 +1,21 @@
+dataset,layer,period,year,n_rows,n_cols,primary_key,pk_unique,n_duplicate_keys,pct_missing_sex,pct_missing_age,pct_missing_region,pct_missing_education,n_employees,pct_missing_hours_employees,pct_earnings_valid_employees,pct_earnings_refused_or_missing,n_invalid_sex,n_age_out_of_range,n_age_mismatch,n_outlier_flags,weighted_population_15plus,n_members,pct_zero_total_income,n_income_identity_errors,n_households_without_single_head,n_size_mismatch,weighted_households
+lfs,analytical,2017_2019,2017,54824,59,individual_id,True,0.0,0.0,0.0,0.0,0.0,13054.0,8.62,93.19,6.81,0.0,0.0,0.0,2397.0,3012295.0,,,,,,
+lfs,analytical,2017_2019,2018,58641,59,individual_id,True,0.0,0.0,0.0,0.0,0.0,15050.0,6.84,90.77,9.23,0.0,0.0,0.0,2979.0,3034267.0,,,,,,
+lfs,analytical,2017_2019,2019,61386,59,individual_id,True,0.0,0.0,0.0,0.0,0.0,15864.0,5.94,90.24,9.76,0.0,0.0,0.0,4696.0,3037126.0,,,,,,
+lfs,analytical,2020_2025,2020,58979,59,individual_id,True,0.0,0.0,0.0,0.0,0.0,14957.0,0.01,86.62,13.06,0.0,0.0,0.0,4549.0,3018518.0,,,,,,
+lfs,analytical,2020_2025,2021,60837,59,individual_id,True,0.0,0.0,0.0,0.0,0.0,15324.0,0.01,83.68,16.12,0.0,0.0,0.0,4688.0,3010265.0,,,,,,
+lfs,analytical,2020_2025,2022,60262,59,individual_id,True,0.0,0.0,0.0,0.0,0.0,16361.0,0.0,82.1,17.73,0.0,0.0,0.0,4449.0,2988927.0,,,,,,
+lfs,analytical,2020_2025,2023,58398,59,individual_id,True,0.0,0.0,0.0,0.0,0.0,16921.0,0.0,82.56,17.44,0.0,0.0,0.0,3738.0,2997088.0,,,,,,
+lfs,analytical,2020_2025,2024,57546,59,individual_id,True,0.0,0.0,0.0,0.0,0.0,17512.0,0.0,80.94,19.06,0.0,0.0,0.0,5346.0,2975247.0,,,,,,
+lfs,analytical,2020_2025,2025,58170,59,individual_id,True,0.0,0.0,0.0,0.0,0.0,17988.0,0.0,76.77,23.23,0.0,0.0,0.0,5342.0,2963034.0,,,,,,
+hies,analytical (households),2017_2025,2017,11590,50,household_id,True,0.0,0.0,0.0,0.0,19.17,,,,,,,,823.0,,40104.0,0.43,0.0,34.0,0.0,1064063.0
+hies,analytical (households),2017_2025,2018,11056,50,household_id,True,0.0,0.0,0.0,0.0,19.47,,,,,,,,669.0,,38840.0,0.27,0.0,148.0,0.0,1056741.0
+hies,analytical (households),2017_2025,2019,13872,50,household_id,True,0.0,0.0,0.0,0.0,18.87,,,,,,,,894.0,,47685.0,0.33,0.0,131.0,0.0,1064635.0
+hies,analytical (households),2017_2025,2020,13313,50,household_id,True,0.0,0.0,0.0,0.0,18.21,,,,,,,,950.0,,45141.0,0.23,0.0,173.0,0.0,1085541.0
+hies,analytical (households),2017_2025,2021,13621,50,household_id,True,0.0,0.0,0.0,0.0,18.09,,,,,,,,921.0,,45244.0,0.37,0.0,190.0,0.0,1113269.0
+hies,analytical (households),2017_2025,2022,13621,50,household_id,True,0.0,0.0,0.0,0.0,18.28,,,,,,,,856.0,,45330.0,0.32,0.0,222.0,0.0,1097857.0
+hies,analytical (households),2017_2025,2023,13208,50,household_id,True,0.0,0.0,0.0,0.0,17.35,,,,,,,,1194.0,,42840.0,0.27,0.0,144.0,0.0,1124923.0
+hies,analytical (households),2017_2025,2024,13105,50,household_id,True,0.0,0.0,0.0,0.0,16.46,,,,,,,,982.0,,40987.0,0.08,0.0,136.0,0.0,1151545.0
+hies,analytical (households),2017_2025,2025,13341,50,household_id,True,0.0,0.0,0.0,0.0,16.3,,,,,,,,825.0,,41927.0,0.1,0.0,174.0,0.0,1155053.0
+lfs,ml,2017_2019,all,40141,35,individual_id,True,,0.0,0.0,,,,6.62,,,,,,,,,,,,,
+lfs,ml,2020_2025,all,81166,31,individual_id,True,,0.0,0.0,,,,0.0,,,,,,,,,,,,,

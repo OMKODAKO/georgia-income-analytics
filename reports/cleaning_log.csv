@@ -1,0 +1,338 @@
+dataset,year,step,variable,rule,n_affected,action,detail
+lfs,2017,types,familysize.UID,id stored as text,20486,type_cast,str -> Int64
+lfs,2017,input,*,ECSTAT persons 15+,54824,none,
+lfs,2017,duplicates,uid+member_no,duplicate person key,0,flag,
+lfs,2017,duplicates,*,fully identical rows,0,flag,
+lfs,2017,validity,year,interview year != file year,0,flag,
+lfs,2017,validity,sex,"code not in {1,2} -> missing (never imputed)",0,set_missing,
+lfs,2017,validity,age,outside 15-110 (ECSTAT universe is 15+),0,flag,
+lfs,2017,consistency,age,ECSTAT age != demographic-table age,0,flag,
+lfs,2017,validity,region_code,unknown region code,0,flag,
+lfs,2017,harmonisation,region,Racha (35) merged with Imereti (26) for comparability,0,recode,original kept in region_code / region
+lfs,2017,validity,education_code,code outside 1-13,0,set_missing,
+lfs,2017,validity,status_code,undocumented status code,0,flag,
+lfs,2017,missing,sector_code,98 'do not know' -> missing,7,set_missing,code kept in sector_code
+lfs,2017,validity,hours_usual,<=0 or >168 h/week (impossible),0,set_missing,
+lfs,2017,income,earnings_band,earnings_status = valid,12165,classify,
+lfs,2017,income,earnings_band,earnings_status = refused,827,set_missing,
+lfs,2017,income,earnings_band,earnings_status = undocumented_code,62,set_missing,code 10: not in labels/questionnaire -> missing (decision)
+lfs,2017,income,earnings_band,earnings_status = missing_nonresponse,0,set_missing,employee without answer (from 2023 refusals are stored this way)
+lfs,2017,income,earnings_band,earnings_status = value_for_non_employee,11,set_missing,
+lfs,2017,validity,weight_quarter,missing or non-positive weight,0,flag,
+lfs,2018,types,ecstat.uid,id stored as text,58641,type_cast,str -> Int64
+lfs,2018,linkage,familysize.UID,row without household id cannot be linked,2,excluded_from_merge,raw row kept untouched in data/raw
+lfs,2018,input,*,ECSTAT persons 15+,58641,none,
+lfs,2018,duplicates,uid+member_no,duplicate person key,0,flag,
+lfs,2018,duplicates,*,fully identical rows,0,flag,
+lfs,2018,validity,year,interview year != file year,0,flag,
+lfs,2018,validity,sex,"code not in {1,2} -> missing (never imputed)",0,set_missing,
+lfs,2018,validity,age,outside 15-110 (ECSTAT universe is 15+),0,flag,
+lfs,2018,consistency,age,ECSTAT age != demographic-table age,0,flag,
+lfs,2018,validity,region_code,unknown region code,0,flag,
+lfs,2018,harmonisation,region,Racha (35) merged with Imereti (26) for comparability,0,recode,original kept in region_code / region
+lfs,2018,validity,education_code,code outside 1-13,0,set_missing,
+lfs,2018,validity,status_code,undocumented status code,0,flag,
+lfs,2018,missing,sector_code,98 'do not know' -> missing,1,set_missing,code kept in sector_code
+lfs,2018,validity,hours_usual,<=0 or >168 h/week (impossible),2,set_missing,
+lfs,2018,income,earnings_band,earnings_status = valid,13661,classify,
+lfs,2018,income,earnings_band,earnings_status = refused,1389,set_missing,
+lfs,2018,income,earnings_band,earnings_status = missing_nonresponse,0,set_missing,employee without answer (from 2023 refusals are stored this way)
+lfs,2018,income,earnings_band,earnings_status = value_for_non_employee,15,set_missing,
+lfs,2018,validity,weight_quarter,missing or non-positive weight,0,flag,
+lfs,2019,input,*,ECSTAT persons 15+,61386,none,
+lfs,2019,duplicates,uid+member_no,duplicate person key,0,flag,
+lfs,2019,duplicates,*,fully identical rows,0,flag,
+lfs,2019,validity,year,interview year != file year,0,flag,
+lfs,2019,validity,sex,"code not in {1,2} -> missing (never imputed)",0,set_missing,
+lfs,2019,validity,age,outside 15-110 (ECSTAT universe is 15+),0,flag,
+lfs,2019,consistency,age,ECSTAT age != demographic-table age,0,flag,
+lfs,2019,validity,region_code,unknown region code,0,flag,
+lfs,2019,harmonisation,region,Racha (35) merged with Imereti (26) for comparability,3127,recode,original kept in region_code / region
+lfs,2019,validity,education_code,code outside 1-13,0,set_missing,
+lfs,2019,validity,status_code,undocumented status code,0,flag,
+lfs,2019,missing,sector_code,98 'do not know' -> missing,8,set_missing,code kept in sector_code
+lfs,2019,validity,hours_usual,<=0 or >168 h/week (impossible),0,set_missing,
+lfs,2019,income,earnings_band,earnings_status = valid,14315,classify,
+lfs,2019,income,earnings_band,earnings_status = refused,1549,set_missing,
+lfs,2019,income,earnings_band,earnings_status = missing_nonresponse,0,set_missing,employee without answer (from 2023 refusals are stored this way)
+lfs,2019,income,earnings_band,earnings_status = value_for_non_employee,9,set_missing,
+lfs,2019,validity,weight_quarter,missing or non-positive weight,0,flag,
+lfs,2020,input,*,ECSTAT persons 15+,58979,none,
+lfs,2020,duplicates,uid+member_no,duplicate person key,0,flag,
+lfs,2020,duplicates,*,fully identical rows,0,flag,
+lfs,2020,validity,year,interview year != file year,0,flag,
+lfs,2020,validity,sex,"code not in {1,2} -> missing (never imputed)",0,set_missing,
+lfs,2020,validity,age,outside 15-110 (ECSTAT universe is 15+),0,flag,
+lfs,2020,consistency,age,ECSTAT age != demographic-table age,0,flag,
+lfs,2020,validity,region_code,unknown region code,0,flag,
+lfs,2020,harmonisation,region,Racha (35) merged with Imereti (26) for comparability,3064,recode,original kept in region_code / region
+lfs,2020,validity,education_code,code outside 1-13,0,set_missing,
+lfs,2020,validity,status_code,undocumented status code,0,flag,
+lfs,2020,missing,sector_code,98 'do not know' -> missing,11,set_missing,code kept in sector_code
+lfs,2020,validity,hours_usual,<=0 or >168 h/week (impossible),0,set_missing,
+lfs,2020,income,earnings_band,earnings_status = valid,12956,classify,
+lfs,2020,income,earnings_band,earnings_status = no_earnings_last_month,48,set_missing,"real zero, kept separate from missing"
+lfs,2020,income,earnings_band,earnings_status = refused,1953,set_missing,
+lfs,2020,income,earnings_band,earnings_status = missing_nonresponse,0,set_missing,employee without answer (from 2023 refusals are stored this way)
+lfs,2020,income,earnings_band,earnings_status = value_for_non_employee,25,set_missing,
+lfs,2020,validity,weight_quarter,missing or non-positive weight,0,flag,
+lfs,2021,input,*,ECSTAT persons 15+,60837,none,
+lfs,2021,duplicates,uid+member_no,duplicate person key,0,flag,
+lfs,2021,duplicates,*,fully identical rows,0,flag,
+lfs,2021,validity,year,interview year != file year,0,flag,
+lfs,2021,validity,sex,"code not in {1,2} -> missing (never imputed)",0,set_missing,
+lfs,2021,validity,age,outside 15-110 (ECSTAT universe is 15+),0,flag,
+lfs,2021,consistency,age,ECSTAT age != demographic-table age,0,flag,
+lfs,2021,validity,region_code,unknown region code,0,flag,
+lfs,2021,harmonisation,region,Racha (35) merged with Imereti (26) for comparability,3158,recode,original kept in region_code / region
+lfs,2021,validity,education_code,code outside 1-13,0,set_missing,
+lfs,2021,validity,status_code,undocumented status code,0,flag,
+lfs,2021,missing,sector_code,98 'do not know' -> missing,1,set_missing,code kept in sector_code
+lfs,2021,validity,hours_usual,<=0 or >168 h/week (impossible),0,set_missing,
+lfs,2021,income,earnings_band,earnings_status = valid,12823,classify,
+lfs,2021,income,earnings_band,earnings_status = no_earnings_last_month,31,set_missing,"real zero, kept separate from missing"
+lfs,2021,income,earnings_band,earnings_status = refused,2470,set_missing,
+lfs,2021,income,earnings_band,earnings_status = missing_nonresponse,0,set_missing,employee without answer (from 2023 refusals are stored this way)
+lfs,2021,income,earnings_band,earnings_status = value_for_non_employee,34,set_missing,
+lfs,2021,validity,weight_quarter,missing or non-positive weight,0,flag,
+lfs,2022,input,*,ECSTAT persons 15+,60262,none,
+lfs,2022,duplicates,uid+member_no,duplicate person key,0,flag,
+lfs,2022,duplicates,*,fully identical rows,0,flag,
+lfs,2022,validity,year,interview year != file year,0,flag,
+lfs,2022,validity,sex,"code not in {1,2} -> missing (never imputed)",0,set_missing,
+lfs,2022,validity,age,outside 15-110 (ECSTAT universe is 15+),0,flag,
+lfs,2022,consistency,age,ECSTAT age != demographic-table age,0,flag,
+lfs,2022,validity,region_code,unknown region code,0,flag,
+lfs,2022,harmonisation,region,Racha (35) merged with Imereti (26) for comparability,3062,recode,original kept in region_code / region
+lfs,2022,validity,education_code,code outside 1-13,0,set_missing,
+lfs,2022,validity,status_code,undocumented status code,0,flag,
+lfs,2022,missing,sector_code,98 'do not know' -> missing,0,set_missing,code kept in sector_code
+lfs,2022,validity,hours_usual,<=0 or >168 h/week (impossible),0,set_missing,
+lfs,2022,income,earnings_band,earnings_status = valid,13432,classify,
+lfs,2022,income,earnings_band,earnings_status = no_earnings_last_month,28,set_missing,"real zero, kept separate from missing"
+lfs,2022,income,earnings_band,earnings_status = refused,2901,set_missing,
+lfs,2022,income,earnings_band,earnings_status = missing_nonresponse,0,set_missing,employee without answer (from 2023 refusals are stored this way)
+lfs,2022,income,earnings_band,earnings_status = value_for_non_employee,20,set_missing,
+lfs,2022,validity,weight_quarter,missing or non-positive weight,0,flag,
+lfs,2023,input,*,ECSTAT persons 15+,58398,none,
+lfs,2023,duplicates,uid+member_no,duplicate person key,0,flag,
+lfs,2023,duplicates,*,fully identical rows,0,flag,
+lfs,2023,validity,year,interview year != file year,0,flag,
+lfs,2023,validity,sex,"code not in {1,2} -> missing (never imputed)",0,set_missing,
+lfs,2023,validity,age,outside 15-110 (ECSTAT universe is 15+),0,flag,
+lfs,2023,consistency,age,ECSTAT age != demographic-table age,0,flag,
+lfs,2023,validity,region_code,unknown region code,0,flag,
+lfs,2023,harmonisation,region,Racha (35) merged with Imereti (26) for comparability,2915,recode,original kept in region_code / region
+lfs,2023,validity,education_code,code outside 1-13,0,set_missing,
+lfs,2023,validity,status_code,undocumented status code,0,flag,
+lfs,2023,missing,sector_code,98 'do not know' -> missing,5,set_missing,code kept in sector_code
+lfs,2023,validity,hours_usual,<=0 or >168 h/week (impossible),0,set_missing,
+lfs,2023,income,earnings_band,earnings_status = valid,13970,classify,
+lfs,2023,income,earnings_band,earnings_status = missing_nonresponse,2951,set_missing,employee without answer (from 2023 refusals are stored this way)
+lfs,2023,income,earnings_band,earnings_status = value_for_non_employee,8,set_missing,
+lfs,2023,validity,weight_quarter,missing or non-positive weight,0,flag,
+lfs,2024,input,*,ECSTAT persons 15+,57546,none,
+lfs,2024,duplicates,uid+member_no,duplicate person key,0,flag,
+lfs,2024,duplicates,*,fully identical rows,0,flag,
+lfs,2024,validity,year,interview year != file year,0,flag,
+lfs,2024,validity,sex,"code not in {1,2} -> missing (never imputed)",0,set_missing,
+lfs,2024,validity,age,outside 15-110 (ECSTAT universe is 15+),0,flag,
+lfs,2024,consistency,age,ECSTAT age != demographic-table age,0,flag,
+lfs,2024,validity,region_code,unknown region code,0,flag,
+lfs,2024,harmonisation,region,Racha (35) merged with Imereti (26) for comparability,2852,recode,original kept in region_code / region
+lfs,2024,validity,education_code,code outside 1-13,0,set_missing,
+lfs,2024,validity,status_code,undocumented status code,0,flag,
+lfs,2024,missing,sector_code,98 'do not know' -> missing,1,set_missing,code kept in sector_code
+lfs,2024,validity,hours_usual,<=0 or >168 h/week (impossible),0,set_missing,
+lfs,2024,income,earnings_band,earnings_status = valid,14175,classify,
+lfs,2024,income,earnings_band,earnings_status = missing_nonresponse,3337,set_missing,employee without answer (from 2023 refusals are stored this way)
+lfs,2024,income,earnings_band,earnings_status = value_for_non_employee,14,set_missing,
+lfs,2024,validity,weight_quarter,missing or non-positive weight,0,flag,
+lfs,2025,input,*,ECSTAT persons 15+,58170,none,
+lfs,2025,duplicates,uid+member_no,duplicate person key,0,flag,
+lfs,2025,duplicates,*,fully identical rows,0,flag,
+lfs,2025,validity,year,interview year != file year,0,flag,
+lfs,2025,validity,sex,"code not in {1,2} -> missing (never imputed)",0,set_missing,
+lfs,2025,validity,age,outside 15-110 (ECSTAT universe is 15+),0,flag,
+lfs,2025,consistency,age,ECSTAT age != demographic-table age,0,flag,
+lfs,2025,validity,region_code,unknown region code,0,flag,
+lfs,2025,harmonisation,region,Racha (35) merged with Imereti (26) for comparability,2897,recode,original kept in region_code / region
+lfs,2025,validity,education_code,code outside 1-13,0,set_missing,
+lfs,2025,validity,status_code,undocumented status code,0,flag,
+lfs,2025,missing,sector_code,98 'do not know' -> missing,0,set_missing,code kept in sector_code
+lfs,2025,validity,hours_usual,<=0 or >168 h/week (impossible),0,set_missing,
+lfs,2025,income,earnings_band,earnings_status = valid,13810,classify,
+lfs,2025,income,earnings_band,earnings_status = missing_nonresponse,4178,set_missing,employee without answer (from 2023 refusals are stored this way)
+lfs,2025,income,earnings_band,earnings_status = value_for_non_employee,13,set_missing,
+lfs,2025,validity,weight_quarter,missing or non-positive weight,0,flag,
+lfs,2017,income,earn_mid_real_2025,deflated with CPI 2017->2025,12165,derive,factor 1.4937
+lfs,2018,income,earn_mid_real_2025,deflated with CPI 2018->2025,13661,derive,factor 1.4557
+lfs,2019,income,earn_mid_real_2025,deflated with CPI 2019->2025,14315,derive,factor 1.3883
+lfs,2020,income,earn_mid_real_2025,deflated with CPI 2020->2025,12956,derive,factor 1.3196
+lfs,2021,income,earn_mid_real_2025,deflated with CPI 2021->2025,12823,derive,factor 1.2044
+lfs,2022,income,earn_mid_real_2025,deflated with CPI 2022->2025,13432,derive,factor 1.0763
+lfs,2023,income,earn_mid_real_2025,deflated with CPI 2023->2025,13970,derive,factor 1.0502
+lfs,2024,income,earn_mid_real_2025,deflated with CPI 2024->2025,14175,derive,factor 1.0387
+lfs,2025,income,earn_mid_real_2025,deflated with CPI 2025->2025,13810,derive,factor 1.0000
+hies,2017,input,*,households (sysschedule),11590,none,
+hies,2017,linkage,familysize,household without row in table,0,flag,
+hies,2017,linkage,tblincomes,household without row in table,0,flag,
+hies,2017,types,interview_month,"MonthYear parsed to date (date in 2017, text later)",11590,type_cast,
+hies,2017,validity,year,quarter year != file year,0,flag,
+hies,2017,validity,region_code,unknown region code,0,flag,
+hies,2017,harmonisation,region,"code 10 (Imereti, incl. Racha in some years) and 13 (Racha) merged",1507,recode,original kept in region_code
+hies,2017,validity,income,negative amount (impossible for 'received' items),0,flag,kept as reported; exclude via flag_negative_income
+hies,2017,consistency,inc_cash_and_transfers,!= sum of items 1-7 (tol 0.5 GEL),0,flag,
+hies,2017,consistency,inc_total,!= cash_and_transfers + non_cash (tol 0.5 GEL),0,flag,
+hies,2017,income,inc_total,"total income = 0 (real zero, not missing)",50,flag,
+hies,2017,input,*,household members (tblshinda02),40104,none,
+hies,2017,validity,sex,"code not in {1,2} -> missing",0,set_missing,
+hies,2017,validity,age,outside 0-110,0,flag,
+hies,2017,missing,education_code,education missing (mostly children),7689,none,
+hies,2017,duplicates,uid+member_no,duplicate member key,0,flag,
+hies,2017,consistency,relationship,households without exactly one head,34,flag,
+hies,2017,consistency,household_size,FamilySize != members listed in Shinda02,0,flag,absent members (NotPresentNow) may explain differences
+hies,2018,input,*,households (sysschedule),11056,none,
+hies,2018,linkage,familysize,household without row in table,0,flag,
+hies,2018,linkage,tblincomes,household without row in table,0,flag,
+hies,2018,types,interview_month,"MonthYear parsed to date (date in 2017, text later)",11056,type_cast,
+hies,2018,validity,year,quarter year != file year,0,flag,
+hies,2018,validity,region_code,unknown region code,0,flag,
+hies,2018,harmonisation,region,"code 10 (Imereti, incl. Racha in some years) and 13 (Racha) merged",1376,recode,original kept in region_code
+hies,2018,validity,income,negative amount (impossible for 'received' items),0,flag,kept as reported; exclude via flag_negative_income
+hies,2018,consistency,inc_cash_and_transfers,!= sum of items 1-7 (tol 0.5 GEL),0,flag,
+hies,2018,consistency,inc_total,!= cash_and_transfers + non_cash (tol 0.5 GEL),0,flag,
+hies,2018,income,inc_total,"total income = 0 (real zero, not missing)",30,flag,
+hies,2018,input,*,household members (tblshinda02),38840,none,
+hies,2018,validity,sex,"code not in {1,2} -> missing",0,set_missing,
+hies,2018,validity,age,outside 0-110,0,flag,
+hies,2018,missing,education_code,education missing (mostly children),7564,none,
+hies,2018,duplicates,uid+member_no,duplicate member key,0,flag,
+hies,2018,consistency,relationship,households without exactly one head,148,flag,
+hies,2018,consistency,household_size,FamilySize != members listed in Shinda02,0,flag,absent members (NotPresentNow) may explain differences
+hies,2019,input,*,households (sysschedule),13872,none,
+hies,2019,linkage,familysize,household without row in table,0,flag,
+hies,2019,linkage,tblincomes,household without row in table,0,flag,
+hies,2019,types,interview_month,"MonthYear parsed to date (date in 2017, text later)",13872,type_cast,
+hies,2019,validity,year,quarter year != file year,0,flag,
+hies,2019,validity,region_code,unknown region code,0,flag,
+hies,2019,harmonisation,region,"code 10 (Imereti, incl. Racha in some years) and 13 (Racha) merged",2537,recode,original kept in region_code
+hies,2019,validity,income,negative amount (impossible for 'received' items),0,flag,kept as reported; exclude via flag_negative_income
+hies,2019,consistency,inc_cash_and_transfers,!= sum of items 1-7 (tol 0.5 GEL),0,flag,
+hies,2019,consistency,inc_total,!= cash_and_transfers + non_cash (tol 0.5 GEL),0,flag,
+hies,2019,income,inc_total,"total income = 0 (real zero, not missing)",46,flag,
+hies,2019,input,*,household members (tblshinda02),47685,none,
+hies,2019,validity,sex,"code not in {1,2} -> missing",0,set_missing,
+hies,2019,validity,age,outside 0-110,0,flag,
+hies,2019,missing,education_code,education missing (mostly children),9000,none,
+hies,2019,duplicates,uid+member_no,duplicate member key,0,flag,
+hies,2019,consistency,relationship,households without exactly one head,131,flag,
+hies,2019,consistency,household_size,FamilySize != members listed in Shinda02,0,flag,absent members (NotPresentNow) may explain differences
+hies,2020,input,*,households (sysschedule),13313,none,
+hies,2020,linkage,familysize,household without row in table,0,flag,
+hies,2020,linkage,tblincomes,household without row in table,0,flag,
+hies,2020,types,interview_month,"MonthYear parsed to date (date in 2017, text later)",13313,type_cast,
+hies,2020,validity,year,quarter year != file year,0,flag,
+hies,2020,validity,region_code,unknown region code,0,flag,
+hies,2020,harmonisation,region,"code 10 (Imereti, incl. Racha in some years) and 13 (Racha) merged",2396,recode,original kept in region_code
+hies,2020,validity,income,negative amount (impossible for 'received' items),0,flag,kept as reported; exclude via flag_negative_income
+hies,2020,consistency,inc_cash_and_transfers,!= sum of items 1-7 (tol 0.5 GEL),0,flag,
+hies,2020,consistency,inc_total,!= cash_and_transfers + non_cash (tol 0.5 GEL),0,flag,
+hies,2020,income,inc_total,"total income = 0 (real zero, not missing)",31,flag,
+hies,2020,input,*,household members (tblshinda02),45141,none,
+hies,2020,validity,sex,"code not in {1,2} -> missing",0,set_missing,
+hies,2020,validity,age,outside 0-110,0,flag,
+hies,2020,missing,education_code,education missing (mostly children),8218,none,
+hies,2020,duplicates,uid+member_no,duplicate member key,0,flag,
+hies,2020,consistency,relationship,households without exactly one head,173,flag,
+hies,2020,consistency,household_size,FamilySize != members listed in Shinda02,0,flag,absent members (NotPresentNow) may explain differences
+hies,2021,input,*,households (sysschedule),13621,none,
+hies,2021,linkage,familysize,household without row in table,0,flag,
+hies,2021,linkage,tblincomes,household without row in table,0,flag,
+hies,2021,types,interview_month,"MonthYear parsed to date (date in 2017, text later)",13621,type_cast,
+hies,2021,validity,year,quarter year != file year,0,flag,
+hies,2021,validity,region_code,unknown region code,0,flag,
+hies,2021,harmonisation,region,"code 10 (Imereti, incl. Racha in some years) and 13 (Racha) merged",2541,recode,original kept in region_code
+hies,2021,validity,income,negative amount (impossible for 'received' items),1,flag,kept as reported; exclude via flag_negative_income
+hies,2021,consistency,inc_cash_and_transfers,!= sum of items 1-7 (tol 0.5 GEL),0,flag,
+hies,2021,consistency,inc_total,!= cash_and_transfers + non_cash (tol 0.5 GEL),0,flag,
+hies,2021,income,inc_total,"total income = 0 (real zero, not missing)",51,flag,
+hies,2021,input,*,household members (tblshinda02),45244,none,
+hies,2021,validity,sex,"code not in {1,2} -> missing",0,set_missing,
+hies,2021,validity,age,outside 0-110,0,flag,
+hies,2021,missing,education_code,education missing (mostly children),8186,none,
+hies,2021,duplicates,uid+member_no,duplicate member key,0,flag,
+hies,2021,consistency,relationship,households without exactly one head,190,flag,
+hies,2021,consistency,household_size,FamilySize != members listed in Shinda02,0,flag,absent members (NotPresentNow) may explain differences
+hies,2022,input,*,households (sysschedule),13621,none,
+hies,2022,linkage,familysize,household without row in table,0,flag,
+hies,2022,linkage,tblincomes,household without row in table,0,flag,
+hies,2022,types,interview_month,"MonthYear parsed to date (date in 2017, text later)",13621,type_cast,
+hies,2022,validity,year,quarter year != file year,0,flag,
+hies,2022,validity,region_code,unknown region code,0,flag,
+hies,2022,harmonisation,region,"code 10 (Imereti, incl. Racha in some years) and 13 (Racha) merged",2510,recode,original kept in region_code
+hies,2022,validity,income,negative amount (impossible for 'received' items),1,flag,kept as reported; exclude via flag_negative_income
+hies,2022,consistency,inc_cash_and_transfers,!= sum of items 1-7 (tol 0.5 GEL),0,flag,
+hies,2022,consistency,inc_total,!= cash_and_transfers + non_cash (tol 0.5 GEL),0,flag,
+hies,2022,income,inc_total,"total income = 0 (real zero, not missing)",43,flag,
+hies,2022,input,*,household members (tblshinda02),45330,none,
+hies,2022,validity,sex,"code not in {1,2} -> missing",0,set_missing,
+hies,2022,validity,age,outside 0-110,0,flag,
+hies,2022,missing,education_code,education missing (mostly children),8288,none,
+hies,2022,duplicates,uid+member_no,duplicate member key,0,flag,
+hies,2022,consistency,relationship,households without exactly one head,222,flag,
+hies,2022,consistency,household_size,FamilySize != members listed in Shinda02,0,flag,absent members (NotPresentNow) may explain differences
+hies,2023,input,*,households (sysschedule),13208,none,
+hies,2023,linkage,familysize,household without row in table,0,flag,
+hies,2023,linkage,tblincomes,household without row in table,0,flag,
+hies,2023,types,interview_month,"MonthYear parsed to date (date in 2017, text later)",13208,type_cast,
+hies,2023,validity,year,quarter year != file year,0,flag,
+hies,2023,validity,region_code,unknown region code,0,flag,
+hies,2023,harmonisation,region,"code 10 (Imereti, incl. Racha in some years) and 13 (Racha) merged",2358,recode,original kept in region_code
+hies,2023,validity,income,negative amount (impossible for 'received' items),0,flag,kept as reported; exclude via flag_negative_income
+hies,2023,consistency,inc_cash_and_transfers,!= sum of items 1-7 (tol 0.5 GEL),0,flag,
+hies,2023,consistency,inc_total,!= cash_and_transfers + non_cash (tol 0.5 GEL),0,flag,
+hies,2023,income,inc_total,"total income = 0 (real zero, not missing)",36,flag,
+hies,2023,input,*,household members (tblshinda02),42840,none,
+hies,2023,validity,sex,"code not in {1,2} -> missing",0,set_missing,
+hies,2023,validity,age,outside 0-110,0,flag,
+hies,2023,missing,education_code,education missing (mostly children),7432,none,
+hies,2023,duplicates,uid+member_no,duplicate member key,0,flag,
+hies,2023,consistency,relationship,households without exactly one head,144,flag,
+hies,2023,consistency,household_size,FamilySize != members listed in Shinda02,0,flag,absent members (NotPresentNow) may explain differences
+hies,2024,input,*,households (sysschedule),13105,none,
+hies,2024,linkage,familysize,household without row in table,0,flag,
+hies,2024,linkage,tblincomes,household without row in table,0,flag,
+hies,2024,types,interview_month,"MonthYear parsed to date (date in 2017, text later)",13105,type_cast,
+hies,2024,validity,year,quarter year != file year,0,flag,
+hies,2024,validity,region_code,unknown region code,0,flag,
+hies,2024,harmonisation,region,"code 10 (Imereti, incl. Racha in some years) and 13 (Racha) merged",2293,recode,original kept in region_code
+hies,2024,validity,income,negative amount (impossible for 'received' items),0,flag,kept as reported; exclude via flag_negative_income
+hies,2024,consistency,inc_cash_and_transfers,!= sum of items 1-7 (tol 0.5 GEL),0,flag,
+hies,2024,consistency,inc_total,!= cash_and_transfers + non_cash (tol 0.5 GEL),0,flag,
+hies,2024,income,inc_total,"total income = 0 (real zero, not missing)",11,flag,
+hies,2024,input,*,household members (tblshinda02),40987,none,
+hies,2024,validity,sex,"code not in {1,2} -> missing",0,set_missing,
+hies,2024,validity,age,outside 0-110,0,flag,
+hies,2024,missing,education_code,education missing (mostly children),6745,none,
+hies,2024,duplicates,uid+member_no,duplicate member key,0,flag,
+hies,2024,consistency,relationship,households without exactly one head,136,flag,
+hies,2024,consistency,household_size,FamilySize != members listed in Shinda02,0,flag,absent members (NotPresentNow) may explain differences
+hies,2025,input,*,households (sysschedule),13341,none,
+hies,2025,linkage,familysize,household without row in table,0,flag,
+hies,2025,linkage,tblincomes,household without row in table,0,flag,
+hies,2025,types,interview_month,"MonthYear parsed to date (date in 2017, text later)",13341,type_cast,
+hies,2025,validity,year,quarter year != file year,0,flag,
+hies,2025,validity,region_code,unknown region code,0,flag,
+hies,2025,harmonisation,region,"code 10 (Imereti, incl. Racha in some years) and 13 (Racha) merged",2503,recode,original kept in region_code
+hies,2025,validity,income,negative amount (impossible for 'received' items),0,flag,kept as reported; exclude via flag_negative_income
+hies,2025,consistency,inc_cash_and_transfers,!= sum of items 1-7 (tol 0.5 GEL),0,flag,
+hies,2025,consistency,inc_total,!= cash_and_transfers + non_cash (tol 0.5 GEL),0,flag,
+hies,2025,income,inc_total,"total income = 0 (real zero, not missing)",14,flag,
+hies,2025,input,*,household members (tblshinda02),41927,none,
+hies,2025,validity,sex,"code not in {1,2} -> missing",0,set_missing,
+hies,2025,validity,age,outside 0-110,0,flag,
+hies,2025,missing,education_code,education missing (mostly children),6836,none,
+hies,2025,duplicates,uid+member_no,duplicate member key,0,flag,
+hies,2025,consistency,relationship,households without exactly one head,174,flag,
+hies,2025,consistency,household_size,FamilySize != members listed in Shinda02,0,flag,absent members (NotPresentNow) may explain differences

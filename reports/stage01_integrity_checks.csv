@@ -1,0 +1,515 @@
+check,dataset,year,table,status,detail
+official_source,lfs,2017,lfs_2017,PASS,https://geostat.ge/media/23299/2017_LFS_DB_ENG.zip
+complete_download,lfs,2017,lfs_2017,PASS,"3,198,612 bytes, zip, sha256 ok"
+official_source,lfs,2018,lfs_2018,PASS,https://geostat.ge/media/30751/SPSS---Eng-2018.zip
+complete_download,lfs,2018,lfs_2018,PASS,"3,463,584 bytes, zip, sha256 ok"
+official_source,lfs,2019,lfs_2019,PASS,https://geostat.ge/media/31881/SPSS---Eng-2019.zip
+complete_download,lfs,2019,lfs_2019,PASS,"3,374,017 bytes, zip, sha256 ok"
+official_source,lfs,2020,lfs_2020,PASS,https://geostat.ge/media/48123/Labour-Force-Survey-Database-2020-Year.zip
+complete_download,lfs,2020,lfs_2020,PASS,"2,939,449 bytes, zip, sha256 ok"
+official_source,lfs,2021,lfs_2021,PASS,https://geostat.ge/media/48124/Labour-Force-Survey-Database-2021-Year.zip
+complete_download,lfs,2021,lfs_2021,PASS,"2,899,614 bytes, zip, sha256 ok"
+official_source,lfs,2022,lfs_2022,PASS,https://geostat.ge/media/54646/Labour-Force-Survey-Database-2022-Year.zip
+complete_download,lfs,2022,lfs_2022,PASS,"3,530,730 bytes, zip, sha256 ok"
+official_source,lfs,2023,lfs_2023,PASS,https://geostat.ge/media/63553/Labour-Force-Survey-2023-eng.zip
+complete_download,lfs,2023,lfs_2023,PASS,"3,549,748 bytes, zip, sha256 ok"
+official_source,lfs,2024,lfs_2024,PASS,https://geostat.ge/media/71337/Labour-Force-Survey-2024.zip
+complete_download,lfs,2024,lfs_2024,PASS,"3,482,591 bytes, zip, sha256 ok"
+official_source,lfs,2025,lfs_2025,PASS,https://geostat.ge/media/79807/Labour-Force-Survey-2025.zip
+complete_download,lfs,2025,lfs_2025,PASS,"3,647,353 bytes, zip, sha256 ok"
+official_source,hies,2017,hies_2017,PASS,https://geostat.ge/media/62840/2017.zip
+complete_download,hies,2017,hies_2017,PASS,"11,891,371 bytes, zip, sha256 ok"
+official_source,hies,2018,hies_2018,PASS,https://geostat.ge/media/62841/2018.zip
+complete_download,hies,2018,hies_2018,PASS,"12,315,527 bytes, zip, sha256 ok"
+official_source,hies,2019,hies_2019,PASS,https://geostat.ge/media/62842/2019.zip
+complete_download,hies,2019,hies_2019,PASS,"15,001,562 bytes, zip, sha256 ok"
+official_source,hies,2020,hies_2020,PASS,https://geostat.ge/media/62843/2020.zip
+complete_download,hies,2020,hies_2020,PASS,"13,914,522 bytes, zip, sha256 ok"
+official_source,hies,2021,hies_2021,PASS,https://geostat.ge/media/62844/2021.zip
+complete_download,hies,2021,hies_2021,PASS,"14,437,445 bytes, zip, sha256 ok"
+official_source,hies,2022,hies_2022,PASS,https://geostat.ge/media/62845/2022.zip
+complete_download,hies,2022,hies_2022,PASS,"14,695,053 bytes, zip, sha256 ok"
+official_source,hies,2023,hies_2023,PASS,https://geostat.ge/media/62846/2023.zip
+complete_download,hies,2023,hies_2023,PASS,"15,163,953 bytes, zip, sha256 ok"
+official_source,hies,2024,hies_2024,PASS,https://geostat.ge/media/71164/2024.zip
+complete_download,hies,2024,hies_2024,PASS,"15,133,698 bytes, zip, sha256 ok"
+official_source,hies,2025,hies_2025,PASS,https://geostat.ge/media/79814/2025.zip
+complete_download,hies,2025,hies_2025,PASS,"15,766,594 bytes, zip, sha256 ok"
+official_source,meta,,lfs_vars_2017_2019,PASS,https://geostat.ge/media/27443/Description-of-Labour-Force-Survey-Database-Variables.docx
+complete_download,meta,,lfs_vars_2017_2019,PASS,"43,549 bytes, docx, sha256 ok"
+official_source,meta,,lfs_vars_2020plus,PASS,https://geostat.ge/media/79812/Description-of-Labour-Force-Survey-Database-Variables.docx
+complete_download,meta,,lfs_vars_2020plus,PASS,"28,046 bytes, docx, sha256 ok"
+official_source,meta,,hies_vars,PASS,https://geostat.ge/media/62847/Description-of-IHS-database-variables---Eng.pdf
+complete_download,meta,,hies_vars,PASS,"1,109,157 bytes, pdf, sha256 ok"
+official_source,meta,,lfs_methodology,PASS,https://geostat.ge/media/80099/geostat_labour_force_survey_en.html
+complete_download,meta,,lfs_methodology,PASS,"52,786 bytes, html, sha256 ok"
+official_source,meta,,wages_methodology,PASS,https://geostat.ge/media/80100/geostat_wages_methodology_en.html
+complete_download,meta,,wages_methodology,PASS,"47,292 bytes, html, sha256 ok"
+official_source,meta,,lfs_main_questionnaire_new,PASS,https://geostat.ge/media/68082/LFS_MainQ_ENG.pdf
+complete_download,meta,,lfs_main_questionnaire_new,PASS,"311,489 bytes, pdf, sha256 ok"
+official_source,meta,,lfs_main_questionnaire_old,PASS,https://geostat.ge/media/37157/2019-02-19---LFS-Main-Questionnaire-%28old-methodology%29.pdf
+complete_download,meta,,lfs_main_questionnaire_old,PASS,"257,103 bytes, pdf, sha256 ok"
+official_source,meta,,lfs_demographic_questionnaire,PASS,https://geostat.ge/media/68081/LFS-DemographicQ_ENG.pdf
+complete_download,meta,,lfs_demographic_questionnaire,PASS,"122,189 bytes, pdf, sha256 ok"
+official_source,meta,,hies_q_shinda05_1,PASS,https://geostat.ge/media/57998/Shinda05-1_2019_Eng.pdf
+complete_download,meta,,hies_q_shinda05_1,PASS,"178,011 bytes, pdf, sha256 ok"
+official_source,meta,,hies_q_shinda05,PASS,https://geostat.ge/media/57997/Shinda05_2019_Eng.pdf
+complete_download,meta,,hies_q_shinda05,PASS,"232,498 bytes, pdf, sha256 ok"
+official_source,agg,,wages_gpg,PASS,https://geostat.ge/media/83390/GPG_Eng.xlsx
+complete_download,agg,,wages_gpg,PASS,"11,833 bytes, xlsx, sha256 ok"
+official_source,agg,,wages_by_sex_annual,PASS,https://geostat.ge/media/83306/03_Earnings-by-sex_annual.xlsx
+complete_download,agg,,wages_by_sex_annual,PASS,"31,815 bytes, xlsx, sha256 ok"
+official_source,agg,,wages_median,PASS,https://geostat.ge/media/83297/Median-Monthly-Earnings.xlsx
+complete_download,agg,,wages_median,PASS,"12,438 bytes, xlsx, sha256 ok"
+official_source,agg,,wages_isco,PASS,https://geostat.ge/media/83726/11-Earnings-%28ISCO%29.xlsx
+complete_download,agg,,wages_isco,PASS,"21,026 bytes, xlsx, sha256 ok"
+official_source,agg,,wages_regions,PASS,https://geostat.ge/media/83309/13_Earnings-by-regions_annual.xlsx
+complete_download,agg,,wages_regions,PASS,"12,837 bytes, xlsx, sha256 ok"
+official_source,agg,,cpi_2010,PASS,https://geostat.ge/media/83813/consumer-price-index-2010%3D100.xlsx
+complete_download,agg,,cpi_2010,PASS,"42,383 bytes, xlsx, sha256 ok"
+archive_intact,lfs,2017,lfs_2017,PASS,"9 members, CRC ok, extracted copy identical"
+archive_intact,lfs,2018,lfs_2018,PASS,"9 members, CRC ok, extracted copy identical"
+archive_intact,lfs,2019,lfs_2019,PASS,"9 members, CRC ok, extracted copy identical"
+archive_intact,lfs,2020,lfs_2020,PASS,"5 members, CRC ok, extracted copy identical"
+archive_intact,lfs,2021,lfs_2021,PASS,"5 members, CRC ok, extracted copy identical"
+archive_intact,lfs,2022,lfs_2022,PASS,"5 members, CRC ok, extracted copy identical"
+archive_intact,lfs,2023,lfs_2023,PASS,"5 members, CRC ok, extracted copy identical"
+archive_intact,lfs,2024,lfs_2024,PASS,"5 members, CRC ok, extracted copy identical"
+archive_intact,lfs,2025,lfs_2025,PASS,"5 members, CRC ok, extracted copy identical"
+archive_intact,hies,2017,hies_2017,PASS,"26 members, CRC ok, extracted copy identical"
+archive_intact,hies,2018,hies_2018,PASS,"26 members, CRC ok, extracted copy identical"
+archive_intact,hies,2019,hies_2019,PASS,"26 members, CRC ok, extracted copy identical"
+archive_intact,hies,2020,hies_2020,PASS,"26 members, CRC ok, extracted copy identical"
+archive_intact,hies,2021,hies_2021,PASS,"26 members, CRC ok, extracted copy identical"
+archive_intact,hies,2022,hies_2022,PASS,"26 members, CRC ok, extracted copy identical"
+archive_intact,hies,2023,hies_2023,PASS,"26 members, CRC ok, extracted copy identical"
+archive_intact,hies,2024,hies_2024,PASS,"26 members, CRC ok, extracted copy identical"
+archive_intact,hies,2025,hies_2025,PASS,"26 members, CRC ok, extracted copy identical"
+structure_core_tables,lfs,2017,,PASS,"6 tables, all core tables present"
+year_identified,lfs,2017,id,PASS,Year field in id = [2017]
+structure_uid_linkage,lfs,2017,LFS_Personal_Weights,PASS,0 of 54824 rows have a UID not found in id
+structure_uid_linkage,lfs,2017,LFS_FamilySize,PASS,0 of 20486 rows have a UID not found in id
+structure_uid_linkage,lfs,2017,LFS_ECSTAT,PASS,0 of 54824 rows have a UID not found in id
+structure_uid_linkage,lfs,2017,LFS_Demographic,PASS,0 of 73428 rows have a UID not found in id
+structure_uid_linkage,lfs,2017,LFS_DeadMen,PASS,0 of 100 rows have a UID not found in id
+structure_person_linkage,lfs,2017,ecstat,PASS,0 ECSTAT persons not in demographic; ECSTAT min age = 15
+structure_core_tables,lfs,2018,,PASS,"6 tables, all core tables present"
+year_identified,lfs,2018,id,PASS,Year field in id = [2018]
+structure_uid_linkage,lfs,2018,LFS_Personal_weights,PASS,0 of 58641 rows have a UID not found in id
+structure_uid_linkage,lfs,2018,LFS_Family_size,WARN,2 of 20349 rows have a UID not found in id (incl. missing UID)
+structure_uid_linkage,lfs,2018,LFS_Demograpics,PASS,0 of 74691 rows have a UID not found in id
+structure_uid_linkage,lfs,2018,LFS_ECSTAT,PASS,0 of 58641 rows have a UID not found in id
+structure_uid_linkage,lfs,2018,LFS_DeadMen,PASS,0 of 422 rows have a UID not found in id
+structure_person_linkage,lfs,2018,ecstat,PASS,0 ECSTAT persons not in demographic; ECSTAT min age = 15
+structure_core_tables,lfs,2019,,PASS,"6 tables, all core tables present"
+year_identified,lfs,2019,id,PASS,Year field in id = [2019]
+structure_uid_linkage,lfs,2019,LFS_Personal_weights,PASS,0 of 61386 rows have a UID not found in id
+structure_uid_linkage,lfs,2019,LFS_Familysize,PASS,0 of 21501 rows have a UID not found in id
+structure_uid_linkage,lfs,2019,LFS_Demograpics,PASS,0 of 77005 rows have a UID not found in id
+structure_uid_linkage,lfs,2019,LFS_ECSTAT,PASS,0 of 61386 rows have a UID not found in id
+structure_uid_linkage,lfs,2019,LFS_DeadMen,PASS,0 of 410 rows have a UID not found in id
+structure_person_linkage,lfs,2019,ecstat,PASS,0 ECSTAT persons not in demographic; ECSTAT min age = 15
+structure_core_tables,lfs,2020,,PASS,"2 tables, all core tables present"
+year_identified,lfs,2020,demographic,PASS,Year field in demographic = [2020]
+structure_uid_linkage,lfs,2020,LFS_ECSTAT_ENG_2020,PASS,0 of 58979 rows have a UID not found in demographic
+structure_person_linkage,lfs,2020,ecstat,PASS,0 ECSTAT persons not in demographic; ECSTAT min age = 15
+structure_core_tables,lfs,2021,,PASS,"2 tables, all core tables present"
+year_identified,lfs,2021,demographic,PASS,Year field in demographic = [2021]
+structure_uid_linkage,lfs,2021,LFS_ECSTAT_ENG_2021,PASS,0 of 60837 rows have a UID not found in demographic
+structure_person_linkage,lfs,2021,ecstat,PASS,0 ECSTAT persons not in demographic; ECSTAT min age = 15
+structure_core_tables,lfs,2022,,PASS,"2 tables, all core tables present"
+year_identified,lfs,2022,demographic,PASS,Year field in demographic = [2022]
+structure_uid_linkage,lfs,2022,LFS_ECSTAT_ENG_2022,PASS,0 of 60262 rows have a UID not found in demographic
+structure_person_linkage,lfs,2022,ecstat,PASS,0 ECSTAT persons not in demographic; ECSTAT min age = 15
+structure_core_tables,lfs,2023,,PASS,"2 tables, all core tables present"
+year_identified,lfs,2023,demographic,PASS,Year field in demographic = [2023]
+structure_uid_linkage,lfs,2023,LFS_ECSTAT_ENG_2023,PASS,0 of 58398 rows have a UID not found in demographic
+structure_person_linkage,lfs,2023,ecstat,PASS,0 ECSTAT persons not in demographic; ECSTAT min age = 15
+structure_core_tables,lfs,2024,,PASS,"2 tables, all core tables present"
+year_identified,lfs,2024,demographic,PASS,Year field in demographic = [2024]
+structure_uid_linkage,lfs,2024,LFS_ECSTAT_ENG_2024,PASS,0 of 57546 rows have a UID not found in demographic
+structure_person_linkage,lfs,2024,ecstat,PASS,0 ECSTAT persons not in demographic; ECSTAT min age = 15
+structure_core_tables,lfs,2025,,PASS,"2 tables, all core tables present"
+year_identified,lfs,2025,demographic,PASS,Year field in demographic = [2025]
+structure_uid_linkage,lfs,2025,LFS_ECSTAT_ENG_2025,PASS,0 of 58170 rows have a UID not found in demographic
+structure_person_linkage,lfs,2025,ecstat,PASS,0 ECSTAT persons not in demographic; ECSTAT min age = 15
+structure_core_tables,hies,2017,,PASS,"19 tables, all core tables present"
+year_identified,hies,2017,sysschedule,PASS,sysschedule quarters map to years [2017]
+structure_uid_linkage,hies,2017,tblexpenditures,PASS,0 of 11590 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2017,tblshinda01_lands,PASS,0 of 13185 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2017,tblconsumption,PASS,0 of 155840 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2017,tblincomes,PASS,0 of 11590 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2017,tblshinda04_1,PASS,0 of 166687 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2017,conspurch_03,PASS,0 of 110840 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2017,tblshinda01_subjects,PASS,0 of 87073 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2017,tblshinda04,PASS,0 of 622491 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2017,tblshinda01_comfort,PASS,0 of 42016 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2017,tblshinda01_cultures,PASS,0 of 21470 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2017,deadmen,PASS,0 of 52 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2017,familysize,PASS,0 of 11590 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2017,tblshinda02,PASS,0 of 40104 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2017,tblshinda03_1,PASS,0 of 247535 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2017,tblshinda01_animals,PASS,0 of 10698 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2017,tblshinda01,PASS,0 of 11590 rows have a UID not in sysschedule
+structure_core_tables,hies,2018,,PASS,"19 tables, all core tables present"
+year_identified,hies,2018,sysschedule,PASS,sysschedule quarters map to years [2018]
+structure_uid_linkage,hies,2018,tblexpenditures,PASS,0 of 11056 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2018,tblshinda01_lands,PASS,0 of 12579 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2018,tblconsumption,PASS,0 of 156150 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2018,tblincomes,PASS,0 of 11056 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2018,tblshinda04_1,PASS,0 of 157086 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2018,conspurch_03,PASS,0 of 113144 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2018,tblshinda01_subjects,PASS,0 of 82123 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2018,tblshinda04,PASS,0 of 595992 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2018,tblshinda01_comfort,PASS,0 of 40160 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2018,tblshinda01_cultures,PASS,0 of 19801 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2018,deadmen,PASS,0 of 218 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2018,familysize,PASS,0 of 11056 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2018,tblshinda02,PASS,0 of 38840 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2018,tblshinda03_1,PASS,0 of 248040 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2018,tblshinda01_animals,PASS,0 of 10103 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2018,tblshinda01,PASS,0 of 11056 rows have a UID not in sysschedule
+structure_core_tables,hies,2019,,PASS,"19 tables, all core tables present"
+year_identified,hies,2019,sysschedule,PASS,sysschedule quarters map to years [2019]
+structure_uid_linkage,hies,2019,tblexpenditures,PASS,0 of 13872 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2019,tblshinda01_lands,PASS,0 of 17264 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2019,tblconsumption,PASS,0 of 193203 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2019,tblincomes,PASS,0 of 13872 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2019,tblshinda04_1,PASS,0 of 206517 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2019,conspurch_03,PASS,0 of 136982 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2019,tblshinda01_subjects,PASS,0 of 102188 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2019,tblshinda04,PASS,0 of 750340 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2019,tblshinda01_comfort,PASS,0 of 50051 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2019,tblshinda01_cultures,PASS,0 of 27512 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2019,deadmen,PASS,0 of 248 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2019,familysize,PASS,0 of 13872 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2019,tblshinda02,PASS,0 of 47685 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2019,tblshinda03_1,PASS,0 of 294026 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2019,tblshinda01_animals,PASS,0 of 13313 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2019,tblshinda01,PASS,0 of 13872 rows have a UID not in sysschedule
+structure_core_tables,hies,2020,,PASS,"19 tables, all core tables present"
+year_identified,hies,2020,sysschedule,PASS,sysschedule quarters map to years [2020]
+structure_uid_linkage,hies,2020,tblexpenditures,PASS,0 of 13313 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2020,tblshinda01_lands,PASS,0 of 16495 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2020,tblconsumption,PASS,0 of 177927 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2020,tblincomes,PASS,0 of 13313 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2020,tblshinda04_1,PASS,0 of 208849 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2020,conspurch_03,PASS,0 of 121385 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2020,tblshinda01_subjects,PASS,0 of 98614 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2020,tblshinda04,PASS,0 of 658764 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2020,tblshinda01_comfort,PASS,0 of 49227 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2020,tblshinda01_cultures,PASS,0 of 26736 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2020,deadmen,PASS,0 of 280 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2020,familysize,PASS,0 of 13313 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2020,tblshinda02,PASS,0 of 45141 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2020,tblshinda03_1,PASS,0 of 257746 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2020,tblshinda01_animals,PASS,0 of 12649 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2020,tblshinda01,PASS,0 of 13313 rows have a UID not in sysschedule
+structure_core_tables,hies,2021,,PASS,"19 tables, all core tables present"
+year_identified,hies,2021,sysschedule,PASS,sysschedule quarters map to years [2021]
+structure_uid_linkage,hies,2021,tblexpenditures,PASS,0 of 13621 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2021,tblshinda01_lands,PASS,0 of 16378 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2021,tblconsumption,PASS,0 of 187108 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2021,tblincomes,PASS,0 of 13621 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2021,tblshinda04_1,PASS,0 of 208535 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2021,conspurch_03,PASS,0 of 128617 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2021,tblshinda01_subjects,PASS,0 of 101408 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2021,tblshinda04,PASS,0 of 668707 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2021,tblshinda01_comfort,PASS,0 of 51819 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2021,tblshinda01_cultures,PASS,0 of 27037 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2021,deadmen,PASS,0 of 297 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2021,familysize,PASS,0 of 13621 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2021,tblshinda02,PASS,0 of 45244 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2021,tblshinda03_1,PASS,0 of 274181 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2021,tblshinda01_animals,PASS,0 of 12479 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2021,tblshinda01,PASS,0 of 13621 rows have a UID not in sysschedule
+structure_core_tables,hies,2022,,PASS,"19 tables, all core tables present"
+year_identified,hies,2022,sysschedule,PASS,sysschedule quarters map to years [2022]
+structure_uid_linkage,hies,2022,tblexpenditures,PASS,0 of 13621 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2022,tblshinda01_lands,PASS,0 of 16649 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2022,tblconsumption,PASS,0 of 185736 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2022,tblincomes,PASS,0 of 13621 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2022,tblshinda04_1,PASS,0 of 202918 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2022,conspurch_03,PASS,0 of 130370 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2022,tblshinda01_subjects,PASS,0 of 103606 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2022,tblshinda04,PASS,0 of 711673 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2022,tblshinda01_comfort,PASS,0 of 53757 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2022,tblshinda01_cultures,PASS,0 of 27624 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2022,deadmen,PASS,0 of 332 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2022,familysize,PASS,0 of 13621 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2022,tblshinda02,PASS,0 of 45330 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2022,tblshinda03_1,PASS,0 of 277908 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2022,tblshinda01_animals,PASS,0 of 12816 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2022,tblshinda01,PASS,0 of 13621 rows have a UID not in sysschedule
+structure_core_tables,hies,2023,,PASS,"19 tables, all core tables present"
+year_identified,hies,2023,sysschedule,PASS,sysschedule quarters map to years [2023]
+structure_uid_linkage,hies,2023,tblexpenditures,PASS,0 of 13208 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2023,tblshinda01_lands,PASS,0 of 16857 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2023,tblconsumption,PASS,0 of 178413 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2023,tblincomes,PASS,0 of 13208 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2023,tblshinda04_1,PASS,0 of 181408 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2023,conspurch_03,PASS,0 of 127625 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2023,tblshinda01_subjects,PASS,0 of 100344 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2023,tblshinda04,PASS,0 of 743606 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2023,tblshinda01_comfort,PASS,0 of 53266 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2023,tblshinda01_cultures,PASS,0 of 27801 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2023,deadmen,PASS,0 of 241 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2023,familysize,PASS,0 of 13208 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2023,tblshinda02,PASS,0 of 42840 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2023,tblshinda03_1,PASS,0 of 269753 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2023,tblshinda01_animals,PASS,0 of 12549 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2023,tblshinda01,PASS,0 of 13208 rows have a UID not in sysschedule
+structure_core_tables,hies,2024,,PASS,"19 tables, all core tables present"
+year_identified,hies,2024,sysschedule,PASS,sysschedule quarters map to years [2024]
+structure_uid_linkage,hies,2024,tblexpenditures,PASS,0 of 13105 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2024,tblshinda01_lands,PASS,0 of 15796 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2024,tblconsumption,PASS,0 of 177456 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2024,tblincomes,PASS,0 of 13105 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2024,tblshinda04_1,PASS,0 of 170212 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2024,conspurch_03,PASS,0 of 129905 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2024,tblshinda01_subjects,PASS,0 of 99409 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2024,tblshinda04,PASS,0 of 743089 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2024,tblshinda01_comfort,PASS,0 of 54214 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2024,tblshinda01_cultures,PASS,0 of 26947 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2024,deadmen,PASS,0 of 225 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2024,familysize,PASS,0 of 13105 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2024,tblshinda02,PASS,0 of 40987 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2024,tblshinda03_1,PASS,0 of 270140 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2024,tblshinda01_animals,PASS,0 of 11501 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2024,tblshinda01,PASS,0 of 13105 rows have a UID not in sysschedule
+structure_core_tables,hies,2025,,PASS,"19 tables, all core tables present"
+year_identified,hies,2025,sysschedule,PASS,sysschedule quarters map to years [2025]
+structure_uid_linkage,hies,2025,tblexpenditures,PASS,0 of 13341 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2025,tblshinda01_lands,PASS,0 of 15573 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2025,tblconsumption,PASS,0 of 182924 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2025,tblincomes,PASS,0 of 13341 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2025,tblshinda04_1,PASS,0 of 162268 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2025,conspurch_03,PASS,0 of 136640 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2025,tblshinda01_subjects,PASS,0 of 103391 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2025,tblshinda04,PASS,0 of 763994 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2025,tblshinda01_comfort,PASS,0 of 56906 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2025,tblshinda01_cultures,PASS,0 of 26397 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2025,deadmen,PASS,0 of 258 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2025,familysize,PASS,0 of 13341 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2025,tblshinda02,PASS,0 of 41927 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2025,tblshinda03_1,PASS,0 of 279869 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2025,tblshinda01_animals,PASS,0 of 10885 rows have a UID not in sysschedule
+structure_uid_linkage,hies,2025,tblshinda01,PASS,0 of 13341 rows have a UID not in sysschedule
+metadata_matches_data,lfs,2017,deadmen,PASS,lfs_vars_2017_2019: 100% of 10 data vars documented
+metadata_matches_data,lfs,2017,demographic,PASS,lfs_vars_2017_2019: 100% of 18 data vars documented
+metadata_matches_data,lfs,2017,ecstat,WARN,"lfs_vars_2017_2019: 95% of 126 data vars documented; undocumented=['@15', 'B22__employed_at_local_unit', 'C6_Main_reason_fewmore_hours', 'E7_Type_of__jobSeeked', 'F2__previous_job_duration', 'F5_Previous__Status']"
+metadata_matches_data,lfs,2017,familysize,PASS,lfs_vars_2017_2019: 100% of 7 data vars documented
+metadata_matches_data,lfs,2017,id,WARN,lfs_vars_2017_2019: 83% of 6 data vars documented; undocumented=['QuarterNo']
+metadata_matches_data,lfs,2017,personal_weights,PASS,lfs_vars_2017_2019: 100% of 3 data vars documented
+metadata_matches_data,lfs,2018,deadmen,PASS,lfs_vars_2017_2019: 100% of 10 data vars documented
+metadata_matches_data,lfs,2018,demographic,PASS,lfs_vars_2017_2019: 100% of 18 data vars documented
+metadata_matches_data,lfs,2018,ecstat,WARN,"lfs_vars_2017_2019: 95% of 126 data vars documented; undocumented=['@15', 'B22__employed_at_local_unit', 'C6_Main_reason_fewmore_hours', 'E7_Type_of__jobSeeked', 'F2__previous_job_duration', 'F5_Previous__Status']"
+metadata_matches_data,lfs,2018,familysize,WARN,"lfs_vars_2017_2019: 43% of 7 data vars documented; undocumented=['Family_Size_17', 'Family_Size_15_17', 'Children_017_Age', 'Children_017_Age_03']"
+metadata_matches_data,lfs,2018,id,WARN,lfs_vars_2017_2019: 83% of 6 data vars documented; undocumented=['QuarterNo']
+metadata_matches_data,lfs,2018,personal_weights,PASS,lfs_vars_2017_2019: 100% of 3 data vars documented
+metadata_matches_data,lfs,2019,deadmen,PASS,lfs_vars_2017_2019: 100% of 10 data vars documented
+metadata_matches_data,lfs,2019,demographic,PASS,lfs_vars_2017_2019: 100% of 18 data vars documented
+metadata_matches_data,lfs,2019,ecstat,WARN,"lfs_vars_2017_2019: 95% of 126 data vars documented; undocumented=['@15', 'B22__employed_at_local_unit', 'C6_Main_reason_fewmore_hours', 'E7_Type_of__jobSeeked', 'F2__previous_job_duration', 'F5_Previous__Status']"
+metadata_matches_data,lfs,2019,familysize,WARN,"lfs_vars_2017_2019: 43% of 7 data vars documented; undocumented=['Family_Size_17', 'Family_Size_15_17', 'Children_017_Age', 'Children_017_Age_03']"
+metadata_matches_data,lfs,2019,id,WARN,lfs_vars_2017_2019: 83% of 6 data vars documented; undocumented=['QuarterNo']
+metadata_matches_data,lfs,2019,personal_weights,PASS,lfs_vars_2017_2019: 100% of 3 data vars documented
+metadata_matches_data,lfs,2020,demographic,WARN,"lfs_vars_2020plus: 64% of 28 data vars documented; undocumented=['Nationality', 'Temp_Absent', 'Changes', 'Region_Q14', 'MM_Q15', 'YYYY_Q15', 'Prev_Region', 'Urban_Rural_Q17', 'Reason_Q18', 'Children_017_Age']"
+metadata_matches_data,lfs,2020,ecstat,WARN,"lfs_vars_2020plus: 85% of 140 data vars documented; undocumented=['Brunch_1', 'Brunch_converted_1', 'Brunch_2', 'Brunch_converted_2', 'Second_Brunch_1', 'Second_Brunch_converted_1', 'Second_Brunch_2', 'Second_Brunch_converted_2', 'Previous_work_experience_last_8_years', 'Previous_Brunch_1', 'Previous_Brunch_converted_1', 'Previous_Brunch_2', 'Previous_Brunch_converted_2', 'B10_Business_with_regular_salaried_workers', 'B11_Number_of_employees_in_the_establishment', 'C7_Main_reason_fewmore_hours', 'E6_Reason_desire_change_work_condition', 'G9_Main_reason_of_discouraged_worker', 'G11_The_reasons_for_not_starting_work', 'I7_Number_of_hours_spent_on_all_training_activities', 'I9_Learning_activity_during_working_hours']"
+metadata_matches_data,lfs,2021,demographic,WARN,"lfs_vars_2020plus: 68% of 28 data vars documented; undocumented=['Nationality', 'Temporarily_absent', 'Changes', 'Region_Q14', 'MM_Q15', 'YYYY_Q15', 'Prev_Region', 'Urban_Rural_Q17', 'Reason_Q18']"
+metadata_matches_data,lfs,2021,ecstat,WARN,"lfs_vars_2020plus: 90% of 134 data vars documented; undocumented=['Brunch', 'Brunch_converted', 'Second_Brunch', 'Second_Brunch_converted', 'Previous_work_experience_last_8_years', 'Previous_Brunch', 'Previous_Brunch_converted', 'B10_Business_with_regular_salaried_workers', 'B11_Number_of_employees_in_the_establishment', 'E6_Reason_desire_change_work_condition', 'G9_Main_reason_of_discouraged_worker', 'G11_The_reasons_for_not_starting_work', 'I7_Number_of_hours_spent_on_all_training_activities', 'I9_Learning_activity_during_working_hours']"
+metadata_matches_data,lfs,2022,demographic,PASS,lfs_vars_2020plus: 100% of 19 data vars documented
+metadata_matches_data,lfs,2022,ecstat,WARN,"lfs_vars_2020plus: 90% of 134 data vars documented; undocumented=['Brunch', 'Brunch_converted', 'Second_Brunch', 'Second_Brunch_converted', 'Previous_work_experience_last_8_years', 'Previous_Brunch', 'Previous_Brunch_converted', 'B10_Business_with_regular_salaried_workers', 'B11_Number_of_employees_in_the_establishment', 'E6_Reason_desire_change_work_condition', 'G9_Main_reason_of_discouraged_worker', 'G11_The_reasons_for_not_starting_work', 'I7_Number_of_hours_spent_on_all_training_activities', 'I9_Learning_activity_during_working_hours']"
+metadata_matches_data,lfs,2023,demographic,PASS,lfs_vars_2020plus: 100% of 19 data vars documented
+metadata_matches_data,lfs,2023,ecstat,WARN,"lfs_vars_2020plus: 89% of 130 data vars documented; undocumented=['Brunch', 'Brunch_converted', 'Second_Brunch', 'Second_Brunch_converted', 'Previous_work_experience_last_8_years', 'Previous_Brunch', 'Previous_Brunch_converted', 'B10_Business_with_regular_salaried_workers', 'B11_Number_of_employees_in_the_establishment', 'E6_Reason_desire_change_work_condition', 'G9_Main_reason_of_discouraged_worker', 'G11_The_reasons_for_not_starting_work', 'I7_Number_of_hours_spent_on_all_training_activities', 'I9_Learning_activity_during_working_hours']"
+metadata_matches_data,lfs,2024,demographic,PASS,lfs_vars_2020plus: 100% of 19 data vars documented
+metadata_matches_data,lfs,2024,ecstat,WARN,"lfs_vars_2020plus: 89% of 130 data vars documented; undocumented=['Brunch', 'Brunch_converted', 'Second_Brunch', 'Second_Brunch_converted', 'Previous_work_experience_last_8_years', 'Previous_Brunch', 'Previous_Brunch_converted', 'B10_Business_with_regular_salaried_workers', 'B11_Number_of_employees_in_the_establishment', 'E6_Reason_desire_change_work_condition', 'G9_Main_reason_of_discouraged_worker', 'G11_The_reasons_for_not_starting_work', 'I7_Number_of_hours_spent_on_all_training_activities', 'I9_Learning_activity_during_working_hours']"
+metadata_matches_data,lfs,2025,demographic,PASS,lfs_vars_2020plus: 100% of 19 data vars documented
+metadata_matches_data,lfs,2025,ecstat,WARN,"lfs_vars_2020plus: 89% of 130 data vars documented; undocumented=['Branch', 'Branch_converted', 'Second_Branch', 'Second_Branch_converted', 'Previous_work_experience_last_8_years', 'Previous_Branch', 'Previous_Branch_converted', 'B10_Business_with_regular_salaried_workers', 'B11_Number_of_employees_in_the_establishment', 'E6_Reason_desire_change_work_condition', 'G9_Main_reason_of_discouraged_worker', 'G11_The_reasons_for_not_starting_work', 'I7_Number_of_hours_spent_on_all_training_activities', 'I9_Learning_activity_during_working_hours']"
+metadata_matches_data,hies,2017,,INFO,"hies_vars: codebook describes tables absent from 2017 data: ['personal_weights', 'tbl_ec_stat_05', 'tblshinda09_g1', 'tblshinda09_g2', 'tblshinda09_g3', 'tblshinda09_g4', 'tblshinda09_j1', 'tblshinda09_j2', 'tblshinda09_j3', 'tblshinda09_q1', 'tblshinda09_s1']"
+metadata_matches_data,hies,2017,123,PASS,hies_vars: 100% of 4 data vars documented
+metadata_matches_data,hies,2017,conspurch_03,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2017,deadmen,WARN,"hies_vars: 86% of 14 data vars documented; undocumented=['Relations', 'SpecialStatus3']"
+metadata_matches_data,hies,2017,familysize,PASS,hies_vars: 100% of 11 data vars documented
+metadata_matches_data,hies,2017,sysschedule,PASS,hies_vars: 100% of 7 data vars documented
+metadata_matches_data,hies,2017,tblavgprices,PASS,hies_vars: 100% of 3 data vars documented
+metadata_matches_data,hies,2017,tblconsumption,WARN,hies_vars: 86% of 7 data vars documented; undocumented=['NonCash_StoksConsAdj']
+metadata_matches_data,hies,2017,tblexpenditures,PASS,hies_vars: 100% of 21 data vars documented
+metadata_matches_data,hies,2017,tblincomes,PASS,hies_vars: 100% of 16 data vars documented
+metadata_matches_data,hies,2017,tblshinda01,WARN,"hies_vars: 85% of 39 data vars documented; undocumented=['OtherHouse', 'OtherHouseS', 'OtherVillage', 'OtherVillageS', 'OtherLand', 'OtherLandS']"
+metadata_matches_data,hies,2017,tblshinda01_animals,PASS,hies_vars: 100% of 3 data vars documented
+metadata_matches_data,hies,2017,tblshinda01_comfort,PASS,hies_vars: 100% of 2 data vars documented
+metadata_matches_data,hies,2017,tblshinda01_cultures,PASS,hies_vars: 100% of 4 data vars documented
+metadata_matches_data,hies,2017,tblshinda01_lands,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2017,tblshinda01_subjects,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2017,tblshinda02,WARN,hies_vars: 96% of 26 data vars documented; undocumented=['SpecialStatus3']
+metadata_matches_data,hies,2017,tblshinda03_1,PASS,hies_vars: 100% of 11 data vars documented
+metadata_matches_data,hies,2017,tblshinda04,WARN,hies_vars: 89% of 9 data vars documented; undocumented=['ufaso101']
+metadata_matches_data,hies,2017,tblshinda04_1,WARN,hies_vars: 92% of 13 data vars documented; undocumented=['Value']
+metadata_matches_data,hies,2018,,INFO,"hies_vars: codebook describes tables absent from 2018 data: ['personal_weights', 'tbl_ec_stat_05', 'tblshinda09_g1', 'tblshinda09_g2', 'tblshinda09_g3', 'tblshinda09_g4', 'tblshinda09_j1', 'tblshinda09_j2', 'tblshinda09_j3', 'tblshinda09_q1', 'tblshinda09_s1']"
+metadata_matches_data,hies,2018,123,PASS,hies_vars: 100% of 4 data vars documented
+metadata_matches_data,hies,2018,conspurch_03,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2018,deadmen,WARN,"hies_vars: 86% of 14 data vars documented; undocumented=['Relations', 'SpecialStatus3']"
+metadata_matches_data,hies,2018,familysize,PASS,hies_vars: 100% of 11 data vars documented
+metadata_matches_data,hies,2018,sysschedule,PASS,hies_vars: 100% of 7 data vars documented
+metadata_matches_data,hies,2018,tblavgprices,PASS,hies_vars: 100% of 3 data vars documented
+metadata_matches_data,hies,2018,tblconsumption,WARN,hies_vars: 86% of 7 data vars documented; undocumented=['NonCash_StoksConsAdj']
+metadata_matches_data,hies,2018,tblexpenditures,PASS,hies_vars: 100% of 21 data vars documented
+metadata_matches_data,hies,2018,tblincomes,PASS,hies_vars: 100% of 16 data vars documented
+metadata_matches_data,hies,2018,tblshinda01,WARN,"hies_vars: 85% of 39 data vars documented; undocumented=['OtherHouse', 'OtherHouseS', 'OtherVillage', 'OtherVillageS', 'OtherLand', 'OtherLandS']"
+metadata_matches_data,hies,2018,tblshinda01_animals,PASS,hies_vars: 100% of 3 data vars documented
+metadata_matches_data,hies,2018,tblshinda01_comfort,PASS,hies_vars: 100% of 2 data vars documented
+metadata_matches_data,hies,2018,tblshinda01_cultures,PASS,hies_vars: 100% of 4 data vars documented
+metadata_matches_data,hies,2018,tblshinda01_lands,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2018,tblshinda01_subjects,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2018,tblshinda02,WARN,hies_vars: 96% of 26 data vars documented; undocumented=['SpecialStatus3']
+metadata_matches_data,hies,2018,tblshinda03_1,PASS,hies_vars: 100% of 11 data vars documented
+metadata_matches_data,hies,2018,tblshinda04,WARN,hies_vars: 89% of 9 data vars documented; undocumented=['ufaso101']
+metadata_matches_data,hies,2018,tblshinda04_1,WARN,hies_vars: 92% of 13 data vars documented; undocumented=['Value']
+metadata_matches_data,hies,2019,,INFO,"hies_vars: codebook describes tables absent from 2019 data: ['personal_weights', 'tbl_ec_stat_05', 'tblshinda09_g1', 'tblshinda09_g2', 'tblshinda09_g3', 'tblshinda09_g4', 'tblshinda09_j1', 'tblshinda09_j2', 'tblshinda09_j3', 'tblshinda09_q1', 'tblshinda09_s1']"
+metadata_matches_data,hies,2019,123,PASS,hies_vars: 100% of 4 data vars documented
+metadata_matches_data,hies,2019,conspurch_03,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2019,deadmen,WARN,"hies_vars: 86% of 14 data vars documented; undocumented=['Relations', 'SpecialStatus3']"
+metadata_matches_data,hies,2019,familysize,PASS,hies_vars: 100% of 11 data vars documented
+metadata_matches_data,hies,2019,sysschedule,PASS,hies_vars: 100% of 7 data vars documented
+metadata_matches_data,hies,2019,tblavgprices,PASS,hies_vars: 100% of 3 data vars documented
+metadata_matches_data,hies,2019,tblconsumption,WARN,hies_vars: 86% of 7 data vars documented; undocumented=['NonCash_StoksConsAdj']
+metadata_matches_data,hies,2019,tblexpenditures,PASS,hies_vars: 100% of 21 data vars documented
+metadata_matches_data,hies,2019,tblincomes,PASS,hies_vars: 100% of 16 data vars documented
+metadata_matches_data,hies,2019,tblshinda01,WARN,"hies_vars: 85% of 39 data vars documented; undocumented=['OtherHouse', 'OtherHouseS', 'OtherVillage', 'OtherVillageS', 'OtherLand', 'OtherLandS']"
+metadata_matches_data,hies,2019,tblshinda01_animals,PASS,hies_vars: 100% of 3 data vars documented
+metadata_matches_data,hies,2019,tblshinda01_comfort,PASS,hies_vars: 100% of 2 data vars documented
+metadata_matches_data,hies,2019,tblshinda01_cultures,PASS,hies_vars: 100% of 4 data vars documented
+metadata_matches_data,hies,2019,tblshinda01_lands,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2019,tblshinda01_subjects,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2019,tblshinda02,WARN,hies_vars: 96% of 26 data vars documented; undocumented=['SpecialStatus3']
+metadata_matches_data,hies,2019,tblshinda03_1,PASS,hies_vars: 100% of 11 data vars documented
+metadata_matches_data,hies,2019,tblshinda04,WARN,hies_vars: 89% of 9 data vars documented; undocumented=['ufaso101']
+metadata_matches_data,hies,2019,tblshinda04_1,WARN,hies_vars: 92% of 13 data vars documented; undocumented=['Value']
+metadata_matches_data,hies,2020,,INFO,"hies_vars: codebook describes tables absent from 2020 data: ['personal_weights', 'tbl_ec_stat_05', 'tblshinda09_g1', 'tblshinda09_g2', 'tblshinda09_g3', 'tblshinda09_g4', 'tblshinda09_j1', 'tblshinda09_j2', 'tblshinda09_j3', 'tblshinda09_q1', 'tblshinda09_s1']"
+metadata_matches_data,hies,2020,123,PASS,hies_vars: 100% of 4 data vars documented
+metadata_matches_data,hies,2020,conspurch_03,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2020,deadmen,WARN,"hies_vars: 86% of 14 data vars documented; undocumented=['Relations', 'SpecialStatus3']"
+metadata_matches_data,hies,2020,familysize,PASS,hies_vars: 100% of 11 data vars documented
+metadata_matches_data,hies,2020,sysschedule,PASS,hies_vars: 100% of 7 data vars documented
+metadata_matches_data,hies,2020,tblavgprices,PASS,hies_vars: 100% of 3 data vars documented
+metadata_matches_data,hies,2020,tblconsumption,WARN,hies_vars: 86% of 7 data vars documented; undocumented=['NonCash_StoksConsAdj']
+metadata_matches_data,hies,2020,tblexpenditures,PASS,hies_vars: 100% of 21 data vars documented
+metadata_matches_data,hies,2020,tblincomes,PASS,hies_vars: 100% of 16 data vars documented
+metadata_matches_data,hies,2020,tblshinda01,WARN,"hies_vars: 85% of 39 data vars documented; undocumented=['OtherHouse', 'OtherHouseS', 'OtherVillage', 'OtherVillageS', 'OtherLand', 'OtherLandS']"
+metadata_matches_data,hies,2020,tblshinda01_animals,PASS,hies_vars: 100% of 3 data vars documented
+metadata_matches_data,hies,2020,tblshinda01_comfort,PASS,hies_vars: 100% of 2 data vars documented
+metadata_matches_data,hies,2020,tblshinda01_cultures,PASS,hies_vars: 100% of 4 data vars documented
+metadata_matches_data,hies,2020,tblshinda01_lands,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2020,tblshinda01_subjects,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2020,tblshinda02,WARN,hies_vars: 96% of 26 data vars documented; undocumented=['SpecialStatus3']
+metadata_matches_data,hies,2020,tblshinda03_1,PASS,hies_vars: 100% of 11 data vars documented
+metadata_matches_data,hies,2020,tblshinda04,WARN,hies_vars: 89% of 9 data vars documented; undocumented=['ufaso101']
+metadata_matches_data,hies,2020,tblshinda04_1,WARN,hies_vars: 92% of 13 data vars documented; undocumented=['Value']
+metadata_matches_data,hies,2021,,INFO,"hies_vars: codebook describes tables absent from 2021 data: ['personal_weights', 'tbl_ec_stat_05', 'tblshinda09_g1', 'tblshinda09_g2', 'tblshinda09_g3', 'tblshinda09_g4', 'tblshinda09_j1', 'tblshinda09_j2', 'tblshinda09_j3', 'tblshinda09_q1', 'tblshinda09_s1']"
+metadata_matches_data,hies,2021,123,PASS,hies_vars: 100% of 4 data vars documented
+metadata_matches_data,hies,2021,conspurch_03,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2021,deadmen,WARN,"hies_vars: 86% of 14 data vars documented; undocumented=['Relations', 'SpecialStatus3']"
+metadata_matches_data,hies,2021,familysize,PASS,hies_vars: 100% of 11 data vars documented
+metadata_matches_data,hies,2021,sysschedule,PASS,hies_vars: 100% of 7 data vars documented
+metadata_matches_data,hies,2021,tblavgprices,PASS,hies_vars: 100% of 3 data vars documented
+metadata_matches_data,hies,2021,tblconsumption,WARN,hies_vars: 86% of 7 data vars documented; undocumented=['NonCash_StoksConsAdj']
+metadata_matches_data,hies,2021,tblexpenditures,PASS,hies_vars: 100% of 21 data vars documented
+metadata_matches_data,hies,2021,tblincomes,PASS,hies_vars: 100% of 16 data vars documented
+metadata_matches_data,hies,2021,tblshinda01,WARN,"hies_vars: 85% of 39 data vars documented; undocumented=['OtherHouse', 'OtherHouseS', 'OtherVillage', 'OtherVillageS', 'OtherLand', 'OtherLandS']"
+metadata_matches_data,hies,2021,tblshinda01_animals,PASS,hies_vars: 100% of 3 data vars documented
+metadata_matches_data,hies,2021,tblshinda01_comfort,PASS,hies_vars: 100% of 2 data vars documented
+metadata_matches_data,hies,2021,tblshinda01_cultures,PASS,hies_vars: 100% of 4 data vars documented
+metadata_matches_data,hies,2021,tblshinda01_lands,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2021,tblshinda01_subjects,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2021,tblshinda02,WARN,hies_vars: 96% of 26 data vars documented; undocumented=['SpecialStatus3']
+metadata_matches_data,hies,2021,tblshinda03_1,PASS,hies_vars: 100% of 11 data vars documented
+metadata_matches_data,hies,2021,tblshinda04,WARN,hies_vars: 89% of 9 data vars documented; undocumented=['ufaso101']
+metadata_matches_data,hies,2021,tblshinda04_1,WARN,hies_vars: 92% of 13 data vars documented; undocumented=['Value']
+metadata_matches_data,hies,2022,,INFO,"hies_vars: codebook describes tables absent from 2022 data: ['personal_weights', 'tbl_ec_stat_05', 'tblshinda09_g1', 'tblshinda09_g2', 'tblshinda09_g3', 'tblshinda09_g4', 'tblshinda09_j1', 'tblshinda09_j2', 'tblshinda09_j3', 'tblshinda09_q1', 'tblshinda09_s1']"
+metadata_matches_data,hies,2022,123,PASS,hies_vars: 100% of 4 data vars documented
+metadata_matches_data,hies,2022,conspurch_03,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2022,deadmen,WARN,hies_vars: 92% of 13 data vars documented; undocumented=['Relations']
+metadata_matches_data,hies,2022,familysize,PASS,hies_vars: 100% of 11 data vars documented
+metadata_matches_data,hies,2022,sysschedule,PASS,hies_vars: 100% of 7 data vars documented
+metadata_matches_data,hies,2022,tblavgprices,PASS,hies_vars: 100% of 3 data vars documented
+metadata_matches_data,hies,2022,tblconsumption,WARN,hies_vars: 86% of 7 data vars documented; undocumented=['NonCash_StoksConsAdj']
+metadata_matches_data,hies,2022,tblexpenditures,PASS,hies_vars: 100% of 21 data vars documented
+metadata_matches_data,hies,2022,tblincomes,PASS,hies_vars: 100% of 16 data vars documented
+metadata_matches_data,hies,2022,tblshinda01,WARN,"hies_vars: 85% of 39 data vars documented; undocumented=['OtherHouse', 'OtherHouseS', 'OtherVillage', 'OtherVillageS', 'OtherLand', 'OtherLandS']"
+metadata_matches_data,hies,2022,tblshinda01_animals,PASS,hies_vars: 100% of 3 data vars documented
+metadata_matches_data,hies,2022,tblshinda01_comfort,PASS,hies_vars: 100% of 2 data vars documented
+metadata_matches_data,hies,2022,tblshinda01_cultures,PASS,hies_vars: 100% of 4 data vars documented
+metadata_matches_data,hies,2022,tblshinda01_lands,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2022,tblshinda01_subjects,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2022,tblshinda02,WARN,hies_vars: 96% of 26 data vars documented; undocumented=['SpecialStatus3']
+metadata_matches_data,hies,2022,tblshinda03_1,PASS,hies_vars: 100% of 11 data vars documented
+metadata_matches_data,hies,2022,tblshinda04,WARN,hies_vars: 89% of 9 data vars documented; undocumented=['ufaso101']
+metadata_matches_data,hies,2022,tblshinda04_1,WARN,hies_vars: 92% of 13 data vars documented; undocumented=['Value']
+metadata_matches_data,hies,2023,,INFO,"hies_vars: codebook describes tables absent from 2023 data: ['personal_weights', 'tbl_ec_stat_05', 'tblshinda09_g1', 'tblshinda09_g2', 'tblshinda09_g3', 'tblshinda09_g4', 'tblshinda09_j1', 'tblshinda09_j2', 'tblshinda09_j3', 'tblshinda09_q1', 'tblshinda09_s1']"
+metadata_matches_data,hies,2023,123,PASS,hies_vars: 100% of 4 data vars documented
+metadata_matches_data,hies,2023,conspurch_03,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2023,deadmen,WARN,hies_vars: 92% of 13 data vars documented; undocumented=['Relations']
+metadata_matches_data,hies,2023,familysize,PASS,hies_vars: 100% of 11 data vars documented
+metadata_matches_data,hies,2023,sysschedule,PASS,hies_vars: 100% of 7 data vars documented
+metadata_matches_data,hies,2023,tblavgprices,PASS,hies_vars: 100% of 3 data vars documented
+metadata_matches_data,hies,2023,tblconsumption,WARN,hies_vars: 86% of 7 data vars documented; undocumented=['NonCash_StoksConsAdj']
+metadata_matches_data,hies,2023,tblexpenditures,PASS,hies_vars: 100% of 21 data vars documented
+metadata_matches_data,hies,2023,tblincomes,PASS,hies_vars: 100% of 16 data vars documented
+metadata_matches_data,hies,2023,tblshinda01,WARN,"hies_vars: 85% of 39 data vars documented; undocumented=['OtherHouse', 'OtherHouseS', 'OtherVillage', 'OtherVillageS', 'OtherLand', 'OtherLandS']"
+metadata_matches_data,hies,2023,tblshinda01_animals,PASS,hies_vars: 100% of 3 data vars documented
+metadata_matches_data,hies,2023,tblshinda01_comfort,PASS,hies_vars: 100% of 2 data vars documented
+metadata_matches_data,hies,2023,tblshinda01_cultures,PASS,hies_vars: 100% of 4 data vars documented
+metadata_matches_data,hies,2023,tblshinda01_lands,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2023,tblshinda01_subjects,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2023,tblshinda02,WARN,hies_vars: 96% of 26 data vars documented; undocumented=['SpecialStatus3']
+metadata_matches_data,hies,2023,tblshinda03_1,PASS,hies_vars: 100% of 11 data vars documented
+metadata_matches_data,hies,2023,tblshinda04,WARN,hies_vars: 89% of 9 data vars documented; undocumented=['ufaso101']
+metadata_matches_data,hies,2023,tblshinda04_1,WARN,hies_vars: 92% of 13 data vars documented; undocumented=['Value']
+metadata_matches_data,hies,2024,,INFO,"hies_vars: codebook describes tables absent from 2024 data: ['personal_weights', 'tbl_ec_stat_05', 'tblshinda09_g1', 'tblshinda09_g2', 'tblshinda09_g3', 'tblshinda09_g4', 'tblshinda09_j1', 'tblshinda09_j2', 'tblshinda09_j3', 'tblshinda09_q1', 'tblshinda09_s1']"
+metadata_matches_data,hies,2024,123,PASS,hies_vars: 100% of 4 data vars documented
+metadata_matches_data,hies,2024,conspurch_03,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2024,deadmen,WARN,hies_vars: 92% of 13 data vars documented; undocumented=['Relations']
+metadata_matches_data,hies,2024,familysize,PASS,hies_vars: 100% of 11 data vars documented
+metadata_matches_data,hies,2024,sysschedule,PASS,hies_vars: 100% of 7 data vars documented
+metadata_matches_data,hies,2024,tblavgprices,PASS,hies_vars: 100% of 3 data vars documented
+metadata_matches_data,hies,2024,tblconsumption,WARN,hies_vars: 86% of 7 data vars documented; undocumented=['NonCash_StoksConsAdj']
+metadata_matches_data,hies,2024,tblexpenditures,PASS,hies_vars: 100% of 21 data vars documented
+metadata_matches_data,hies,2024,tblincomes,PASS,hies_vars: 100% of 16 data vars documented
+metadata_matches_data,hies,2024,tblshinda01,WARN,"hies_vars: 85% of 39 data vars documented; undocumented=['OtherHouse', 'OtherHouseS', 'OtherVillage', 'OtherVillageS', 'OtherLand', 'OtherLandS']"
+metadata_matches_data,hies,2024,tblshinda01_animals,PASS,hies_vars: 100% of 3 data vars documented
+metadata_matches_data,hies,2024,tblshinda01_comfort,PASS,hies_vars: 100% of 2 data vars documented
+metadata_matches_data,hies,2024,tblshinda01_cultures,PASS,hies_vars: 100% of 4 data vars documented
+metadata_matches_data,hies,2024,tblshinda01_lands,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2024,tblshinda01_subjects,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2024,tblshinda02,WARN,hies_vars: 96% of 26 data vars documented; undocumented=['SpecialStatus3']
+metadata_matches_data,hies,2024,tblshinda03_1,PASS,hies_vars: 100% of 11 data vars documented
+metadata_matches_data,hies,2024,tblshinda04,WARN,hies_vars: 89% of 9 data vars documented; undocumented=['ufaso101']
+metadata_matches_data,hies,2024,tblshinda04_1,WARN,hies_vars: 92% of 13 data vars documented; undocumented=['Value']
+metadata_matches_data,hies,2025,,INFO,"hies_vars: codebook describes tables absent from 2025 data: ['personal_weights', 'tbl_ec_stat_05', 'tblshinda09_g1', 'tblshinda09_g2', 'tblshinda09_g3', 'tblshinda09_g4', 'tblshinda09_j1', 'tblshinda09_j2', 'tblshinda09_j3', 'tblshinda09_q1', 'tblshinda09_s1']"
+metadata_matches_data,hies,2025,123,PASS,hies_vars: 100% of 4 data vars documented
+metadata_matches_data,hies,2025,conspurch_03,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2025,deadmen,WARN,hies_vars: 92% of 13 data vars documented; undocumented=['Relations']
+metadata_matches_data,hies,2025,familysize,PASS,hies_vars: 100% of 11 data vars documented
+metadata_matches_data,hies,2025,sysschedule,PASS,hies_vars: 100% of 7 data vars documented
+metadata_matches_data,hies,2025,tblavgprices,PASS,hies_vars: 100% of 3 data vars documented
+metadata_matches_data,hies,2025,tblconsumption,WARN,hies_vars: 86% of 7 data vars documented; undocumented=['NonCash_StoksConsAdj']
+metadata_matches_data,hies,2025,tblexpenditures,PASS,hies_vars: 100% of 21 data vars documented
+metadata_matches_data,hies,2025,tblincomes,PASS,hies_vars: 100% of 16 data vars documented
+metadata_matches_data,hies,2025,tblshinda01,WARN,"hies_vars: 85% of 39 data vars documented; undocumented=['OtherHouse', 'OtherHouseS', 'OtherVillage', 'OtherVillageS', 'OtherLand', 'OtherLandS']"
+metadata_matches_data,hies,2025,tblshinda01_animals,PASS,hies_vars: 100% of 3 data vars documented
+metadata_matches_data,hies,2025,tblshinda01_comfort,PASS,hies_vars: 100% of 2 data vars documented
+metadata_matches_data,hies,2025,tblshinda01_cultures,PASS,hies_vars: 100% of 4 data vars documented
+metadata_matches_data,hies,2025,tblshinda01_lands,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2025,tblshinda01_subjects,PASS,hies_vars: 100% of 5 data vars documented
+metadata_matches_data,hies,2025,tblshinda02,WARN,hies_vars: 96% of 26 data vars documented; undocumented=['SpecialStatus3']
+metadata_matches_data,hies,2025,tblshinda03_1,PASS,hies_vars: 100% of 11 data vars documented
+metadata_matches_data,hies,2025,tblshinda04,WARN,hies_vars: 89% of 9 data vars documented; undocumented=['ufaso101']
+metadata_matches_data,hies,2025,tblshinda04_1,WARN,hies_vars: 92% of 13 data vars documented; undocumented=['Value']
+cross_year_definitions,hies,,,WARN,2 variables: CODES_CHANGED
+cross_year_definitions,hies,,,PASS,203 variables: identical
+cross_year_definitions,lfs,,,WARN,13 variables: CODES_CHANGED
+cross_year_definitions,lfs,,,WARN,16 variables: LABEL_CHANGED
+cross_year_definitions,lfs,,,WARN,3 variables: TYPE_CHANGED
+cross_year_definitions,lfs,,,PASS,243 variables: identical
+cross_year_definitions,lfs,,,PASS,21 variables: single_year
+cross_year_definitions,lfs,,,PASS,11 variables: wording_only

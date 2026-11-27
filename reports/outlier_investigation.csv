@@ -1,0 +1,13 @@
+dataset,check,n,share_pct,evidence,verdict
+lfs_2017_2019,hours > 80/week,948,1.18,"median 84 h; top occupations (ISCO1): {5.0: 405, 9.0: 167, 7.0: 88}; 66% are multiples of 7 (daily x 7)","concentrated in services/sales, elementary and operator occupations; mostly 7-day schedules (multiple of 7) -> plausible long hours, not entry errors; kept, flagged"
+lfs_2017_2019,top earnings band with < 15 h/week,0,0.0,occupations: {},"very rare; no evidence of error; kept, to be checked in sensitivity analysis"
+lfs_2017_2019,age > 100,13,0.0074,"ages [101, 102, 103, 104, 105, 106]; employed: 0","plausible centenarians, none in earnings analysis"
+lfs_2017_2019,weight max / median,174851,,ratio 37.1,design weights; extreme ratios kept (never trimmed without Geostat design)
+lfs_2020_2025,hours > 80/week,1477,0.94,"median 84 h; top occupations (ISCO1): {5.0: 693, 8.0: 239, 7.0: 134}; 80% are multiples of 7 (daily x 7)","concentrated in services/sales, elementary and operator occupations; mostly 7-day schedules (multiple of 7) -> plausible long hours, not entry errors; kept, flagged"
+lfs_2020_2025,top earnings band with < 15 h/week,7,0.009,"occupations: {2.0: 5, 7.0: 1, 5.0: 1}","very rare; no evidence of error; kept, to be checked in sensitivity analysis"
+lfs_2020_2025,age > 100,19,0.0054,"ages [101, 102, 103, 104, 105, 106, 109, 110]; employed: 0","plausible centenarians, none in earnings analysis"
+lfs_2020_2025,weight max / median,354192,,ratio 33.4,design weights; extreme ratios kept (never trimmed without Geostat design)
+hies,high per-capita income (IQR on log),1253,1.07,"median household size 2 vs 3; Tbilisi share 15% vs 11%; dominant source {'inc_hired_employment': 397, 'inc_gifts': 292, 'inc_agriculture_sales': 274, 'inc_self_employment': 139}; identity errors 0","income accounts add up (0 identity errors); smaller households; large share driven by gifts / agricultural sales (lumpy one-off income) -> genuine but volatile; kept, flagged"
+hies,low per-capita income (IQR on log),1844,1.58,median 41.3 GEL/person; non-cash share 5%,"very low cash incomes with consistent accounts; no evidence of entry error; kept, flagged"
+hies,total income = 0,312,0.27,households with other cash inflows (borrowing/property sale) > 0: 172,"real zero income (lived on borrowing/savings); kept as 0, not missing"
+hies,negative income component,2,,HIES2021_369745: inc_gifts=-46.7; HIES2022_381849: inc_gifts=-1666.7,"IMPOSSIBLE value (gift received cannot be negative) -> probable data error; raw kept, flag_negative_income=True, exclude from income statistics"
